@@ -150,7 +150,7 @@ def split_dataset(path, target_path, shard_num: int = 3):
 def main():
     input_dir = "../data/loghub_2k/"  # The input directory of log file
     output_dir = "../data/splitted/"  # The output directory of parsing results
-    chunk_num = 1
+    chunk_num = 7
     
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)

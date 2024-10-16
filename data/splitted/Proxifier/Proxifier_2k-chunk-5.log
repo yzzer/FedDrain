@@ -1,0 +1,285 @@
+[10.30 16:49:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:08] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 16:49:10] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1093 bytes (1.06 KB) sent, 1006 bytes received, lifetime 00:01
+[10.30 16:49:10] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:11] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 431 bytes sent, 9780 bytes (9.55 KB) received, lifetime <1 sec
+[10.30 16:49:12] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 16:49:28] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17
+[10.30 16:49:28] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:28] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 7829 bytes (7.64 KB) sent, 578548 bytes (564 KB) received, lifetime 00:18
+[10.30 16:49:28] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:29] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:29] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:49:30] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 974 bytes sent, 9624 bytes (9.39 KB) received, lifetime <1 sec
+[10.30 16:49:31] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1257 bytes (1.22 KB) sent, 421 bytes received, lifetime <1 sec
+[10.30 16:49:33] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1034 bytes (1.00 KB) sent, 17383 bytes (16.9 KB) received, lifetime <1 sec
+[10.30 16:49:52] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1682 bytes (1.64 KB) sent, 472 bytes received, lifetime <1 sec
+[10.30 16:49:53] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1293 bytes (1.26 KB) sent, 2440 bytes (2.38 KB) received, lifetime <1 sec
+[10.30 16:49:54] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1372 bytes (1.33 KB) sent, 1224 bytes (1.19 KB) received, lifetime <1 sec
+[10.30 16:49:56] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:50:15] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:19
+[10.30 16:53:23] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 336 bytes received, lifetime <1 sec
+[10.30 16:53:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:53:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:53:26] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:54:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1166 bytes (1.13 KB) sent, 363 bytes received, lifetime <1 sec
+[10.30 16:54:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 16:54:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1292 bytes (1.26 KB) sent, 1500 bytes (1.46 KB) received, lifetime <1 sec
+[10.30 16:54:08] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:54:14] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:01:35] WeChat.exe - proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 353 bytes received, lifetime <1 sec
+[10.30 17:07:51] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 946 bytes sent, 783 bytes received, lifetime <1 sec
+[10.30 17:08:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 791 bytes sent, 778 bytes received, lifetime 00:10
+[10.30 17:10:38] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:14:20] Dropbox.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:17:17] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:19:14] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 3585 bytes (3.50 KB) sent, 56498 bytes (55.1 KB) received, lifetime 01:57
+[10.30 17:20:23] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:23:04] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 14623 bytes (14.2 KB) sent, 124877 bytes (121 KB) received, lifetime 02:41
+[10.30 17:35:12] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 397 bytes sent, 3558 bytes (3.47 KB) received, lifetime 00:01
+[10.30 17:35:58] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:36:00] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:36:11] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 463 bytes sent, 426 bytes received, lifetime 00:09
+[10.30 17:37:12] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:37:50] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:37:54] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:38:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1736 bytes (1.69 KB) sent, 48536 bytes (47.3 KB) received, lifetime 00:01
+[10.30 17:39:15] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1987 bytes (1.94 KB) sent, 51801 bytes (50.5 KB) received, lifetime 00:01
+[10.30 17:40:03] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:40:03] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:40:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:40:21] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:02
+[10.30 17:40:36] Wiz.exe - proxy.cse.cuhk.edu.hk:5070 close, 1417 bytes (1.38 KB) sent, 4631 bytes (4.52 KB) received, lifetime 01:05
+[10.30 17:45:58] WeChat.exe - 182.254.114.110:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:46:44] QQ.exe - tcpconn6.tencent.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:47:45] WeChat.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:51:21] QQ.exe - 2052.flash2-http.qq.com:80 close, 466 bytes sent, 125682 bytes (122 KB) received, lifetime <1 sec
+[10.30 17:52:25] YodaoDict.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:53:58] Wiz.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:56:23] WeChat.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:59:13] firefox.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:00:10] firefox.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:00:24] firefox.exe - proxy.cse.cuhk.edu.hk:5070 close, 47856 bytes (46.7 KB) sent, 4090387 bytes (3.90 MB) received, lifetime 01:01
+[10.30 18:01:34] Skype.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:02:12] firefox.exe - proxy.cse.cuhk.edu.hk:5070 close, 2813 bytes (2.74 KB) sent, 11743 bytes (11.4 KB) received, lifetime 02:02
+[10.30 18:03:16] Skype.exe - proxy.cse.cuhk.edu.hk:5070 close, 287 bytes sent, 2229 bytes (2.17 KB) received, lifetime <1 sec
+[10.30 18:03:41] Skype.exe - BAYMSGR2012806.gateway.messenger.live.com:443 close, 13155 bytes (12.8 KB) sent, 21737 bytes (21.2 KB) received, lifetime 00:35
+[10.30 18:04:14] Skype.exe - 86.99.222.235:443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.
+[10.30 18:07:36] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:08:14] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:10:30] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 18:13:31] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 960 bytes sent, 8386 bytes (8.18 KB) received, lifetime 03:01
+[10.30 20:39:43] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:39:44] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:40:03] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:40:05] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 468 bytes sent, 3515 bytes (3.43 KB) received, lifetime 00:01
+[10.30 20:40:08] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 474 bytes sent, 1047 bytes (1.02 KB) received, lifetime <1 sec
+[10.30 20:40:12] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 2177 bytes (2.12 KB) sent, 279 bytes received, lifetime 00:01
+[10.30 20:40:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1127 bytes (1.10 KB) sent, 4317 bytes (4.21 KB) received, lifetime 00:20
+[10.30 20:42:31] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:42:41] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:42:42] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:42:46] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:42:50] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 7437 bytes (7.26 KB) sent, 2235596 bytes (2.13 MB) received, lifetime 00:07
+[10.30 20:43:44] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:43:46] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1023 bytes sent, 4076 bytes (3.98 KB) received, lifetime 00:01
+[10.30 20:43:46] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:43:47] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:44:42] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:44:49] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1730 bytes (1.68 KB) sent, 4796 bytes (4.68 KB) received, lifetime 00:01
+[10.30 20:44:52] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:44:54] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1616 bytes (1.57 KB) sent, 42950 bytes (41.9 KB) received, lifetime 00:01
+[10.30 20:44:55] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:44:56] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:45:02] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1672 bytes (1.63 KB) sent, 771 bytes received, lifetime 00:05
+[10.30 20:45:07] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:45:10] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:45:18] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:45:21] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 786 bytes sent, 348 bytes received, lifetime 00:03
+[10.30 20:45:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 787 bytes sent, 348 bytes received, lifetime 00:03
+[10.30 20:45:28] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:45:37] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 10069 bytes (9.83 KB) sent, 4062 bytes (3.96 KB) received, lifetime 00:45
+[10.30 20:45:57] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01
+[10.30 20:45:59] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:46:17] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1008 bytes sent, 21970 bytes (21.4 KB) received, lifetime 00:03
+[10.30 20:46:20] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 20:46:26] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 2862 bytes (2.79 KB) sent, 282 bytes received, lifetime 00:01
+[10.30 20:46:50] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 722 bytes sent, 310 bytes received, lifetime <1 sec
+[10.30 20:47:01] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:47:15] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:47:39] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:47:40] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:47:57] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:12
+[10.30 20:48:27] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:48:33] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime 00:04
+[10.30 20:48:44] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 4528 bytes (4.42 KB) sent, 648 bytes received, lifetime 01:03
+[10.30 20:48:46] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:49:03] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:49:14] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:11
+[10.30 20:49:59] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 952 bytes sent, 782 bytes received, lifetime 00:10
+[10.30 20:53:18] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:57:43] WeChat.exe - proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 356 bytes received, lifetime <1 sec
+[10.30 21:05:25] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:05:39] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:05:40] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1036 bytes (1.01 KB) sent, 4343 bytes (4.24 KB) received, lifetime 00:02
+[10.30 21:05:45] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:06:34] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 3094 bytes (3.02 KB) sent, 1014 bytes received, lifetime 00:05
+[10.30 21:07:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:11:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 2001 bytes (1.95 KB) sent, 18018 bytes (17.5 KB) received, lifetime 04:00
+[10.30 21:12:56] YodaoDict.exe - oimagec1.ydstatic.com:80 error : A connection request was canceled before the completion. 
+[10.30 21:14:05] YodaoDict.exe - oimageb4.ydstatic.com:80 error : A connection request was canceled before the completion. 
+[10.30 21:15:27] YodaoDict.exe - oimagec3.ydstatic.com:80 close, 358 bytes sent, 48647 bytes (47.5 KB) received, lifetime 00:30
+[10.30 21:17:51] YodaoDict.exe - oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion. 
+[10.30 21:19:19] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 21:19:22] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:20:30] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01
+[10.30 21:21:33] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:21:36] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:30:44] SogouCloud.exe - get.sogou.com:80 close, 899 bytes sent, 348 bytes received, lifetime 00:03
+[07.26 13:30:48] chrome.exe *64 - cbjs.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:30:58] chrome.exe *64 - pos.baidu.com:80 close, 1822 bytes (1.77 KB) sent, 1370 bytes (1.33 KB) received, lifetime 00:10
+[07.26 13:31:09] chrome.exe *64 - www.4399.cn:80 close, 0 bytes sent, 0 bytes received, lifetime 00:21
+[07.26 13:36:07] chrome.exe *64 - pubads.g.doubleclick.net:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:40:22] chrome.exe *64 - i.ytimg.com:443 close, 2836 bytes (2.76 KB) sent, 125622 bytes (122 KB) received, lifetime 06:33
+[07.26 13:44:28] chrome.exe *64 - fonts.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:46:41] chrome.exe *64 - sclick.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:46:51] chrome.exe *64 - cpro.baidustatic.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:47:11] chrome.exe *64 - eclick.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:47:37] chrome.exe *64 - app.4399.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 13:47:39] chrome.exe *64 - cpro.baidustatic.com:443 close, 334 bytes sent, 3713 bytes (3.62 KB) received, lifetime 00:48
+[07.26 13:48:51] chrome.exe *64 - www.qulishi.com:80 close, 1581 bytes (1.54 KB) sent, 79427 bytes (77.5 KB) received, lifetime 02:01
+[07.26 13:59:44] chrome.exe *64 - www.google.com.hk:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:05:25] SogouCloud.exe - get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:11:25] Dropbox.exe - client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:13:17] chrome.exe *64 - lh6.googleusercontent.com:443 close, 471 bytes sent, 4694 bytes (4.58 KB) received, lifetime 00:11
+[07.26 14:22:35] Acrobat.exe - static.adobelogin.com:443 close, 356 bytes sent, 3523 bytes (3.44 KB) received, lifetime 00:02
+[07.26 14:25:47] chrome.exe *64 - ssl.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:30:32] chrome.exe *64 - t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:30:35] chrome.exe *64 - i9.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:31:08] chrome.exe *64 - i9.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:27
+[07.26 14:31:31] chrome.exe *64 - s1.img4399.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:21
+[07.26 14:40:28] chrome.exe *64 - clients6.google.com:443 close, 3025 bytes (2.95 KB) sent, 6726 bytes (6.56 KB) received, lifetime 05:20
+[07.26 14:45:38] chrome.exe *64 - t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:45:40] chrome.exe *64 - ss.bdimg.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:45:52] chrome.exe *64 - ubmcmm.baidustatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:51:21] chrome.exe *64 - www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:51:31] chrome.exe *64 - dj1.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:51:37] chrome.exe *64 - img.3367.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:51:49] chrome.exe *64 - t12.baidu.com:80 close, 837 bytes sent, 4059 bytes (3.96 KB) received, lifetime 00:27
+[07.26 14:53:43] chrome.exe *64 - long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:29
+[07.26 14:59:58] chrome.exe *64 - long.open.weixin.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:07:25] chrome.exe *64 - long.open.weixin.qq.com:443 close, 1910 bytes (1.86 KB) sent, 276 bytes received, lifetime 00:28
+[07.26 15:09:28] chrome.exe *64 - lh4.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:11:10] SGTool.exe - ping.pinyin.sogou.com:80 close, 1109 bytes (1.08 KB) sent, 332 bytes received, lifetime 00:32
+[07.26 15:13:33] chrome.exe *64 - www.google-analytics.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:17:19] chrome.exe *64 - www.googleapis.com:443 close, 1733 bytes (1.69 KB) sent, 1288 bytes (1.25 KB) received, lifetime 04:00
+[07.26 15:20:54] chrome.exe *64 - 11.client-channel.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:22:58] Dropbox.exe - block-edge.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:23:59] GitHub.exe - api.github.com:443 close, 674 bytes sent, 2132 bytes (2.08 KB) received, lifetime 00:11
+[07.26 15:25:19] chrome.exe *64 - content.googleapis.com:443 close, 2094 bytes (2.04 KB) sent, 623 bytes received, lifetime 04:00
+[07.26 15:26:11] chrome.exe *64 - user-images.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:29:30] chrome.exe *64 - clients6.google.com:443 close, 568 bytes sent, 156 bytes received, lifetime <1 sec
+[07.26 15:30:02] chrome.exe *64 - tvax1.sinaimg.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:30:08] chrome.exe *64 - tva1.sinaimg.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 15:30:12] chrome.exe *64 - contentrecommend-out.uve.weibo.com:443 close, 0 bytes sent, 0 bytes received, lifetime 00:10
+[07.26 15:30:32] chrome.exe *64 - news.sina.com.cn:80 close, 0 bytes sent, 0 bytes received, lifetime 00:21
+[07.26 15:32:47] chrome.exe *64 - rm.api.weibo.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:05
+[07.26 15:34:40] GitHub.exe - api.github.com:443 close, 797 bytes sent, 4670 bytes (4.56 KB) received, lifetime 00:11
+[07.26 15:35:42] chrome.exe *64 - data.grammarly.com:443 close, 1277 bytes (1.24 KB) sent, 3833 bytes (3.74 KB) received, lifetime 00:11
+[07.26 15:40:32] chrome.exe *64 - people-pa.clients6.google.com:443 close, 5267 bytes (5.14 KB) sent, 17802 bytes (17.3 KB) received, lifetime 04:01
+[07.26 15:53:17] WeChat.exe - mmbiz.qpic.cn:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:03:33] WeChat.exe - short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:10:47] GitHub.exe - api.github.com:443 close, 781 bytes sent, 6147 bytes (6.00 KB) received, lifetime 00:11
+[07.26 16:14:56] chrome.exe *64 - notifications.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:21:31] GitHub.exe - api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:26:58] GitHub.exe - api.github.com:443 close, 781 bytes sent, 6147 bytes (6.00 KB) received, lifetime 00:11
+[07.26 16:28:19] chrome.exe *64 - f-log-extension.grammarly.io:443 close, 1364 bytes (1.33 KB) sent, 3626 bytes (3.54 KB) received, lifetime 01:00
+[07.26 16:33:31] chrome.exe *64 - clients6.google.com:443 close, 1915 bytes (1.87 KB) sent, 842 bytes received, lifetime 04:00
+[07.26 16:38:13] chrome.exe *64 - github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:43:22] chrome.exe *64 - avatars2.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:44:25] chrome.exe *64 - user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 00:40
+[07.26 16:52:56] chrome.exe *64 - accounts.google.com:443 close, 2834 bytes (2.76 KB) sent, 1881 bytes (1.83 KB) received, lifetime 04:05
+[07.26 17:04:33] Dropbox.exe - log.getdropbox.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:05:22] GitHub.exe - avatars.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:09:10] chrome.exe *64 - www.google.com:443 close, 4012 bytes (3.91 KB) sent, 6761 bytes (6.60 KB) received, lifetime 04:07
+[07.26 17:15:52] WeChat.exe - short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:18:09] chrome.exe *64 - trello.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:20:16] chrome.exe *64 - c.trello.com:443 close, 18252 bytes (17.8 KB) sent, 4768 bytes (4.65 KB) received, lifetime 02:08
+[07.26 17:23:04] chrome.exe *64 - c.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:23:51] chrome.exe *64 - clients4.google.com:443 close, 8395 bytes (8.19 KB) sent, 4455 bytes (4.35 KB) received, lifetime 05:31
+[07.26 17:23:59] chrome.exe *64 - c.baidu.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001
+[07.26 17:24:02] Dropbox.exe - bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001
+[07.26 17:27:58] chrome.exe *64 - b1.bdstatic.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:28:57] chrome.exe *64 - t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:29:17] chrome.exe *64 - t12.baidu.com:80 close, 1915 bytes (1.87 KB) sent, 4198 bytes (4.09 KB) received, lifetime 00:24
+[07.26 17:29:42] chrome.exe *64 - avatar.csdn.net:80 close, 0 bytes sent, 0 bytes received, lifetime 00:30
+[07.26 17:30:21] chrome.exe *64 - dc.csdn.net:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:30:33] chrome.exe *64 - cpro.baidustatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:31:35] chrome.exe *64 - beacon.tingyun.com:80 close, 42307 bytes (41.3 KB) sent, 279 bytes received, lifetime 01:00
+[07.26 17:40:10] chrome.exe *64 - lh3.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 17:45:21] WeChat.exe - qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:39
+[07.26 17:49:26] WeChat.exe - short.weixin.qq.com:80 close, 357 bytes sent, 484 bytes received, lifetime <1 sec
+[07.26 18:04:49] chrome.exe *64 - c.trello.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 18:05:22] chrome.exe *64 - play.google.com:443 close, 2130 bytes (2.08 KB) sent, 1009 bytes received, lifetime 03:24
+[07.26 18:55:22] WeChat.exe - 120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001
+[07.26 18:55:37] chrome.exe *64 - ssl.gstatic.com:443 close, 461 bytes sent, 4786 bytes (4.67 KB) received, lifetime 00:10
+[07.26 18:57:01] chrome.exe *64 - r3---sn-i3b7kn7r.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 18:59:43] WeChat.exe - short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 19:00:52] tencentdl.exe - fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 19:00:52] tencentdl.exe - fs-conn-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 19:00:53] tencentdl.exe - puui.qpic.cn:80 close, 384 bytes sent, 8601 bytes (8.39 KB) received, lifetime 00:01
+[07.26 19:01:46] tencentdl.exe - local-p2p.qq.com:443 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 503
+[07.26 19:10:16] chrome.exe *64 - safebrowsing.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 19:22:32] chrome.exe *64 - r1---sn-i3beln7k.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:12
+[07.26 19:44:17] chrome.exe *64 - www.evernote.com:443 close, 2487 bytes (2.42 KB) sent, 2361 bytes (2.30 KB) received, lifetime 04:00
+[07.26 19:56:54] SGTool.exe - tc.dl.pinyin.sogoucdn.com:80 close, 799 bytes sent, 346 bytes received, lifetime 01:00
+[07.26 20:19:32] chrome.exe *64 - play.google.com:443 close, 4837 bytes (4.72 KB) sent, 7412 bytes (7.23 KB) received, lifetime 14:02
+[07.26 21:20:55] chrome.exe *64 - www.googleapis.com:443 close, 1736 bytes (1.69 KB) sent, 1052 bytes (1.02 KB) received, lifetime 04:00
+[07.26 21:29:49] chrome.exe *64 - mtalk.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 21:32:05] chrome.exe *64 - r3---sn-i3beln7k.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 21:35:59] WeChat.exe - qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:35
+[07.26 21:39:37] chrome.exe *64 - i1.ytimg.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 21:46:09] chrome.exe *64 - fonts.gstatic.com:443 close, 733 bytes sent, 229 bytes received, lifetime 00:17
+[07.26 21:47:24] chrome.exe *64 - avatars0.githubusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 21:51:36] chrome.exe *64 - github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 22:01:22] Dropbox.exe - d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 22:02:54] chrome.exe *64 - www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 22:05:59] chrome.exe *64 - www.google.com.hk:443 close, 4710 bytes (4.59 KB) sent, 71939 bytes (70.2 KB) received, lifetime 03:10
+[07.27 03:00:21] chrome.exe *64 - clients5.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 03:00:21] chrome.exe *64 - play.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 03:01:20] Dropbox.exe - client-lb.dropbox.com:443 close, 1531 bytes (1.49 KB) sent, 16765 bytes (16.3 KB) received, lifetime 01:01
+[07.27 03:36:32] chrome.exe *64 - mail.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 04:09:24] chrome.exe *64 - play.google.com:443 close, 8399 bytes (8.20 KB) sent, 9521 bytes (9.29 KB) received, lifetime 09:01
+[07.27 04:38:15] chrome.exe *64 - mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403
+[07.27 05:00:50] SGTool.exe - tc.dl.pinyin.sogoucdn.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 05:04:15] chrome.exe *64 - www.evernote.com:443 close, 2485 bytes (2.42 KB) sent, 2359 bytes (2.30 KB) received, lifetime 04:01
+[07.27 05:05:53] Dropbox.exe - client-cf.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061
+[07.27 05:06:13] chrome.exe *64 - 16.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061
+[07.27 05:08:27] Dropbox.exe - bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061
+[07.27 05:14:50] chrome.exe *64 - clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 05:30:23] Dropbox.exe - client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[07.27 06:00:25] Dropbox.exe - client-cf.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[07.27 06:48:40] chrome.exe *64 - clients6.google.com:443 close, 5304 bytes (5.17 KB) sent, 4396 bytes (4.29 KB) received, lifetime 09:38
+[07.27 07:01:19] SogouCloud.exe - get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 07:05:35] SGTool.exe - info.pinyin.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 07:29:00] chrome.exe *64 - www.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 08:09:35] chrome.exe *64 - clients4.google.com:443 close, 2570 bytes (2.50 KB) sent, 626 bytes received, lifetime 04:00
+[07.27 08:34:30] chrome.exe *64 - play.google.com:443 close, 3874 bytes (3.78 KB) sent, 2186 bytes (2.13 KB) received, lifetime 08:13
+[07.27 08:57:48] chrome.exe *64 - safebrowsing.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 09:15:26] chrome.exe *64 - clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 09:34:34] chrome.exe *64 - clients6.google.com:443 close, 2987 bytes (2.91 KB) sent, 5913 bytes (5.77 KB) received, lifetime 07:04
+[07.27 09:48:50] SohuNews.exe - mini.cpc.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 09:49:07] SohuNews.exe - css.sohu.com:80 close, 3549 bytes (3.46 KB) sent, 108371 bytes (105 KB) received, lifetime 00:21
+[07.27 09:49:48] SohuNews.exe - i2.itc.cn:80 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 503
+[07.27 09:50:32] chrome.exe *64 - www.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 09:52:33] chrome.exe *64 - r1---sn-i3belnez.googlevideo.com:443 close, 10046 bytes (9.81 KB) sent, 5657896 bytes (5.39 MB) received, lifetime 00:54
+[07.27 09:56:36] Dropbox.exe - bolt.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 10:05:05] QQProtectUpd.exe - qd-update.qq.com:8080 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403
+[07.27 10:20:38] chrome.exe *64 - yt3.ggpht.com:443 close, 733 bytes sent, 229 bytes received, lifetime <1 sec
+[07.27 10:22:17] chrome.exe *64 - f-log-extension.grammarly.io:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 10:22:36] chrome.exe *64 - www.zhihu.com:443 close, 568 bytes sent, 152 bytes received, lifetime 00:18
+[07.27 10:22:55] chrome.exe *64 - suggestion.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 10:23:07] chrome.exe *64 - pic01.ishuhui.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 10:23:29] chrome.exe *64 - mhfm7.us.cdndm5.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS

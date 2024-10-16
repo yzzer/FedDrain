@@ -1,0 +1,286 @@
+Jul  1 09:01:05 calvisitor-10-105-160-95 com.apple.CDScheduler[43]: Thermal pressure state: 1 Memory pressure state: 0
+Jul  1 09:04:33 authorMacBook-Pro kernel[0]: ARPT: 620752.337198: ARPT: Wake Reason: Wake on Scan offload
+Jul  1 09:19:13 calvisitor-10-105-160-95 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 439034 seconds.  Ignoring.
+Jul  1 09:24:13 calvisitor-10-105-160-95 kernel[0]: PM response took 2010 ms (54, powerd)
+Jul  1 09:27:01 calvisitor-10-105-160-95 com.apple.cts[258]: com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 13090 seconds.  Ignoring.
+Jul  1 09:29:14 calvisitor-10-105-160-95 kernel[0]: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul  1 09:33:13 calvisitor-10-105-160-95 kernel[0]: ARPT: 621342.242614: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Jul  1 09:36:19 calvisitor-10-105-160-95 kernel[0]: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 7
+Jul  1 09:41:34 authorMacBook-Pro symptomsd[215]: __73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2
+Jul  1 09:42:54 calvisitor-10-105-160-95 kernel[0]: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Jul  1 09:45:52 calvisitor-10-105-160-95 networkd[195]: nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000
+Jul  1 10:08:49 calvisitor-10-105-160-95 kernel[0]: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul  1 10:13:57 calvisitor-10-105-160-95 kernel[0]: Sandbox: com.apple.Addres(31346) deny(1) network-outbound /private/var/run/mDNSResponder
+Jul  1 11:24:45 calvisitor-10-105-160-95 secd[276]:  securityd_xpc_dictionary_handler cloudd[326] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}
+Jul  1 11:39:48 calvisitor-10-105-160-95 networkd[195]: __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc19060 125.39.133.143:14000
+Jul  1 11:44:20 calvisitor-10-105-160-95 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  1 11:46:36 calvisitor-10-105-160-95 com.apple.cts[258]: com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 16034 seconds.  Ignoring.
+Jul  1 11:49:29 authorMacBook-Pro sharingd[30299]: 11:49:29.473 : BTLE scanner Powered On
+Jul  1 11:51:07 authorMacBook-Pro kernel[0]: en0: BSSID changed to 5c:50:15:36:bc:03
+Jul  1 11:53:49 authorMacBook-Pro networkd[195]: -[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID
+Jul  1 12:12:21 calvisitor-10-105-160-95 secd[276]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Jul  1 12:52:57 calvisitor-10-105-160-95 kernel[0]: en0: channel changed to 132,+1
+Jul  1 13:34:07 calvisitor-10-105-160-95 com.apple.AddressBook.InternetAccountsBridge[31595]: dnssd_clientstub ConnectToServer: connect()-> No of tries: 1
+Jul  1 13:47:33 authorMacBook-Pro kernel[0]: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Jul  1 14:29:01 calvisitor-10-105-160-95 sandboxd[129] ([10018]): QQ(10018) deny mach-lookup com.apple.networking.captivenetworksupport
+Jul  1 15:05:51 calvisitor-10-105-160-95 com.apple.AddressBook.InternetAccountsBridge[31654]: dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted
+Jul  1 19:46:42 calvisitor-10-105-163-202 iconservicesagent[328]: -[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950712080>.
+Jul  1 21:03:00 calvisitor-10-105-163-202 WindowServer[184]: send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.
+Jul  1 21:24:38 calvisitor-10-105-163-202 iconservicesagent[328]: -[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9951005740>.
+Jul  1 22:20:14 calvisitor-10-105-163-202 WindowServer[184]: device_generate_desktop_screenshot: authw 0x7fa823c89600(2000), shield 0x7fa8258cac00(2001)
+Jul  1 23:32:34 calvisitor-10-105-163-202 kernel[0]: Previous sleep cause: 5
+Jul  2 02:19:03 calvisitor-10-105-163-202 com.apple.AddressBook.InternetAccountsBridge[31953]: dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted
+Jul  2 10:27:44 calvisitor-10-105-163-202 locationd[82]: NETWORK: requery, 0, 0, 0, 0, 250, items, fQueryRetries, 0, fLastRetryTimestamp, 520708962.7
+Jul  2 11:43:53 calvisitor-10-105-163-202 kernel[0]: PM response took 28003 ms (54, powerd)
+Jul  2 12:56:19 calvisitor-10-105-163-202 kernel[0]: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 4
+Jul  2 13:03:41 calvisitor-10-105-163-202 AddressBookSourceSync[32160]: Unrecognized attribute value: t:AbchPersonItemType
+Jul  2 13:12:41 calvisitor-10-105-163-202 symptomsd[215]: -[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.
+Jul  2 14:07:52 calvisitor-10-105-163-202 locationd[82]: Location icon should now be in state 'Active'
+Jul  2 15:34:11 calvisitor-10-105-163-202 secd[276]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Jul  2 17:01:19 calvisitor-10-105-163-202 cloudd[326]:  SecOSStatusWith error:[-50] Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}
+Jul  2 17:39:27 calvisitor-10-105-163-202 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.WebContent.32564): Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.WebFeedParser.xpc/Contents/MacOS/com.apple.Safari.WebFeedParser error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc
+Jul  2 18:09:15 calvisitor-10-105-163-202 com.apple.CDScheduler[258]: Thermal pressure state: 0 Memory pressure state: 0
+Jul  2 18:35:57 calvisitor-10-105-163-202 kernel[0]: ARPT: 661708.530713: wl0: MDNS: IPV6 Addr: fe80:0:0:0:c6b3:1ff:fecd:467f
+Jul  2 18:39:18 calvisitor-10-105-163-202 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  2 18:53:41 calvisitor-10-105-163-202 kernel[0]: en0: channel changed to 6
+Jul  2 19:35:29 calvisitor-10-105-163-202 kernel[0]: ARPT: 662096.028575: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:4de9:a101:c96c:f28b
+Jul  2 20:01:48 calvisitor-10-105-163-202 Dock[307]: -[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-03 03:01:48 +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319)
+Jul  2 20:50:47 calvisitor-10-105-163-202 ksfetch[32776]: 2017-07-02 20:50:47.457 ksfetch[32776/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1926 bytes from stdin.
+Jul  2 22:24:03 authorMacBook-Pro com.apple.geod[30311]: PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fe13512cf70 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+Jul  2 22:24:43 authorMacBook-Pro corecaptured[32877]: CCFile::captureLogRun() Exiting CCFile::captureLogRun
+Jul  2 23:35:17 authorMacBook-Pro kernel[0]: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul  3 00:02:27 authorMacBook-Pro Safari[9852]: tcp_connection_tls_session_error_callback_imp 2115 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22
+Jul  3 01:06:37 authorMacBook-Pro sharingd[30299]: 01:06:37.436 : Scanning mode Contacts Only
+Jul  3 01:58:00 authorMacBook-Pro ntpd[207]: wake time set +0.270003 s
+Jul  3 02:20:05 authorMacBook-Pro kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000300
+Jul  3 03:43:40 authorMacBook-Pro kernel[0]: Previous sleep cause: 5
+Jul  3 04:19:59 authorMacBook-Pro sandboxd[129] ([33047]): com.apple.Addres(33047) deny network-outbound /private/var/run/mDNSResponder
+Jul  3 05:07:13 authorMacBook-Pro kernel[0]: en0: channel changed to 132,+1
+Jul  3 05:57:59 authorMacBook-Pro com.apple.CDScheduler[43]: Thermal pressure state: 1 Memory pressure state: 0
+Jul  3 06:33:47 authorMacBook-Pro kernel[0]: ARPT: 672925.539048: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Jul  3 06:57:52 authorMacBook-Pro sharingd[30299]: 06:57:52.002 : Purged contact hashes
+Jul  3 07:33:34 authorMacBook-Pro sharingd[30299]: 07:33:34.878 : BTLE scanning started
+Jul  3 08:33:15 authorMacBook-Pro kernel[0]: ARPT: 673289.745639: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq 1578355965, Ack 2401645769, Win size 278
+Jul  3 09:00:02 authorMacBook-Pro kernel[0]: ARPT: 673399.580233: IOPMPowerSource Information: onSleep,  SleepType: Normal Sleep,  'ExternalConnected': No, 'TimeRemaining': 13027,
+Jul  3 09:22:01 authorMacBook-Pro kernel[0]: PM response took 1936 ms (54, powerd)
+Jul  3 10:09:01 authorMacBook-Pro ntpd[207]: sigio_handler: sigio_handler_active != 1
+Jul  3 11:27:14 authorMacBook-Pro com.apple.WebKit.WebContent[32778]: [11:27:14.923] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification
+Jul  3 11:48:35 authorMacBook-Pro com.apple.WebKit.WebContent[32778]: [11:48:35.539] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification
+Jul  3 12:02:22 authorMacBook-Pro com.apple.WebKit.WebContent[32778]: [12:02:22.126] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92
+Jul  3 12:35:55 authorMacBook-Pro locationd[82]: NETWORK: no response from server, reachability, 2, queryRetries, 0
+Jul  3 12:55:31 calvisitor-10-105-160-237 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  3 13:40:27 calvisitor-10-105-160-237 wirelessproxd[75]: Central manager is not powered on
+Jul  3 13:51:03 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 20835 failed: 3 - No network route
+Jul  3 13:54:35 calvisitor-10-105-160-237 WindowServer[184]: send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.
+Jul  3 14:47:59 calvisitor-10-105-160-237 kernel[0]: ARPT: 682407.704265: wl0: wl_update_tcpkeep_seq: Original Seq: 1181052579, Ack: 1862377178, Win size: 4096
+Jul  3 15:15:13 calvisitor-10-105-160-237 kernel[0]: Bluetooth -- LE is supported - Disable LE meta event
+Jul  3 15:46:27 calvisitor-10-105-160-237 kernel[0]: AppleCamIn::wakeEventHandlerThread
+Jul  3 15:47:15 calvisitor-10-105-160-237 corecaptured[33533]: CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions
+Jul  3 16:05:45 authorMacBook-Pro symptomsd[215]: __73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2
+Jul  3 16:06:19 calvisitor-10-105-160-237 corecaptured[33544]: CCFile::captureLogRun Skipping current file Dir file [2017-07-03_16,06,19.893324]-AirPortBrcm4360_Logs-008.txt, Current File [2017-07-03_16,06,19.893324]-AirPortBrcm4360_Logs-008.txt
+Jul  3 16:07:39 authorMacBook-Pro corecaptured[33544]: CCFile::copyFile fileName is [2017-07-03_16,07,38.954579]-io80211Family-016.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[2017-07-03_16,07,38.954579]-io80211Family-016.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[2017-07-03_16,07,39.094895]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[2017-07-03_16,07,38.954579]-io80211Family-016.pcapng
+Jul  3 16:07:46 authorMacBook-Pro corecaptured[33544]: CCFile::captureLog
+Jul  3 16:25:21 calvisitor-10-105-160-237 kernel[0]: AirPort: Link Up on awdl0
+Jul  3 16:27:05 authorMacBook-Pro corecaptured[33544]: CCFile::copyFile fileName is [2017-07-03_16,27,04.995982]-io80211Family-040.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[2017-07-03_16,27,04.995982]-io80211Family-040.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[2017-07-03_16,27,05.123034]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[2017-07-03_16,27,04.995982]-io80211Family-040.pcapng
+Jul  3 16:27:47 calvisitor-10-105-160-184 locationd[82]: Location icon should now be in state 'Inactive'
+Jul  3 16:28:40 authorMacBook-Pro corecaptured[33544]: CCFile::captureLog
+Jul  3 16:35:52 authorMacBook-Pro UserEventAgent[43]: Captive: CNPluginHandler en0: Evaluating
+Jul  3 16:42:37 calvisitor-10-105-160-184 kernel[0]: ARPT: 683173.929950: ARPT: Wake Reason: Wake on Scan offload
+Jul  3 17:23:55 calvisitor-10-105-160-184 kernel[0]: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 4
+Jul  3 17:25:15 calvisitor-10-105-160-184 Dock[307]: -[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-04 00:25:15 +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319)
+Jul  3 17:37:48 calvisitor-10-105-160-184 blued[85]: INIT -- Host controller is published
+Jul  3 18:35:05 calvisitor-10-105-162-32 mDNSResponder[91]: mDNS_DeregisterInterface: Frequent transitions for interface en0 (10.105.162.32)
+Jul  3 18:56:23 authorMacBook-Pro com.apple.WebKit.WebContent[25654]: [18:56:23.837] <<<< CRABS >>>> crabsFlumeHostUnavailable: [0x7f961cf08cf0] Byte flume reports host unavailable.
+Jul  3 18:57:57 calvisitor-10-105-162-32 kernel[0]: [HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key
+Jul  3 19:04:48 calvisitor-10-105-162-32 kernel[0]: hibernate_teardown: wired_pages 544767, free_pages 3578340, active_pages 40000, inactive_pages 0, speculative_pages 0, cleaned_pages 0, compressor_pages 112
+Jul  3 19:04:53 authorMacBook-Pro com.apple.WebKit.WebContent[32778]: [19:04:53.965] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92
+Jul  3 19:11:55 calvisitor-10-105-162-32 QQ[10018]: button report: 0x8002be0
+Jul  3 20:16:59 calvisitor-10-105-161-225 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.WebContent.33827): Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc
+Jul  3 21:07:43 calvisitor-10-105-161-225 com.apple.WebKit.WebContent[32778]: [21:07:43.005] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification
+Jul  3 21:30:39 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 21503 failed: 3 - No network route
+Jul  3 21:35:36 airbears2-10-142-110-255 locationd[82]: Location icon should now be in state 'Inactive'
+Jul  3 23:23:34 airbears2-10-142-110-255 com.apple.AddressBook.InternetAccountsBridge[34080]: dnssd_clientstub ConnectToServer: connect()-> No of tries: 1
+Jul  4 00:23:04 airbears2-10-142-110-255 com.apple.cts[43]: com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 6306 seconds.  Ignoring.
+Jul  4 01:00:25 airbears2-10-142-110-255 com.apple.cts[258]: com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1883 seconds.  Ignoring.
+Jul  4 01:48:57 airbears2-10-142-110-255 kernel[0]: ARPT: 698152.618948: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Jul  4 02:25:27 airbears2-10-142-110-255 kernel[0]: Previous sleep cause: 5
+Jul  4 02:38:25 airbears2-10-142-110-255 kernel[0]: ARPT: 698398.428268: wl0: setup_keepalive: Remote IP: 17.249.12.88
+Jul  4 03:26:40 airbears2-10-142-110-255 com.apple.cts[43]: com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 34623 seconds.  Ignoring.
+Jul  4 04:15:26 airbears2-10-142-110-255 com.apple.cts[258]: com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 31785 seconds.  Ignoring.
+Jul  4 04:40:15 airbears2-10-142-110-255 kernel[0]: ARPT: 698894.284410: wl0: MDNS: IPV6 Addr: fe80:0:0:0:c6b3:1ff:fecd:467f
+Jul  4 05:16:07 airbears2-10-142-110-255 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  4 06:03:25 airbears2-10-142-110-255 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul  4 06:25:49 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 190238 seconds.  Ignoring.
+Jul  4 06:39:19 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 189428 seconds.  Ignoring.
+Jul  4 06:53:12 calvisitor-10-105-162-105 com.apple.AddressBook.InternetAccountsBridge[34429]: dnssd_clientstub ConnectToServer: connect()-> No of tries: 1
+Jul  4 07:06:38 calvisitor-10-105-162-105 kernel[0]: en0::IO80211Interface::postMessage bssid changed
+Jul  4 07:10:40 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 187547 seconds.  Ignoring.
+Jul  4 07:26:30 calvisitor-10-105-162-105 locationd[82]: NETWORK: requery, 0, 0, 0, 0, 320, items, fQueryRetries, 1, fLastRetryTimestamp, 520871064.1
+Jul  4 08:20:49 calvisitor-10-105-162-105 kernel[0]: ARPT: 699878.306468: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Jul  4 08:34:26 calvisitor-10-105-162-105 kernel[0]: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul  4 09:01:41 calvisitor-10-105-162-105 kernel[0]: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Jul  4 09:01:48 calvisitor-10-105-162-105 configd[53]: network changed: v4(en0:10.105.162.105) v6(en0+:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB
+Jul  4 09:42:57 calvisitor-10-105-162-105 GoogleSoftwareUpdateAgent[34603]: 2017-07-04 09:42:57.924 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/xpc/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Jul  4 09:57:01 calvisitor-10-105-162-105 kernel[0]: ARPT: 700311.376459: wl0: MDNS: 0 SRV Recs, 0 TXT Recs
+Jul  4 10:09:39 calvisitor-10-105-162-105 AddressBookSourceSync[34636]: -[SOAPParser:0x7f82b1f24e50 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid)
+Jul  4 10:30:16 calvisitor-10-105-162-105 AddressBookSourceSync[34670]: Unrecognized attribute value: t:AbchPersonItemType
+Jul  4 10:43:56 calvisitor-10-105-162-105 kernel[0]: ARPT: 700626.024536: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:c6b3:1ff:fecd:467f
+Jul  4 11:10:51 calvisitor-10-105-162-105 com.apple.AddressBook.InternetAccountsBridge[34706]: dnssd_clientstub ConnectToServer: connect()-> No of tries: 2
+Jul  4 11:28:41 authorMacBook-Pro corecaptured[34722]: CCFile::captureLog Received Capture notice id: 1499192921.020010, reason = AssocFail:sts:5_rsn:0
+Jul  4 11:42:12 calvisitor-10-105-162-105 kernel[0]: [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+Jul  4 11:56:46 calvisitor-10-105-162-105 kernel[0]: ARPT: 700980.255260: wl0: setup_keepalive: Seq: 2955519239, Ack: 2597833420, Win size: 4096
+Jul  4 12:07:03 calvisitor-10-105-162-105 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.WebContent.34835): Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc
+Jul  4 12:27:11 calvisitor-10-105-162-105 kernel[0]: ARPT: 702237.246510: wl0: setup_keepalive: Local port: 49218, Remote port: 443
+Jul  4 12:48:36 calvisitor-10-105-162-105 kernel[0]: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Jul  4 13:02:39 calvisitor-10-105-162-105 AddressBookSourceSync[34904]: Unrecognized attribute value: t:AbchPersonItemType
+Jul  4 13:56:31 calvisitor-10-105-162-105 SCIM[487]: [Accounts] Failed to update account with identifier 76FE6715-3D27-4F21-AA35-C88C1EA820E8, error: Error Domain=ABAddressBookErrorDomain Code=1002 "(null)"
+Jul  4 14:43:39 calvisitor-10-105-162-105 com.apple.WebKit.WebContent[32778]: [14:43:39.854] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92
+Jul  4 15:35:04 calvisitor-10-105-162-105 iconservicesagent[328]: -[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950411670>.
+Jul  4 16:58:45 calvisitor-10-105-162-105 kernel[0]: ARPT: 711599.232230: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Jul  4 17:26:03 calvisitor-10-105-162-105 kernel[0]: ARPT: 711752.511718: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Jul  4 18:07:25 calvisitor-10-105-162-105 com.apple.AddressBook.InternetAccountsBridge[35165]: dnssd_clientstub ConnectToServer: connect()-> No of tries: 3
+Jul  4 18:35:05 calvisitor-10-105-162-105 sharingd[30299]: 18:35:05.187 : Scanning mode Contacts Only
+Jul  4 19:16:35 calvisitor-10-105-162-105 kernel[0]: ARPT: 712526.783763: wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10
+Jul  4 19:56:19 calvisitor-10-105-162-105 kernel[0]: [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+Jul  4 20:25:22 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 139865 seconds.  Ignoring.
+Jul  4 20:38:13 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 35003 seconds.  Ignoring.
+Jul  4 20:54:03 calvisitor-10-105-162-105 kernel[0]: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Jul  4 21:07:16 calvisitor-10-105-162-105 sharingd[30299]: 21:07:16.729 : Scanning mode Contacts Only
+Jul  4 22:02:21 calvisitor-10-105-162-105 com.apple.CDScheduler[43]: Thermal pressure state: 1 Memory pressure state: 0
+Jul  4 22:57:01 calvisitor-10-105-162-105 locationd[82]: NETWORK: no response from server, reachability, 2, queryRetries, 1
+Jul  4 23:13:35 calvisitor-10-105-162-105 com.apple.AddressBook.InternetAccountsBridge[35394]: dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:4 Err:-1 Errno:1 Operation not permitted
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x00670033': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x006a0061': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x00b8fffe': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x03eb0001': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x008b6fb5': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x02100004': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x02420006': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x0261fffd': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x02770011': four character codes must be four characters long.
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x029f0014': four character codes must be four characters long.
+Jul  4 23:25:29 calvisitor-10-105-162-105 WeChat[24144]: jemmytest
+Jul  4 23:51:29 calvisitor-10-105-162-105 secd[276]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Jul  5 00:17:32 calvisitor-10-105-162-105 com.apple.WebKit.WebContent[35435]: <<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of 21335 bytes @ 5481561 took 0.501237 sec. to complete, 16 reads >= 0.5 sec.
+Jul  5 00:18:12 authorMacBook-Pro AddressBookSourceSync[35614]: Unrecognized attribute value: t:AbchPersonItemType
+Jul  5 00:33:56 calvisitor-10-105-163-10 locationd[82]: PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fb7ed616c80 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+Jul  5 01:33:27 calvisitor-10-105-163-10 kernel[0]: en0: channel changed to 1
+Jul  5 02:54:51 calvisitor-10-105-163-10 kernel[0]: AppleCamIn::wakeEventHandlerThread
+Jul  5 03:49:24 calvisitor-10-105-163-10 kernel[0]: Sandbox: com.apple.Addres(35773) deny(1) network-outbound /private/var/run/mDNSResponder
+Jul  5 10:31:18 calvisitor-10-105-163-10 kernel[0]: hibernate_machine_init pagesDone 451550 sum2 4886d9d9, time: 197 ms, disk(0x20000) 799 Mb/s, comp bytes: 40017920 time: 27 ms 1412 Mb/s, crypt bytes: 160550912 time: 39 ms 3904 Mb/s
+Jul  5 10:32:08 calvisitor-10-105-160-179 locationd[82]: Location icon should now be in state 'Inactive'
+Jul  5 10:52:16 calvisitor-10-105-160-179 ksfetch[35863]: 2017-07-05 10:52:16.779 ksfetch[35863/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100501610> { URL: https://tools.google.com/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=7:2501762722 }
+Jul  5 10:58:44 calvisitor-10-105-160-179 kernel[0]: Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+Jul  5 11:40:26 calvisitor-10-105-160-226 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  5 12:00:50 authorMacBook-Pro networkd[195]: __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc22930 125.39.240.34:14000
+Jul  5 13:16:51 calvisitor-10-105-160-226 kernel[0]: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Jul  5 14:04:19 authorMacBook-Pro corecaptured[36034]: CCFile::copyFile fileName is [2017-07-05_14,04,19.163834]-AirPortBrcm4360_Logs-025.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[2017-07-05_14,04,19.163834]-AirPortBrcm4360_Logs-025.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[2017-07-05_14,04,19.222771]=AuthFail:sts:5_rsn:0/DriverLogs//[2017-07-05_14,04,19.163834]-AirPortBrcm4360_Logs-025.txt
+Jul  5 14:04:27 authorMacBook-Pro corecaptured[36034]: CCFile::captureLog Received Capture notice id: 1499288667.823332, reason = AuthFail:sts:5_rsn:0
+Jul  5 14:04:35 authorMacBook-Pro corecaptured[36034]: CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions
+Jul  5 15:26:36 calvisitor-10-105-162-98 kernel[0]: [HID] [MT] AppleMultitouchDevice::willTerminate entered
+Jul  5 16:04:10 calvisitor-10-105-162-107 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  5 16:05:13 calvisitor-10-105-162-107 kernel[0]: ARPT: 725218.810934: AirPort_Brcm43xx::powerChange: System Sleep
+Jul  5 16:13:17 calvisitor-10-105-162-107 QQ[10018]: DB Error: 1 "no such table: tb_c2cMsg_2658655094"
+Jul  5 16:24:44 airbears2-10-142-108-38 QQ[10018]: button report: 0x8002bdf
+Jul  5 16:58:24 airbears2-10-142-108-38 imagent[355]: <IMMacNotificationCenterManager: 0x7fdcc9d16380>: Updating enabled: NO   (Topics: ( ))
+Jul  5 17:03:12 airbears2-10-142-108-38 kernel[0]: ARPT: 728173.580149: wl0: MDNS: IPV4 Addr: 10.142.108.38
+Jul  5 17:25:08 authorMacBook-Pro kernel[0]: en0: BSSID changed to 00:a2:ee:1a:71:8c
+Jul  5 18:19:59 authorMacBook-Pro configd[53]: arp_client_transmit(en0) failed, Network is down (50)
+Jul  5 19:00:34 authorMacBook-Pro kernel[0]: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Jul  5 19:26:27 calvisitor-10-105-160-210 kernel[0]: ARPT: 728620.515604: wl0: MDNS: 0 SRV Recs, 0 TXT Recs
+Jul  5 20:44:24 calvisitor-10-105-160-210 Dock[307]: -[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-06 03:44:24 +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319)
+Jul  5 22:29:03 calvisitor-10-105-161-231 kernel[0]: could discard act 74490 inact 9782 purgeable 34145 spec 56242 cleaned 0
+Jul  5 23:50:09 calvisitor-10-105-160-22 kernel[0]: AppleActuatorHIDEventDriver: stop
+Jul  6 00:30:35 authorMacBook-Pro UserEventAgent[43]: assertion failed: 15G1510: com.apple.telemetry + 38574 [10D2E324-788C-30CC-A749-55AE67AEC7BC]: 0x7fc235807b90
+Jul  6 01:11:18 authorMacBook-Pro configd[53]: network changed: v4(en0+:10.105.162.138) v6(en0:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB
+Jul  6 02:32:06 calvisitor-10-105-163-28 kernel[0]: BuildActDeviceEntry enter
+Jul  6 03:12:49 authorMacBook-Pro networkd[195]: -[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc23677 123.151.137.101:80
+Jul  6 03:53:18 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 23701 failed: 3 - No network route
+Jul  6 05:04:00 calvisitor-10-105-163-168 kernel[0]: [IOBluetoothHostController::setConfigState] calling registerService
+Jul  6 08:32:47 authorMacBook-Pro WindowServer[184]: send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.
+Jul  6 09:08:22 calvisitor-10-105-163-253 loginwindow[94]: -[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier com.apple.LSSharedFileList.RecentApplications
+Jul  6 09:32:37 calvisitor-10-105-163-253 com.apple.cts[258]: com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 12754 seconds.  Ignoring.
+Jul  6 10:52:50 calvisitor-10-105-163-253 ChromeExistion[36852]: url host = www.baidu.com
+Jul  6 11:21:02 calvisitor-10-105-163-253 kernel[0]: AirPort: Link Up on awdl0
+Jul  6 12:00:58 authorMacBook-Pro corecaptured[36918]: CCFile::captureLogRun Skipping current file Dir file [2017-07-06_12,00,58.629029]-AirPortBrcm4360_Logs-007.txt, Current File [2017-07-06_12,00,58.629029]-AirPortBrcm4360_Logs-007.txt
+Jul  6 12:02:58 authorMacBook-Pro corecaptured[36918]: CCFile::captureLogRun() Exiting CCFile::captureLogRun
+Jul  6 12:03:12 authorMacBook-Pro networkd[195]: __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc24039 112.90.78.169:8080
+Jul  6 12:04:16 authorMacBook-Pro kernel[0]: ARPT: 739295.354731: wl0: Roamed or switched channel, reason #4, bssid f8:4f:57:3b:ea:b2, last RSSI -77
+Jul  6 12:30:59 calvisitor-10-105-162-178 kernel[0]: ARPT: 739420.595498: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]
+Jul  6 14:07:50 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 24150 failed: 3 - No network route
+Jul  6 14:15:59 authorMacBook-Pro corecaptured[37027]: CCFile::captureLogRun Skipping current file Dir file [2017-07-06_14,15,59.644892]-CCIOReporter-007.xml, Current File [2017-07-06_14,15,59.644892]-CCIOReporter-007.xml
+Jul  6 14:43:10 calvisitor-10-105-162-178 kernel[0]: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Jul  6 14:57:16 calvisitor-10-105-162-178 GoogleSoftwareUpdateAgent[37059]: 2017-07-06 14:57:16.661 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=37fbcb7ab6829be04567976e3212d7a67627aef11546f8b7013d4cffaf51f739&cup2key=7:4200177539"
+Jul  6 15:45:08 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  6 16:15:50 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  6 16:29:37 authorMacBook-Pro networkd[195]: __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc24283 119.81.102.227:80
+Jul  6 16:43:37 calvisitor-10-105-162-178 com.apple.CDScheduler[258]: Thermal pressure state: 1 Memory pressure state: 0
+Jul  6 17:57:59 calvisitor-10-105-162-178 locationd[82]: NETWORK: requery, 0, 0, 0, 0, 300, items, fQueryRetries, 0, fLastRetryTimestamp, 521081581.2
+Jul  6 18:23:11 calvisitor-10-105-162-178 com.apple.cts[43]: com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 7518 seconds.  Ignoring.
+Jul  6 18:50:29 calvisitor-10-105-162-178 kernel[0]: ARPT: 744319.484045: wl0: wl_update_tcpkeep_seq: Original Seq: 1092633597, Ack: 2572586285, Win size: 4096
+Jul  6 19:04:46 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15823 seconds.  Ignoring.
+Jul  6 19:31:29 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul  6 19:32:24 calvisitor-10-105-162-178 kernel[0]: ARPT: 744650.016431: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:f882:21d2:d1af:f093
+Jul  6 20:03:05 calvisitor-10-105-162-178 sharingd[30299]: 20:03:05.179 : BTLE scanner Powered Off
+Jul  6 20:14:33 calvisitor-10-105-162-178 QQ[10018]: FA||Url||taskID[2019353677] dealloc
+Jul  6 21:03:09 calvisitor-10-105-162-178 WindowServer[184]: send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.
+Jul  6 23:00:45 calvisitor-10-105-162-178 Safari[9852]: KeychainGetICDPStatus: keychain: -25300
+Jul  7 00:10:01 calvisitor-10-105-162-178 taskgated[273]: no application identifier provided, can't use provisioning profiles [pid=37563]
+Jul  7 00:43:09 calvisitor-10-105-162-178 imagent[355]: <IMMacNotificationCenterManager: 0x7fdcc9d16380>:    NC Disabled: NO
+Jul  7 00:53:19 calvisitor-10-105-162-178 sandboxd[129] ([37617]): com.apple.Addres(37617) deny network-outbound /private/var/run/mDNSResponder
+Jul  7 02:14:41 calvisitor-10-105-162-178 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  7 02:56:01 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 498005 seconds.  Ignoring.
+Jul  7 03:36:32 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  7 04:04:43 calvisitor-10-105-162-178 kernel[0]: ARPT: 762603.017378: wl0: setup_keepalive: Local port: 62991, Remote port: 443
+Jul  7 04:44:48 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1002 seconds.  Ignoring.
+Jul  7 04:58:40 calvisitor-10-105-162-178 sandboxd[129] ([37745]): com.apple.Addres(37745) deny network-outbound /private/var/run/mDNSResponder
+Jul  7 05:40:03 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 488163 seconds.  Ignoring.
+Jul  7 07:01:09 calvisitor-10-105-162-178 com.apple.cts[43]: com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 21754 seconds.  Ignoring.
+Jul  7 07:30:15 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul  7 07:59:46 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 479780 seconds.  Ignoring.
+Jul  7 09:23:13 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 474773 seconds.  Ignoring.
+Jul  7 10:17:44 calvisitor-10-105-162-178 com.apple.cts[43]: com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 9959 seconds.  Ignoring.
+Jul  7 10:37:43 calvisitor-10-105-162-178 kernel[0]: RTC: PowerByCalendarDate setting ignored
+Jul  7 10:54:41 calvisitor-10-105-162-178 ksfetch[37925]: 2017-07-07 10:54:41.296 ksfetch[37925/0x7fff79824000] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1926 bytes from stdin.
+Jul  7 11:48:06 calvisitor-10-105-162-178 com.apple.WebKit.WebContent[32778]: [11:48:06.869] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92
+Jul  7 12:15:44 calvisitor-10-105-162-178 quicklookd[38023]: Error returned from iconservicesagent: (null)
+Jul  7 12:20:19 calvisitor-10-105-162-178 kernel[0]: TBT W (2): 0x0040 [x]
+Jul  7 12:24:29 authorMacBook-Pro corecaptured[38064]: CCFile::copyFile fileName is [2017-07-07_12,24,25.108710]-io80211Family-007.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[2017-07-07_12,24,25.108710]-io80211Family-007.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[2017-07-07_12,24,29.298901]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[2017-07-07_12,24,25.108710]-io80211Family-007.pcapng
+Jul  7 12:30:08 authorMacBook-Pro kernel[0]: TBT W (2): 0x0040 [x]
+Jul  7 13:38:23 authorMacBook-Pro corecaptured[38124]: CCFile::captureLogRun Skipping current file Dir file [2017-07-07_13,38,23.338868]-AirPortBrcm4360_Logs-013.txt, Current File [2017-07-07_13,38,23.338868]-AirPortBrcm4360_Logs-013.txt
+Jul  7 13:40:31 authorMacBook-Pro networkd[195]: -[NETClientConnection effectiveBundleID] using process name CalendarAgent as bundle ID (this is expected for daemons without bundle ID
+Jul  7 13:40:36 authorMacBook-Pro corecaptured[38124]: CCFile::captureLog Received Capture notice id: 1499460036.519390, reason = AuthFail:sts:5_rsn:0
+Jul  7 13:42:10 authorMacBook-Pro networkd[195]: nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x8000000000000000 to 0x4
+Jul  7 13:42:34 authorMacBook-Pro corecaptured[38124]: CCFile::captureLogRun Skipping current file Dir file [2017-07-07_13,42,34.831310]-AirPortBrcm4360_Logs-041.txt, Current File [2017-07-07_13,42,34.831310]-AirPortBrcm4360_Logs-041.txt
+Jul  7 13:48:29 authorMacBook-Pro cdpd[11807]: Saw change in network reachability (isReachable=2)
+Jul  7 14:07:21 calvisitor-10-105-160-205 com.apple.WebKit.WebContent[32778]: [14:07:21.190] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification
+Jul  7 14:33:34 calvisitor-10-105-160-205 kernel[0]: Previous sleep cause: 5
+Jul  7 15:14:27 calvisitor-10-105-160-205 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  7 16:04:16 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 25340 failed: 3 - No network route
+Jul  7 16:24:10 authorMacBook-Pro locationd[82]: PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x7fb7f0035dc0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "The Internet connection appears to be offline." UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+Jul  7 16:24:43 authorMacBook-Pro QQ[10018]: ############################## _getSysMsgList
+Jul  7 16:59:44 calvisitor-10-105-160-85 Safari[9852]: KeychainGetICDPStatus: keychain: -25300
+Jul  7 18:02:24 calvisitor-10-105-160-85 kernel[0]: RTC: PowerByCalendarDate setting ignored
+Jul  7 18:09:46 authorMacBook-Pro corecaptured[38453]: CCFile::captureLogRun() Exiting CCFile::captureLogRun
+Jul  7 18:11:40 calvisitor-10-105-160-85 kernel[0]: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Jul  7 18:50:45 calvisitor-10-105-160-85 kernel[0]: ARPT: 775899.188954: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq 2863091569, Ack 159598625, Win size 278
+Jul  7 19:21:28 calvisitor-10-105-160-85 Dock[307]: -[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=0 (null)/(null) opts=(null) when=2017-07-08 02:21:28 +0000 confidence=1 from=(null)/(null) (UABestAppSuggestionManager.m #319)
+Jul  7 20:32:12 calvisitor-10-105-160-85 iconservicesagent[328]: -[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f9950712080>.
+Jul  7 20:51:27 calvisitor-10-105-160-85 Safari[9852]: KeychainGetICDPStatus: keychain: -25300
+Jul  7 21:22:43 calvisitor-10-105-160-85 com.apple.WebKit.WebContent[38826]: [21:22:43.147] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=-12956 (kFigMediaValidatorError_VideoCodecNotSupported) (video codec 1) at  line 1921
+Jul  7 21:31:11 calvisitor-10-105-160-85 garcon[38866]: Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable
+Jul  7 21:58:33 calvisitor-10-105-160-85 NeteaseMusic[17988]: 21:58:33.765 ERROR:    177: timed out after 15.000s (0 0); mMajorChangePending=0
+Jul  7 22:47:06 calvisitor-10-105-160-85 kernel[0]: ARPT: 783991.995027: wl0: setup_keepalive: interval 900, retry_interval 30, retry_count 10
+Jul  8 00:30:39 authorMacBook-Pro kernel[0]: in6_unlink_ifa: IPv6 address 0x77c911454f1523ab has no prefix
+Jul  8 01:51:46 calvisitor-10-105-160-47 kernel[0]: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Jul  8 02:32:14 authorMacBook-Pro networkd[195]: nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000
+Jul  8 03:12:46 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 25902 failed: 3 - No network route
+Jul  8 03:32:43 calvisitor-10-105-162-228 kernel[0]: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x8800 ****
+Jul  8 04:13:39 authorMacBook-Pro UserEventAgent[43]: Captive: CNPluginHandler en0: Evaluating
+Jul  8 04:16:21 calvisitor-10-105-161-176 QQ[10018]: FA||Url||taskID[2019353853] dealloc
+Jul  8 05:34:31 calvisitor-10-105-160-181 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  8 05:51:55 calvisitor-10-105-162-124 kernel[0]: efi pagecount 72
+Jul  8 05:56:47 authorMacBook-Pro UserEventAgent[43]: Captive: CNPluginHandler en0: Authenticated
+Jul  8 06:26:32 calvisitor-10-105-162-124 GoogleSoftwareUpdateAgent[39159]: 2017-07-08 06:26:32.364 GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Jul  8 07:25:32 calvisitor-10-105-162-124 locationd[82]: Location icon should now be in state 'Inactive'
+Jul  8 07:43:38 calvisitor-10-105-162-124 kernel[0]: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3

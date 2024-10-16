@@ -1,0 +1,286 @@
+366633 node-200 unix.hw state_change.unavailable 1085100843 1 Component State Change: Component \042alt0\042 is in the unavailable state (HWID=2538)
+460773 node-199 unix.hw state_change.unavailable 1145552100 1 Component State Change: Component \042alt0\042 is in the unavailable state (HWID=2608)
+2599298 node-198 action start 1074297419 1 boot  (command 1978)
+2601430 node-159 action start 1074298398 1 wait  (command 1973)
+76306 node-57 action start 1077204892 1 halt  (command 2221)
+106268 node-178 action start 1077739942 1 wait  (command 2302)
+143923 node-195 action start 1077816813 1 wait  (command 2354)
+165793 node-89 action start 1077881713 1 wait  (command 2424)
+217100 node-148 action start 1078468203 1 wait  (command 2511)
+256848 node-185 action start 1079070175 1 boot  (command 2619)
+235608 node-34 action start 1079014799 1 boot  (command 2550)
+301979 node-1 action start 1081998493 1 wait  (command 2800)
+338620 node-237 action start 1083304818 1 wait  (command 2909)
+401359 node-34 action start 1089896823 1 wait  (command 3078)
+19258 node-167 action start 1100785255 1 boot  (command 3318)
+112147 node-82 action start 1111072078 1 boot  (command 3473)
+164990 node-114 action start 1114095917 1 boot  (command 3572)
+213303 node-83 action start 1116611976 1 boot  (command 3639)
+173915 node-59 action start 1131220838 1 boot  (command 3951)
+220288 node-194 action start 1132159257 1 boot  (command 4024)
+374387 node-116 action start 1141676760 1 wait  (command 4145)
+460596 node-143 action start 1145552056 1 wait  (command 4221)
+301526 2797 boot_cmd success 1081993794 1 Command has completed successfully
+70088 2206 shutdown_cmd new 1077059790 1 Targeting domains:node-D7 and nodes:node-[224\ 228\ 232]
+51338 node-3 node psu 1106496000 1 psu failure\ ambient=28
+2594656 node-D0 clusterfilesystem clusterfilesystem.no_server 1074279038 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage234
+57981 node-D7 clusterfilesystem clusterfilesystem.no_server 1076864401 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage1144
+213050 node-D7 clusterfilesystem clusterfilesystem.no_server 1078465745 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage1644
+420807 node-D0 clusterfilesystem clusterfilesystem.no_server 1094568654 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage112
+220014 node-D0 clusterfilesystem clusterfilesystem.no_server 1132158358 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage132
+268543 Interconnect-0N00 switch_module fan 1119372267 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+37743 Interconnect-0N00 switch_module fan 1125827345 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+34116 Interconnect-0N00 switch_module fan 1125660960 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+45232 Interconnect-0N00 switch_module fan 1125974682 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+43379 Interconnect-0N00 switch_module fan 1125938946 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+41142 Interconnect-0N00 switch_module fan 1125922192 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+104906 Interconnect-0N00 switch_module fan 1128271361 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+119213 Interconnect-0N00 switch_module fan 1129157128 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+116927 Interconnect-0N00 switch_module fan 1128899272 1 Fan speeds ( 3552 3534 3375 **** 3515 3479 )
+259763 Interconnect-0N00 switch_module fan 1133181426 1 Fan speeds ( 3552 3534 3391 **** 3515 3479 )
+258413 Interconnect-0N00 switch_module fan 1133169111 1 Fan speeds ( 3552 3534 3391 **** 3515 3479 )
+380336 Interconnect-0N00 switch_module fan 1141884709 1 Fan speeds ( 3534 3534 3375 **** 3497 3479 )
+442189 Interconnect-0N00 switch_module fan 1143988225 1 Fan speeds ( 3534 3534 3375 **** 3497 3479 )
+27385 Interconnect-0N02 switch_module control 1101771720 1 power/control problem
+289491 Interconnect-0T00 switch_module bcast-error 1080825593 1 Link error
+407973 Interconnect-1T00 switch_module bcast-error 1142703109 1 Link error on broadcast tree Interconnect-1T00:00:3:6
+383570 node-D7 clusterfilesystem fdmn.full 1086596948 1 ServerFileSystem: ServerFileSystem domain root26_tmp is full
+218505 node-D3 clusterfilesystem fdmn.full 1117130918 1 ServerFileSystem: ServerFileSystem domain root22_local is full
+2572034 node-D0 clusterfilesystem clusterfilesystem.not_served 1074125608 1 ClusterFileSystem: ServerFileSystem domain root30_domain is no longer served by node node-0
+156291 node-D7 clusterfilesystem clusterfilesystem.not_served 1077864767 1 ClusterFileSystem: ServerFileSystem domain storage1422 is no longer served by node node-245
+253687 node-D5 clusterfilesystem clusterfilesystem.not_served 1079069131 1 ClusterFileSystem: ServerFileSystem domain root23_local is no longer served by node node-182
+203954 node-D7 clusterfilesystem clusterfilesystem.not_served 1116530480 1 ClusterFileSystem: ServerFileSystem domain root24_local is no longer served by node node-247
+197958 node-D3 clusterfilesystem clusterfilesystem.not_served 1131282056 1 ClusterFileSystem: ServerFileSystem domain root1_domain_backup is no longer served by node node-96
+2273811 full partition status 1060324505 -1 running
+2567461 node-C0 domain status 1074098612 1 not responding
+2590658 node-123 node status 1074262967 1 running
+2608517 full partition status 1074462770 1 running
+2601830 node-56 node status 1074298784 1 running
+44677 node-112 node status 1076542145 1 running
+77067 node-35 node status 1077215250 1 configured out
+100947 node-87 node status 1077723931 1 not responding
+178780 node-147 node status 1077897241 0 running
+178781 node-148 node status 1077897241 1 running
+205653 node-175 node status 1078406503 1 configured out
+264038 full partition status 1079249252 1 running
+261973 full partition status 1079220450 1 blocked
+260233 node-166 node status 1079127020 1 running
+252605 node-44 node status 1079068924 1 configured out
+234468 node-203 node status 1079013901 1 configured out
+272170 node-62 node status 1079615293 1 not responding
+284353 node-23 node status 1080145602 1 running
+277540 node-119 node status 1079618410 0 running
+315748 node-19 node status 1082665230 1 configured out
+316706 node-90 node status 1082894753 1 running
+344301 node-52 node status 1084269345 0 configured out
+369548 node-112 node status 1085659157 1 not responding
+379872 node-103 node status 1086028827 0 running
+386783 node-224 node status 1087499940 1 active
+399657 node-155 node status 1089893790 1 not responding
+371878 node-64 node status 1085921340 -1 configured out
+417113 full partition status 1093473150 1 blocked
+425734 node-133 node status 1095342780 1 configured out
+432838 node-153 node status 1095349520 0 running
+453178 full partition status 1098987334 1 running
+448744 node-102 node status 1098394861 0 running
+24181 node-247 node status 1100788549 1 running
+73494 node-29 node status 1108652943 1 running
+117663 node-151 node status 1111074926 0 running
+138134 node-73 node status 1111869296 1 running
+140676 full partition status 1112346856 1 starting
+202074 node-210 node status 1116448620 1 not responding
+277298 full partition status 1120076193 1 running
+1004 node-253 node status 1123709833 1 running
+58843 full partition status 1126818053 1 closing
+56335 node-183 node status 1126814970 0 running
+169664 node-40 node status 1131210631 1 not responding
+219581 node-76 node status 1132157850 1 configured out
+286957 node-162 node status 1134670027 1 not responding
+378400 node-232 node status 1141679919 0 running
+401248 node-151 node status 1142533309 0 running
+459286 node-208 node status 1145542009 1 not responding
+2552510 gige7 gige temperature 1072553474 1 normal
+2562762 node-232 node temperature 1073579610 1 ambient=30
+2615431 gige7 gige temperature 1074848953 1 normal
+40754 node-172 node temperature 1076538724 1 ambient=26
+48312 gige7 gige temperature 1076650230 1 normal
+69672 gige7 gige temperature 1077015055 1 warning
+88946 gige7 gige temperature 1077576377 1 normal
+224786 node-158 node temperature 1078514733 1 ambient=31
+201365 node-74 node temperature 1078160650 1 ambient=29
+227358 gige7 gige temperature 1078816469 1 warning
+287951 gige7 gige temperature 1080622682 1 normal
+297326 gige7 gige temperature 1081684787 1 normal
+330049 gige7 gige temperature 1083231744 1 warning
+341967 gige7 gige temperature 1083844658 1 normal
+350386 node-234 node temperature 1084631343 1 ambient=31
+346095 gige7 gige temperature 1084427882 1 normal
+371489 node-237 node temperature 1085883660 1 ambient=31
+381210 node-166 node temperature 1086194970 1 ambient=35
+374004 gige4 gige temperature 1085997759 1 warning
+383593 node-238 node temperature 1086602640 1 ambient=35
+393242 gige7 gige temperature 1088265456 1 normal
+393440 gige7 gige temperature 1088371359 1 warning
+409190 gige7 gige temperature 1091231048 1 warning
+416347 gige6 gige temperature 1093125020 1 normal
+415274 gige7 gige temperature 1092610501 1 normal
+421827 gige7 gige temperature 1094640341 1 normal
+433626 node-167 node temperature 1095486301 1 ambient=27
+434198 node-93 node temperature 1095712050 1 ambient=33
+440293 gige7 gige temperature 1098009695 1 warning
+453176 node-53 node temperature 1098987302 1 ambient=36
+455240 node-10 node temperature 1099408230 1 ambient=30
+457137 gige7 gige temperature 1100184616 1 normal
+26727 gige7 gige temperature 1101454038 1 normal
+27654 gige6 gige temperature 1101803531 1 warning
+33137 gige6 gige temperature 1102480648 1 warning
+36262 gige4 gige temperature 1103307514 1 normal
+37307 gige3 gige temperature 1103694707 1 warning
+39618 gige3 gige temperature 1104640924 1 warning
+39036 gige7 gige temperature 1104388669 1 warning
+40785 node-208 node temperature 1104861840 1 ambient=33
+39995 node-15 node temperature 1104762876 1 ambient=27
+45043 gige6 gige temperature 1105811893 1 normal
+44095 gige7 gige temperature 1105522389 1 normal
+52599 gige7 gige temperature 1106920116 1 normal
+55567 gige7 gige temperature 1107627478 1 normal
+83640 gige6 gige temperature 1108849993 1 normal
+96925 node-238 node temperature 1110105780 1 ambient=29
+90705 gige3 gige temperature 1109653662 1 warning
+97834 gige2 gige temperature 1110237730 1 normal
+124124 gige3 gige temperature 1111258570 1 warning
+126049 node-242 node temperature 1111797480 1 ambient=31
+124625 gige5 gige temperature 1111413911 1 warning
+147779 gige7 gige temperature 1112816360 1 warning
+155760 gige5 gige temperature 1113610268 1 warning
+155289 node-139 node temperature 1113441604 1 ambient=34
+176320 gige7 gige temperature 1114274309 1 warning
+177118 node-243 node temperature 1114465230 1 ambient=28
+190419 gige5 gige temperature 1115894507 1 normal
+209931 node-176 node temperature 1116601733 1 ambient=32
+218172 gige7 gige temperature 1117044015 1 normal
+241069 gige4 gige temperature 1118461882 1 normal
+240399 gige7 gige temperature 1118112635 1 normal
+281216 gige3 gige temperature 1120354574 1 warning
+276947 gige6 gige temperature 1119966728 1 warning
+284710 node-161 node temperature 1120680847 1 ambient=36
+289181 node-218 node temperature 1121124240 1 ambient=29
+313879 gige6 gige temperature 1122529625 1 normal
+323620 gige3 gige temperature 1123303567 1 warning
+41 node-23 node temperature 1123705518 1 ambient=29
+1755 gige7 gige temperature 1123896401 1 normal
+26225 gige6 gige temperature 1124857316 1 warning
+32496 node-242 node temperature 1125430411 1 ambient=31
+39375 gige3 gige temperature 1125876685 1 warning
+66528 gige6 gige temperature 1126992985 1 warning
+73035 gige6 gige temperature 1127171787 1 normal
+90571 node-240 node temperature 1128071251 1 ambient=26
+88301 node-31 node temperature 1127779980 1 ambient=31
+112636 gige3 gige temperature 1128807948 1 normal
+106121 gige4 gige temperature 1128486765 1 warning
+105201 gige3 gige temperature 1128304844 1 normal
+121634 node-88 node temperature 1129326780 1 ambient=29
+118491 node-227 node temperature 1129105830 1 ambient=28
+163424 node-241 node temperature 1130652991 1 ambient=27
+156104 node-109 node temperature 1130358332 1 ambient=31
+154068 gige7 gige temperature 1130069824 1 normal
+167414 gige7 gige temperature 1130878335 1 warning
+166309 node-242 node temperature 1130770290 1 ambient=28
+227957 node-157 node temperature 1132285800 1 ambient=31
+275052 node-250 node temperature 1133856960 1 ambient=36
+312587 node-116 node temperature 1136537520 1 ambient=30
+315731 node-41 node temperature 1138153620 1 ambient=30
+335435 gige3 gige temperature 1140254414 1 normal
+333864 node-145 node temperature 1140138780 1 ambient=32
+341711 node-233 node temperature 1140296011 1 ambient=28
+348112 node-238 node temperature 1140446850 1 ambient=25
+380953 node-21 node temperature 1141983900 1 ambient=36
+374787 node-91 node temperature 1141676911 1 ambient=27
+402312 gige7 gige temperature 1142637295 1 warning
+431548 node-114 node temperature 1143825180 1 ambient=27
+425772 node-80 node temperature 1143482491 1 ambient=33
+436897 node-114 node temperature 1143962820 1 ambient=30
+454305 gige6 gige temperature 1145174613 1 normal
+449962 gige6 gige temperature 1144627407 1 warning
+479981 gige4 gige temperature 1146058156 1 warning
+2556365 Interconnect-1N01 switch_module error 1072790564 1 Link in reset
+2560175 Interconnect-1N01 switch_module error 1073185824 1 Link ok
+2566680 Interconnect-1N03 switch_module error 1073991556 1 Link in reset
+2570813 Interconnect-1N01 switch_module error 1074123216 1 Linkerror event interval expired
+2573870 Interconnect-1N02 switch_module error 1074131950 1 Linkerror event interval expired
+2575239 Interconnect-1N02 switch_module error 1074175929 1 Linkerror event interval expired
+2580497 Interconnect-1N01 switch_module error 1074217133 1 Linkerror event interval expired
+2583982 Interconnect-1N00 switch_module error 1074230178 1 Linkerror event interval expired
+2586025 Interconnect-1N03 switch_module error 1074236020 1 Linkerror event interval expired
+2588737 Interconnect-0N03 switch_module error 1074243063 1 Linkerror event interval expired
+2597537 Interconnect-0N01 switch_module error 1074290483 1 Linkerror event interval expired
+2615364 Interconnect-1N01 switch_module error 1074835654 1 Linkerror event interval expired
+2595669 Interconnect-1N01 switch_module error 1074287600 1 Linkerror event interval expired
+2598112 Interconnect-1N03 switch_module error 1074290649 1 Linkerror event interval expired
+292 Interconnect-1T01 switch_module error 1075470509 1 Linkerror event interval expired
+19621 Interconnect-1N01 switch_module error 1076023220 1 Linkerror event interval expired
+34478 Interconnect-1N01 switch_module error 1076446111 1 Linkerror event interval expired
+48900 Interconnect-1N01 switch_module error 1076713837 1 Linkerror event interval expired
+78479 Interconnect-1N01 switch_module error 1077238683 1 Linkerror event interval expired
+71623 Interconnect-1N00 switch_module error 1077066129 1 Linkerror event interval expired
+61078 Interconnect-1N01 switch_module error 1076865899 1 Linkerror event interval expired
+106635 Interconnect-1N01 switch_module error 1077740032 1 Linkerror event interval expired
+101832 Interconnect-1N00 switch_module error 1077735628 1 Linkerror event interval expired
+93616 Interconnect-0N00 switch_module error 1077646552 1 Linkerror event interval expired
+91927 Interconnect-1N03 switch_module error 1077631212 1 Linkerror event interval expired
+135982 Interconnect-1N01 switch_module error 1077808440 1 Linkerror event interval expired
+141757 Interconnect-1N00 switch_module error 1077815530 1 Linkerror event interval expired
+142994 Interconnect-0N03 switch_module error 1077816061 1 Linkerror event interval expired
+161403 Interconnect-0N03 switch_module error 1077876337 1 Linkerror event interval expired
+165107 Interconnect-1N00 switch_module error 1077881440 1 Linkerror event interval expired
+178485 Interconnect-1N01 switch_module error 1077896308 1 Linkerror event interval expired
+225055 Interconnect-1N01 switch_module error 1078529930 1 Linkerror event interval expired
+215082 Interconnect-1N00 switch_module error 1078467571 1 Linkerror event interval expired
+205020 Interconnect-1N01 switch_module error 1078382220 1 Linkerror event interval expired
+200983 Interconnect-1N01 switch_module error 1078126141 1 Linkerror event interval expired
+262189 Interconnect-1N01 switch_module error 1079231184 1 Linkerror event interval expired
+254564 Interconnect-1N01 switch_module error 1079069444 1 Linkerror event interval expired
+243531 Interconnect-1N00 switch_module error 1079046762 1 Linkerror event interval expired
+232896 Interconnect-0N02 switch_module error 1079011268 1 Linkerror event interval expired
+227725 Interconnect-1T01 switch_module error 1078849778 1 Linkerror event interval expired
+272687 Interconnect-0N01 switch_module error 1079615365 1 Linkerror event interval expired
+285240 Interconnect-1N01 switch_module error 1080235155 1 Linkerror event interval expired
+290402 Interconnect-1N01 switch_module error 1080923106 1 Linkerror event interval expired
+288593 Interconnect-1N01 switch_module error 1080683420 1 Linkerror event interval expired
+287172 Interconnect-1N03 switch_module error 1080515045 1 Linkerror event interval expired
+295149 Interconnect-1T03 switch_module error 1081396012 1 Linkerror event interval expired
+291882 Interconnect-1N01 switch_module error 1081122675 1 Linkerror event interval expired
+305459 Interconnect-0N01 switch_module error 1082037037 1 Linkerror event interval expired
+303314 Interconnect-1T03 switch_module error 1082033218 1 Linkerror event interval expired
+300105 Interconnect-1N01 switch_module error 1081841899 1 Linkerror event interval expired
+314658 Interconnect-0N03 switch_module error 1082228382 1 Linkerror event interval expired
+322969 Interconnect-0N03 switch_module error 1083197557 1 Linkerror event interval expired
+345658 Interconnect-1N03 switch_module error 1084315496 1 Linkerror event interval expired
+380245 Interconnect-0N03 switch_module error 1086097126 1 Linkerror event interval expired
+395454 Interconnect-1T02 switch_module error 1089054435 1 Linkerror event interval expired
+411450 Interconnect-1T03 switch_module error 1091668219 1 Linkerror event interval expired
+422170 Interconnect-1T01 switch_module error 1094723305 1 Linkerror event interval expired
+426750 Interconnect-1N00 switch_module error 1095346268 1 Linkerror event interval expired
+111084 Interconnect-1N03 switch_module error 1111071109 1 Linkerror event interval expired
+177431 Interconnect-1N00 switch_module error 1114545444 1 Linkerror event interval expired
+90917 Interconnect-1T01 switch_module error 1128098598 1 link errors remain current
+163591 Interconnect-1T01 switch_module error 1130665941 1 link errors remain current
+165392 Interconnect-1T01 switch_module error 1130688133 1 link errors remain current
+229109 Interconnect-1N00 switch_module error 1132369090 1 link errors remain current
+280293 Interconnect-1T01 switch_module error 1134279282 1 link errors remain current
+314828 Interconnect-1T01 switch_module error 1138020376 1 link errors remain current
+396457 Interconnect-1N00 switch_module error 1142527572 1 link errors remain current
+479886 Interconnect-1T02 switch_module error 1146011009 1 link errors remain current
+2590507 node-26 unix.hw net.niff.up 1074262519 1 NIFF: node node-26 has detected an available network connection on network 5.5.226.0 via interface alt0
+2602451 node-163 unix.hw net.niff.up 1074300629 1 NIFF: node node-163 has detected an available network connection on network 0.0.0.0 via interface alt0
+138312 node-237 unix.hw net.niff.up 1077810015 1 NIFF: node node-237 has detected an available network connection on network 5.5.226.0 via interface alt0
+161226 node-202 unix.hw net.niff.up 1077876101 1 NIFF: node node-202 has detected an available network connection on network 10.128.0.0 via interface ee0
+274822 node-44 unix.hw net.niff.up 1079616738 1 NIFF: node node-44 has detected an available network connection on network 10.128.0.0 via interface ee0
+326992 node-72 unix.hw net.niff.up 1083202727 1 NIFF: node node-72 has detected an available network connection on network 10.128.0.0 via interface ee0
+411578 node-143 unix.hw net.niff.up 1091737151 1 NIFF: node node-143 has detected an available network connection on network 5.5.224.0 via interface alt0
+71579 node-84 unix.hw net.niff.up 1108647602 1 NIFF: node node-84 has detected an available network connection on network 10.128.0.0 via interface ee0
+112456 node-46 unix.hw net.niff.up 1111072123 1 NIFF: node node-46 has detected an available network connection on network 5.5.224.0 via interface alt0
+209845 node-182 unix.hw net.niff.up 1116601699 1 NIFF: node node-182 has detected an available network connection on network 10.128.0.0 via interface ee0
+253483 node-183 unix.hw net.niff.up 1118929407 1 NIFF: node node-183 has detected an available network connection on network 10.128.0.0 via interface ee0
+171611 node-248 unix.hw net.niff.up 1131216568 1 NIFF: node node-248 has detected an available network connection on network 10.128.0.0 via interface ee0
+288035 node-171 unix.hw net.niff.up 1134671139 1 NIFF: node node-171 has detected an available network connection on network 10.128.0.0 via interface ee0

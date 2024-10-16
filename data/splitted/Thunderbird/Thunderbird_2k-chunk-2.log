@@ -1,0 +1,286 @@
+- 1131566461 2005.11.09 dn228 Nov 9 12:01:01 dn228/dn228 crond[2916]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 dn596 Nov 9 12:01:01 dn596/dn596 crond(pam_unix)[2727]: session closed for user root
+- 1131566461 2005.11.09 dn73 Nov 9 12:01:01 dn73/dn73 crond(pam_unix)[2917]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 dn754 Nov 9 12:01:01 dn754/dn754 crond[2914]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 eadmin2 Nov 9 12:01:01 src@eadmin2 crond(pam_unix)[12636]: session closed for user root
+- 1131566461 2005.11.09 en74 Nov 9 12:01:01 en74/en74 crond(pam_unix)[3080]: session opened for user root by (uid=0)
+- 1131566462 2005.11.09 #8# Nov 9 12:01:02 #8#/#8# crond[23474]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566467 2005.11.09 tbird-admin1 Nov 9 12:01:07 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B4] datasource
+- 1131566473 2005.11.09 cn379 Nov 9 12:01:13 cn379/cn379 ntpd[10573]: synchronized to 10.100.18.250, stratum 3
+- 1131566475 2005.11.09 tbird-admin1 Nov 9 12:01:15 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131566478 2005.11.09 tbird-admin1 Nov 9 12:01:18 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566482 2005.11.09 tbird-admin1 Nov 9 12:01:22 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131566486 2005.11.09 tbird-admin1 Nov 9 12:01:26 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131566488 2005.11.09 tbird-sm1 Nov 9 12:01:28 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566492 2005.11.09 badmin1 Nov 9 12:01:32 src@badmin1 sendmail[11176]: unable to qualify my own domain name (badmin1) -- using short name
+- 1131566494 2005.11.09 cadmin1 Nov 9 12:01:34 src@cadmin1 crond(pam_unix)[16315]: session closed for user root
+- 1131566495 2005.11.09 badmin1 Nov 9 12:01:35 src@badmin1 sendmail[11176]: jA9J1WSU011176: to=root, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:00, mailer=relay, pri=1623894, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1131566497 2005.11.09 tbird-admin1 Nov 9 12:01:37 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566501 2005.11.09 aadmin1 Nov 9 12:01:41 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1131566502 2005.11.09 bn999 Nov 9 12:01:42 bn999/bn999 ntpd[14515]: synchronized to 10.100.18.250, stratum 3
+- 1131566503 2005.11.09 aadmin3 Nov 9 12:01:43 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1131566507 2005.11.09 tbird-admin1 Nov 9 12:01:47 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C4] datasource
+- 1131566510 2005.11.09 bn946 Nov 9 12:01:50 bn946/bn946 ntpd[15562]: synchronized to 10.100.18.250, stratum 3
+- 1131566515 2005.11.09 cn633 Nov 9 12:01:55 cn633/cn633 ntpd[18665]: synchronized to 10.100.22.250, stratum 3
+- 1131566517 2005.11.09 tbird-admin1 Nov 9 12:01:57 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1131566518 2005.11.09 tbird-admin1 Nov 9 12:01:58 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566522 2005.11.09 tbird-admin1 Nov 9 12:02:02 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566525 2005.11.09 aadmin1 Nov 9 12:02:05 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1131566525 2005.11.09 aadmin3 Nov 9 12:02:05 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1131566527 2005.11.09 aadmin1 Nov 9 12:02:07 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1131566527 2005.11.09 aadmin2 Nov 9 12:02:07 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1131566527 2005.11.09 aadmin4 Nov 9 12:02:07 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1131566532 2005.11.09 bn82 Nov 9 12:02:12 bn82/bn82 ntpd[10804]: synchronized to 10.100.20.250, stratum 3
+- 1131566537 2005.11.09 tbird-admin1 Nov 9 12:02:17 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566540 2005.11.09 tbird-sm1 Nov 9 12:02:20 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566544 2005.11.09 tbird-sm1 Nov 9 12:02:24 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566547 2005.11.09 tbird-admin1 Nov 9 12:02:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566553 2005.11.09 bn346 Nov 9 12:02:33 bn346/bn346 ntpd[28647]: synchronized to 10.100.20.250, stratum 3
+- 1131566556 2005.11.09 tbird-admin1 Nov 9 12:02:36 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A8] datasource
+- 1131566562 2005.11.09 bn645 Nov 9 12:02:42 bn645/bn645 ntpd[23720]: synchronized to 10.100.22.250, stratum 3
+- 1131566567 2005.11.09 tbird-admin1 Nov 9 12:02:47 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131566570 2005.11.09 cn738 Nov 9 12:02:50 cn738/cn738 ntpd[29056]: synchronized to 10.100.16.250, stratum 3
+- 1131566574 2005.11.09 tbird-admin1 Nov 9 12:02:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566577 2005.11.09 cn990 Nov 9 12:02:57 cn990/cn990 ntpd[18995]: synchronized to 10.100.22.250, stratum 3
+- 1131566580 2005.11.09 tbird-admin1 Nov 9 12:03:00 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131566585 2005.11.09 cn487 Nov 9 12:03:05 cn487/cn487 ntpd[15545]: synchronized to 10.100.20.250, stratum 3
+- 1131566590 2005.11.09 bn468 Nov 9 12:03:10 bn468/bn468 ntpd[29128]: synchronized to 10.100.20.250, stratum 3
+- 1131566596 2005.11.09 tbird-sm1 Nov 9 12:03:16 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566603 2005.11.09 tbird-admin1 Nov 9 12:03:23 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1131566606 2005.11.09 cn245 Nov 9 12:03:26 cn245/cn245 ntpd[31779]: synchronized to 10.100.20.250, stratum 3
+- 1131566610 2005.11.09 tbird-sm1 Nov 9 12:03:30 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566613 2005.11.09 tbird-admin1 Nov 9 12:03:33 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131566618 2005.11.09 tbird-admin1 Nov 9 12:03:38 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566624 2005.11.09 dn276 Nov 9 12:03:44 dn276/dn276 ntpd[1773]: synchronized to 10.100.28.250, stratum 3
+- 1131566627 2005.11.09 bn993 Nov 9 12:03:47 bn993/bn993 ntpd[14363]: synchronized to 10.100.12.250, stratum 3
+- 1131566630 2005.11.09 tbird-admin1 Nov 9 12:03:50 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D6] datasource
+- 1131566634 2005.11.09 tbird-admin1 Nov 9 12:03:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566636 2005.11.09 tbird-admin1 Nov 9 12:03:56 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D8] datasource
+- 1131566639 2005.11.09 bn843 Nov 9 12:03:59 bn843/bn843 ntpd[22085]: synchronized to 10.100.20.250, stratum 3
+- 1131566642 2005.11.09 tbird-sm1 Nov 9 12:04:02 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566644 2005.11.09 tbird-admin1 Nov 9 12:04:04 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131566648 2005.11.09 bn263 Nov 9 12:04:08 bn263/bn263 ntpd[23720]: synchronized to 10.100.18.250, stratum 3
+- 1131566653 2005.11.09 tbird-admin1 Nov 9 12:04:13 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1131566657 2005.11.09 dn37 Nov 9 12:04:17 dn37/dn37 ntpd[19909]: synchronized to 10.100.28.250, stratum 3
+- 1131566661 2005.11.09 tbird-admin1 Nov 9 12:04:21 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A3] datasource
+- 1131566665 2005.11.09 cn765 Nov 9 12:04:25 cn765/cn765 ntpd[27990]: synchronized to 10.100.20.250, stratum 3
+- 1131566666 2005.11.09 tbird-admin1 Nov 9 12:04:26 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131566669 2005.11.09 tbird-admin1 Nov 9 12:04:29 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131566673 2005.11.09 bn429 Nov 9 12:04:33 bn429/bn429 ntpd[29251]: synchronized to 10.100.20.250, stratum 3
+- 1131566676 2005.11.09 cn984 Nov 9 12:04:36 cn984/cn984 ntpd[19722]: synchronized to 10.100.20.250, stratum 3
+- 1131566679 2005.11.09 tbird-admin1 Nov 9 12:04:39 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B6] datasource
+- 1131566683 2005.11.09 bn364 Nov 9 12:04:43 bn364/bn364 ntpd[28894]: synchronized to 10.100.14.250, stratum 3
+- 1131566684 2005.11.09 cn967 Nov 9 12:04:44 cn967/cn967 ntpd[19908]: synchronized to 10.100.22.250, stratum 3
+- 1131566688 2005.11.09 cn656 Nov 9 12:04:48 cn656/cn656 ntpd[32284]: synchronized to 10.100.16.250, stratum 3
+- 1131566689 2005.11.09 tbird-admin1 Nov 9 12:04:49 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D6] datasource
+- 1131566692 2005.11.09 bn649 Nov 9 12:04:52 bn649/bn649 ntpd[3482]: synchronized to 10.100.20.250, stratum 3
+- 1131566694 2005.11.09 tbird-admin1 Nov 9 12:04:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566697 2005.11.09 tbird-admin1 Nov 9 12:04:57 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B2] datasource
+- 1131566701 2005.11.09 cn149 Nov 9 12:05:01 cn149/cn149 ntpd[10155]: synchronized to 10.100.20.250, stratum 3
+- 1131566705 2005.11.09 tbird-admin1 Nov 9 12:05:05 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566709 2005.11.09 tbird-admin1 Nov 9 12:05:09 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566713 2005.11.09 cn375 Nov 9 12:05:13 cn375/cn375 ntpd[10237]: synchronized to 10.100.20.250, stratum 3
+- 1131566716 2005.11.09 cn622 Nov 9 12:05:16 cn622/cn622 ntpd[18517]: synchronized to 10.100.18.250, stratum 3
+- 1131566722 2005.11.09 cn327 Nov 9 12:05:22 cn327/cn327 ntpd[23021]: synchronized to 10.100.20.250, stratum 3
+- 1131566726 2005.11.09 tbird-admin1 Nov 9 12:05:26 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131566727 2005.11.09 tbird-admin1 Nov 9 12:05:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131566731 2005.11.09 tbird-admin1 Nov 9 12:05:31 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131566736 2005.11.09 tbird-sm1 Nov 9 12:05:36 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566740 2005.11.09 tbird-sm1 Nov 9 12:05:40 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566744 2005.11.09 dn800 Nov 9 12:05:44 dn800/dn800 ntpd[542]: synchronized to 10.100.28.250, stratum 3
+- 1131566750 2005.11.09 tbird-admin1 Nov 9 12:05:50 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A7] datasource
+- 1131566754 2005.11.09 tbird-admin1 Nov 9 12:05:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131566756 2005.11.09 tbird-admin1 Nov 9 12:05:56 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131566761 2005.11.09 bn19 Nov 9 12:06:01 bn19/bn19 ntpd[22830]: synchronized to 10.100.18.250, stratum 3
+- 1131566764 2005.11.09 tbird-admin1 Nov 9 12:06:04 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131566767 2005.11.09 cn346 Nov 9 12:06:07 cn346/cn346 ntpd[12656]: synchronized to 10.100.20.250, stratum 3
+- 1131566768 2005.11.09 tbird-sm1 Nov 9 12:06:08 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566772 2005.11.09 tbird-admin1 Nov 9 12:06:12 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A3] datasource
+- 1131566780 2005.11.09 tbird-admin1 Nov 9 12:06:20 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D4] datasource
+- 1131566782 2005.11.09 tbird-admin1 Nov 9 12:06:22 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D8] datasource
+- 1131566785 2005.11.09 cn213 Nov 9 12:06:25 cn213/cn213 ntpd[17513]: synchronized to 10.100.22.250, stratum 3
+- 1131566791 2005.11.09 cn846 Nov 9 12:06:31 cn846/cn846 ntpd[27289]: synchronized to 10.100.20.250, stratum 3
+- 1131566795 2005.11.09 tbird-admin1 Nov 9 12:06:35 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1131566797 2005.11.09 tbird-admin1 Nov 9 12:06:37 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131566800 2005.11.09 tbird-admin1 Nov 9 12:06:40 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131566805 2005.11.09 cn500 Nov 9 12:06:45 cn500/cn500 ntpd[15463]: synchronized to 10.100.18.250, stratum 3
+- 1131566810 2005.11.09 tbird-sm1 Nov 9 12:06:50 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566814 2005.11.09 bn165 Nov 9 12:06:54 bn165/bn165 ntpd[23331]: synchronized to 10.100.18.250, stratum 3
+- 1131566816 2005.11.09 cn610 Nov 9 12:06:56 cn610/cn610 ntpd[19222]: synchronized to 10.100.20.250, stratum 3
+- 1131566820 2005.11.09 cn77 Nov 9 12:07:00 cn77/cn77 ntpd[17747]: synchronized to 10.100.22.250, stratum 3
+- 1131566822 2005.11.09 cn610 Nov 9 12:07:02 cn610/cn610 ntpd[19222]: synchronized to 10.100.18.250, stratum 3
+- 1131566825 2005.11.09 tbird-admin1 Nov 9 12:07:05 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1131566829 2005.11.09 tbird-admin1 Nov 9 12:07:09 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B6] datasource
+- 1131566834 2005.11.09 tbird-sm1 Nov 9 12:07:14 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566838 2005.11.09 tbird-sm1 Nov 9 12:07:18 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566842 2005.11.09 tbird-admin1 Nov 9 12:07:22 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131566847 2005.11.09 tbird-admin1 Nov 9 12:07:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131566851 2005.11.09 tbird-admin1 Nov 9 12:07:31 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B4] datasource
+- 1131566854 2005.11.09 cn73 Nov 9 12:07:34 cn73/cn73 ntpd[14737]: synchronized to 10.100.16.250, stratum 3
+- 1131566858 2005.11.09 bn513 Nov 9 12:07:38 bn513/bn513 ntpd[12964]: synchronized to 10.100.10.250, stratum 3
+- 1131566862 2005.11.09 tbird-admin1 Nov 9 12:07:42 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566866 2005.11.09 tbird-admin1 Nov 9 12:07:46 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131566871 2005.11.09 tbird-admin1 Nov 9 12:07:51 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131566875 2005.11.09 cn874 Nov 9 12:07:55 cn874/cn874 ntpd[29629]: synchronized to 10.100.22.250, stratum 3
+- 1131566880 2005.11.09 tbird-sm1 Nov 9 12:08:00 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566883 2005.11.09 cn544 Nov 9 12:08:03 cn544/cn544 ntpd[15964]: synchronized to 10.100.16.250, stratum 3
+- 1131566885 2005.11.09 tbird-admin1 Nov 9 12:08:05 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D8] datasource
+- 1131566890 2005.11.09 tbird-admin1 Nov 9 12:08:10 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B6] datasource
+- 1131566896 2005.11.09 tbird-admin1 Nov 9 12:08:16 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B1] datasource
+- 1131566899 2005.11.09 cn420 Nov 9 12:08:19 cn420/cn420 ntpd[12970]: synchronized to 10.100.16.250, stratum 3
+- 1131566904 2005.11.09 dn809 Nov 9 12:08:24 dn809/dn809 ntpd[599]: synchronized to 10.100.24.250, stratum 3
+- 1131566907 2005.11.09 tbird-admin1 Nov 9 12:08:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131566910 2005.11.09 tbird-admin1 Nov 9 12:08:30 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D7] datasource
+- 1131566913 2005.11.09 tbird-admin1 Nov 9 12:08:33 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1131566917 2005.11.09 tbird-admin1 Nov 9 12:08:37 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131566922 2005.11.09 tbird-sm1 Nov 9 12:08:42 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566925 2005.11.09 bn115 Nov 9 12:08:45 bn115/bn115 ntpd[22400]: synchronized to 10.100.18.250, stratum 3
+- 1131566927 2005.11.09 cn15 Nov 9 12:08:47 cn15/cn15 ntpd[15650]: synchronized to 10.100.20.250, stratum 3
+- 1131566931 2005.11.09 bn138 Nov 9 12:08:51 bn138/bn138 ntpd[10870]: synchronized to 10.100.20.250, stratum 3
+- 1131566935 2005.11.09 tbird-admin1 Nov 9 12:08:55 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C4] datasource
+- 1131566940 2005.11.09 bn85 Nov 9 12:09:00 bn85/bn85 ntpd[23096]: synchronized to 10.100.22.250, stratum 3
+- 1131566942 2005.11.09 dn210 Nov 9 12:09:02 dn210/dn210 ntpd[11163]: synchronized to 10.100.24.250, stratum 3
+- 1131566946 2005.11.09 tbird-admin1 Nov 9 12:09:06 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131566949 2005.11.09 bn323 Nov 9 12:09:09 bn323/bn323 ntpd[25792]: synchronized to 10.100.20.250, stratum 3
+- 1131566952 2005.11.09 tbird-admin1 Nov 9 12:09:12 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566959 2005.11.09 cn493 Nov 9 12:09:19 cn493/cn493 ntpd[15332]: synchronized to 10.100.18.250, stratum 3
+- 1131566961 2005.11.09 tbird-admin1 Nov 9 12:09:21 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131566965 2005.11.09 bn469 Nov 9 12:09:25 bn469/bn469 ntpd[29302]: synchronized to 10.100.10.250, stratum 3
+- 1131566967 2005.11.09 tbird-admin1 Nov 9 12:09:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131566970 2005.11.09 tbird-admin1 Nov 9 12:09:30 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131566972 2005.11.09 tbird-admin1 Nov 9 12:09:32 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D8] datasource
+- 1131566978 2005.11.09 tbird-sm1 Nov 9 12:09:38 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131566983 2005.11.09 tbird-admin1 Nov 9 12:09:43 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566989 2005.11.09 bn415 Nov 9 12:09:49 bn415/bn415 ntpd[28452]: synchronized to 10.100.18.250, stratum 3
+- 1131566992 2005.11.09 tbird-admin1 Nov 9 12:09:52 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131566994 2005.11.09 tbird-admin1 Nov 9 12:09:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131566999 2005.11.09 tbird-admin1 Nov 9 12:09:59 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131567001 2005.11.09 badmin1 Nov 9 12:10:01 src@badmin1 crond(pam_unix)[11179]: session opened for user root by (uid=0)
+- 1131567001 2005.11.09 eadmin1 Nov 9 12:10:01 src@eadmin1 crond[4310]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1131567006 2005.11.09 cn265 Nov 9 12:10:06 cn265/cn265 ntpd[12012]: synchronized to 10.100.20.250, stratum 3
+- 1131567010 2005.11.09 tbird-admin1 Nov 9 12:10:10 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131567016 2005.11.09 tbird-sm1 Nov 9 12:10:16 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131567020 2005.11.09 tbird-sm1 Nov 9 12:10:20 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131567023 2005.11.09 tbird-admin1 Nov 9 12:10:23 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131567026 2005.11.09 cn993 Nov 9 12:10:26 cn993/cn993 ntpd[19213]: synchronized to 10.100.18.250, stratum 3
+- 1131567029 2005.11.09 dn82 Nov 9 12:10:29 dn82/dn82 ntpd[9313]: synchronized to 10.100.24.250, stratum 3
+- 1131567032 2005.11.09 dn451 Nov 9 12:10:32 dn451/dn451 ntpd[32290]: synchronized to 10.100.24.250, stratum 3
+- 1131567033 2005.11.09 tbird-admin1 Nov 9 12:10:33 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131567040 2005.11.09 tbird-admin1 Nov 9 12:10:40 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: IRQ0 used by override.
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: LAPIC (acpi_id[0x04] lapic_id[0x07] enabled)
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PBHI._PRT]
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: PCI interrupt 0000:00:04.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: PCI interrupt 0000:07:08.0[A] -> GSI 65 (level, low) -> IRQ 193
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ACPI: Processor [CPU3] (supports C1)
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 CPU: L2 cache: 2048K
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 CPU: Physical Processor ID: 0
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 CPU: Trace cache: 12K uops, L1 D cache: 16K
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 IOAPIC[1]: apic_id 9, version 32, address 0xfec80000, GSI 32-55
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 NET: Registered protocol family 17
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 PCI: Using configuration type 1
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 TCP: Hash tables configured (established 262144 bind 65536)
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 audit(1131538222.234:0): initialized
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 drivers/usb/input/hid-core.c: v2.0:USB HID core driver
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ide1: Wait for ready failed before probe !
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 ip_tables: (C) 2000-2002 Netfilter core team
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 md: Autodetecting RAID arrays.
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 megaraid: fw version:[516A] bios version:[H418]
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 rpc.statd[1637]: Version 1.0.6 Starting
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 selinux_register_security: Registering secondary module capability
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 time.c: Using HPET based timekeeping.
+- 1131567044 2005.11.09 bn124 Nov 9 12:10:44 bn124/bn124 ntpd[22190]: synchronized to 10.100.22.250, stratum 3
+- 1131567048 2005.11.09 tbird-admin1 Nov 9 12:10:48 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A7] datasource
+- 1131567050 2005.11.09 tbird-admin1 Nov 9 12:10:50 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D4] datasource
+- 1131567052 2005.11.09 #8# Nov 9 12:10:52 #8#/#8# sshd[4718]: connection lost: 'Connection closed.'
+- 1131567053 2005.11.09 tbird-admin1 Nov 9 12:10:53 local@tbird-admin1 gmetad: Warning: we failed to resolve data source name an142 an143 an144 an145 an146 an147 an148 an149 an150 an151 an152 an153 an154 an155 an156 an157 an158 an159 an160 an161 an162 an163 an164 an165 an166 an167 an168 an169 an170 an171 an172 an173 an174 an175 an176 an177 an178 an179 an180 an181 an182 an183 an184 an185 an186 an187 an188 an189 an190 an191 an192 an193 an194 an195 an196 an197 an198 an199 an200 an201 an202 an203 an204 an205 an206 an207 an208 an209 an210 an211 an212 an213 an214 an215 an216 an217 an218 an219 an220 an221 an222 an223 an224 an225 an226 an227 an228 an229 an230 an231 an232 an233 an234 an235 an236 an237 an238 an239 an240 an241 an242 an243 an244 an245 an246 an247 an248 an249 an250 an251 an252 an253 an254 an255 an256
+- 1131567053 2005.11.09 tbird-admin1 Nov 9 12:10:53 local@tbird-admin1 gmetad: Warning: we failed to resolve data source name bn14 bn15 bn16 bn17 bn18 bn19 bn20 bn21 bn22 bn23 bn24 bn25 bn26 bn27 bn28 bn29 bn30 bn31 bn32 bn33 bn34 bn35 bn36 bn37 bn38 bn39 bn40 bn41 bn42 bn43 bn44 bn45 bn46 bn47 bn48 bn49 bn50 bn51 bn52 bn53 bn54 bn55 bn56 bn57 bn58 bn59 bn60 bn61 bn62 bn63 bn64 bn65 bn66 bn67 bn68 bn69 bn70 bn71 bn72 bn73 bn74 bn75 bn76 bn77 bn78 bn79 bn80 bn81 bn82 bn83 bn84 bn85 bn86 bn87 bn88 bn89 bn90 bn91 bn92 bn93 bn94 bn95 bn96 bn97 bn98 bn99 bn100 bn101 bn102 bn103 bn104 bn105 bn106 bn107 bn108 bn109 bn110 bn111 bn112 bn113 bn114 bn115 bn116 bn117 bn118 bn119 bn120 bn121 bn122 bn123 bn124 bn125 bn126 bn127 bn128
+- 1131567054 2005.11.09 #8# Nov 9 12:10:54 #8#/#8# sshd[2223]: connection from "#28#"
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1691]: data_thread() got not answer from any [Thunderbird_A3] datasource
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1691]: data_thread() got not answer from any [Thunderbird_B2] datasource
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1691]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1691]: data_thread() got not answer from any [Thunderbird_D4] datasource
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 gmetad: Warning: we failed to resolve data source name cn14 cn15 cn16 cn17 cn18 cn19 cn20 cn21 cn22 cn23 cn24 cn25 cn26 cn27 cn28 cn29 cn30 cn31 cn32 cn33 cn34 cn35 cn36 cn37 cn38 cn39 cn40 cn41 cn42 cn43 cn44 cn45 cn46 cn47 cn48 cn49 cn50 cn51 cn52 cn53 cn54 cn55 cn56 cn57 cn58 cn59 cn60 cn61 cn62 cn63 cn64 cn65 cn66 cn67 cn68 cn69 cn70 cn71 cn72 cn73 cn74 cn75 cn76 cn77 cn78 cn79 cn80 cn81 cn82 cn83 cn84 cn85 cn86 cn87 cn88 cn89 cn90 cn91 cn92 cn93 cn94 cn95 cn96 cn97 cn98 cn99 cn100 cn101 cn102 cn103 cn104 cn105 cn106 cn107 cn108 cn109 cn110 cn111 cn112 cn113 cn114 cn115 cn116 cn117 cn118 cn119 cn120 cn121 cn122 cn123 cn124 cn125 cn126 cn127 cn128
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 gmetad: Warning: we failed to resolve data source name cn910 cn911 cn912 cn913 cn914 cn915 cn916 cn917 cn918 cn919 cn920 cn921 cn922 cn923 cn924 cn925 cn926 cn927 cn928 cn929 cn930 cn931 cn932 cn933 cn934 cn935 cn936 cn937 cn938 cn939 cn940 cn941 cn942 cn943 cn944 cn945 cn946 cn947 cn948 cn949 cn950 cn951 cn952 cn953 cn954 cn955 cn956 cn957 cn958 cn959 cn960 cn961 cn962 cn963 cn964 cn965 cn966 cn967 cn968 cn969 cn970 cn971 cn972 cn973 cn974 cn975 cn976 cn977 cn978 cn979 cn980 cn981 cn982 cn983 cn984 cn985 cn986 cn987 cn988 cn989 cn990 cn991 cn992 cn993 cn994 cn995 cn996 cn997 cn998 cn999 cn1000 cn1001 cn1002 cn1003 cn1004 cn1005 cn1006 cn1007 cn1008 cn1009 cn1010 cn1011 cn1012 cn1013 cn1014 cn1015 cn1016 cn1017 cn1018 cn1019 cn1020 cn1021 cn1022 cn1023 cn1024
+- 1131567054 2005.11.09 tbird-admin1 Nov 9 12:10:54 local@tbird-admin1 gmetad: Warning: we failed to resolve data source name dn782 dn783 dn784 dn785 dn786 dn787 dn788 dn789 dn790 dn791 dn792 dn793 dn794 dn795 dn796 dn797 dn798 dn799 dn800 dn801 dn802 dn803 dn804 dn805 dn806 dn807 dn808 dn809 dn810 dn811 dn812 dn813 dn814 dn815 dn816 dn817 dn818 dn819 dn820 dn821 dn822 dn823 dn824 dn825 dn826 dn827 dn828 dn829 dn830 dn831 dn832 dn833 dn834 dn835 dn836 dn837 dn838 dn839 dn840 dn841 dn842 dn843 dn844 dn845 dn846 dn847 dn848 dn849 dn850 dn851 dn852 dn853 dn854 dn855 dn856 dn857 dn858 dn859 dn860 dn861 dn862 dn863 dn864 dn865 dn866 dn867 dn868 dn869 dn870 dn871 dn872 dn873 dn874 dn875 dn876 dn877 dn878 dn879 dn880 dn881 dn882 dn883 dn884 dn885 dn886 dn887 dn888 dn889 dn890 dn891 dn892 dn893 dn894 dn895 dn896
+- 1131567055 2005.11.09 cn328 Nov 9 12:10:55 cn328/cn328 ntpd[24363]: synchronized to 10.100.20.250, stratum 3
+- 1131567055 2005.11.09 tbird-admin1 Nov 9 12:10:55 local@tbird-admin1 sshd[1761]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+- 1131567058 2005.11.09 cn548 Nov 9 12:10:58 cn548/cn548 ntpd[14756]: synchronized to 10.100.16.250, stratum 3
+- 1131567059 2005.11.09 tbird-admin1 Nov 9 12:10:59 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A5] datasource
+- 1131567060 2005.11.09 tbird-admin1 Nov 9 12:11:00 local@tbird-admin1 xinetd[1798]: Reading included configuration file: /etc/xinetd.d/chargen-udp [file=/etc/xinetd.d/chargen-udp] [line=18]
+- 1131567060 2005.11.09 tbird-admin1 Nov 9 12:11:00 local@tbird-admin1 xinetd[1798]: Reading included configuration file: /etc/xinetd.d/gssftp [file=/etc/xinetd.d/gssftp] [line=13]
+- 1131567060 2005.11.09 tbird-admin1 Nov 9 12:11:00 local@tbird-admin1 xinetd[1798]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=18]
+- 1131567060 2005.11.09 tbird-admin1 Nov 9 12:11:00 local@tbird-admin1 xinetd[1798]: removing echo
+- 1131567060 2005.11.09 tbird-admin1 Nov 9 12:11:00 local@tbird-admin1 xinetd[1798]: removing printer
+- 1131567062 2005.11.09 tbird-sm1 Nov 9 12:11:02 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131567072 2005.11.09 bn772 Nov 9 12:11:12 bn772/bn772 ntpd[3214]: synchronized to 10.100.22.250, stratum 3
+- 1131567075 2005.11.09 tbird-admin1 Nov 9 12:11:15 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C4] datasource
+- 1131567078 2005.11.09 tbird-admin1 Nov 9 12:11:18 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131567083 2005.11.09 tbird-admin1 Nov 9 12:11:23 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131567085 2005.11.09 bn93 Nov 9 12:11:25 bn93/bn93 ntpd[22271]: synchronized to 10.100.22.250, stratum 3
+- 1131567087 2005.11.09 tbird-admin1 Nov 9 12:11:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131567091 2005.11.09 eadmin1 Nov 9 12:11:31 src@eadmin1 sendmail[7417]: jA9JBVPb007417: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=659060, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1131567093 2005.11.09 dadmin1 Nov 9 12:11:33 src@dadmin1 sendmail[27337]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1131567094 2005.11.09 tbird-admin1 Nov 9 12:11:34 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1131567095 2005.11.09 dadmin1 Nov 9 12:11:35 src@dadmin1 crond(pam_unix)[24261]: session closed for user root
+- 1131567098 2005.11.09 bn1 Nov 9 12:11:38 bn1/bn1 ntpd[23146]: synchronized to 10.100.20.250, stratum 3
+- 1131567103 2005.11.09 tbird-admin1 Nov 9 12:11:43 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C4] datasource
+- 1131567107 2005.11.09 tbird-admin1 Nov 9 12:11:47 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131567109 2005.11.09 tbird-admin1 Nov 9 12:11:49 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B4] datasource
+- 1131567113 2005.11.09 tbird-admin1 Nov 9 12:11:53 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131567117 2005.11.09 bn455 Nov 9 12:11:57 bn455/bn455 ntpd[31532]: synchronized to 10.100.20.250, stratum 3
+- 1131567118 2005.11.09 tbird-sm1 Nov 9 12:11:58 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131567124 2005.11.09 cn967 Nov 9 12:12:04 cn967/cn967 ntpd[19908]: synchronized to 10.100.20.250, stratum 3
+- 1131567129 2005.11.09 tbird-admin1 Nov 9 12:12:09 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131567135 2005.11.09 bn62 Nov 9 12:12:15 bn62/bn62 ntpd[22043]: synchronized to 10.100.18.250, stratum 3
+- 1131567140 2005.11.09 bn293 Nov 9 12:12:20 bn293/bn293 ntpd[24101]: synchronized to 10.100.22.250, stratum 3
+- 1131567142 2005.11.09 tbird-sm1 Nov 9 12:12:22 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131567146 2005.11.09 tbird-admin1 Nov 9 12:12:26 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1131567151 2005.11.09 tbird-admin1 Nov 9 12:12:31 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D7] datasource
+- 1131567156 2005.11.09 tbird-sm1 Nov 9 12:12:36 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131567160 2005.11.09 bn810 Nov 9 12:12:40 bn810/bn810 ntpd[14397]: synchronized to 10.100.22.250, stratum 3
+- 1131567165 2005.11.09 bn772 Nov 9 12:12:45 bn772/bn772 ntpd[3214]: synchronized to 10.100.18.250, stratum 3
+- 1131567168 2005.11.09 tbird-admin1 Nov 9 12:12:48 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131567171 2005.11.09 tbird-admin1 Nov 9 12:12:51 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B5] datasource
+- 1131567175 2005.11.09 tbird-admin1 Nov 9 12:12:55 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131567179 2005.11.09 cn257 Nov 9 12:12:59 cn257/cn257 ntpd[11354]: synchronized to 10.100.22.250, stratum 3
+- 1131567184 2005.11.09 tbird-admin1 Nov 9 12:13:04 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131567186 2005.11.09 tbird-admin1 Nov 9 12:13:06 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A8] datasource
+- 1131567191 2005.11.09 tbird-admin1 Nov 9 12:13:11 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131567197 2005.11.09 cn572 Nov 9 12:13:17 cn572/cn572 ntpd[15486]: synchronized to 10.100.20.250, stratum 3
+- 1131567201 2005.11.09 cn549 Nov 9 12:13:21 cn549/cn549 ntpd[14729]: synchronized to 10.100.20.250, stratum 3
+- 1131567202 2005.11.09 tbird-sm1 Nov 9 12:13:22 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131567206 2005.11.09 bn51 Nov 9 12:13:26 bn51/bn51 ntpd[22922]: synchronized to 10.100.16.250, stratum 3
+- 1131567209 2005.11.09 cn634 Nov 9 12:13:29 cn634/cn634 ntpd[19733]: synchronized to 10.100.18.250, stratum 3
+- 1131567212 2005.11.09 cn1007 Nov 9 12:13:32 cn1007/cn1007 ntpd[19131]: synchronized to 10.100.16.250, stratum 3
+- 1131567213 2005.11.09 bn795 Nov 9 12:13:33 bn795/bn795 ntpd[23670]: synchronized to 10.100.20.250, stratum 3
+- 1131567216 2005.11.09 tbird-sm1 Nov 9 12:13:36 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131567226 2005.11.09 an895 Nov 9 12:13:46 an895/an895 ntpd[2066]: synchronized to 10.100.12.250, stratum 3
+- 1131567230 2005.11.09 bn145 Nov 9 12:13:50 bn145/bn145 ntpd[22852]: synchronized to 10.100.16.250, stratum 3
+- 1131567235 2005.11.09 tbird-admin1 Nov 9 12:13:55 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131567240 2005.11.09 #8# Nov 9 12:14:00 #8#/#8# sshd[4893]: connection lost: 'Connection closed.'
+- 1131567242 2005.11.09 cn315 Nov 9 12:14:02 cn315/cn315 ntpd[23358]: synchronized to 10.100.22.250, stratum 3
+- 1131567244 2005.11.09 tbird-admin1 Nov 9 12:14:04 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131567247 2005.11.09 tbird-admin1 Nov 9 12:14:07 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131567255 2005.11.09 tbird-admin1 Nov 9 12:14:15 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131567260 2005.11.09 tbird-admin1 Nov 9 12:14:20 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D6] datasource
+- 1131567264 2005.11.09 tbird-admin1 Nov 9 12:14:24 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A4] datasource
+- 1131567268 2005.11.09 tbird-admin1 Nov 9 12:14:28 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A3] datasource
+- 1131567272 2005.11.09 tbird-sm1 Nov 9 12:14:32 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131567275 2005.11.09 tbird-admin1 Nov 9 12:14:35 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131567283 2005.11.09 tbird-admin1 Nov 9 12:14:43 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131567288 2005.11.09 cn254 Nov 9 12:14:48 cn254/cn254 ntpd[10022]: synchronized to 10.100.18.250, stratum 3
+- 1131567291 2005.11.09 tbird-admin1 Nov 9 12:14:51 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131567296 2005.11.09 tbird-admin1 Nov 9 12:14:56 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A5] datasource
+- 1131567298 2005.11.09 tbird-admin1 Nov 9 12:14:58 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131567303 2005.11.09 cn524 Nov 9 12:15:03 cn524/cn524 ntpd[15917]: synchronized to 10.100.16.250, stratum 3
+- 1131567307 2005.11.09 cn926 Nov 9 12:15:07 cn926/cn926 ntpd[28225]: synchronized to 10.100.22.250, stratum 3
+- 1131567311 2005.11.09 tbird-admin1 Nov 9 12:15:11 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D8] datasource
+- 1131567317 2005.11.09 cn672 Nov 9 12:15:17 cn672/cn672 ntpd[17959]: synchronized to 10.100.20.250, stratum 3
+- 1131567321 2005.11.09 tbird-admin1 Nov 9 12:15:21 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A5] datasource
+- 1131567325 2005.11.09 tbird-admin1 Nov 9 12:15:25 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A3] datasource
+- 1131567328 2005.11.09 tbird-sm1 Nov 9 12:15:28 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1455]: No topology change
+- 1131567331 2005.11.09 bn3 Nov 9 12:15:31 bn3/bn3 ntpd[22869]: synchronized to 10.100.16.250, stratum 3

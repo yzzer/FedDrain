@@ -1,0 +1,285 @@
+20171223-22:15:29:635|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514038440000##6993##548365##8661##12266##27164404
+20171223-22:15:29:738|Step_LSC|30002312|onStandStepChanged 3579
+20171223-22:15:29:962|Step_StandReportReceiver|30002312|REPORT : 7008 5003 150111 240
+20171223-22:15:30:642|Step_StandReportReceiver|30002312|REPORT : 7009 5004 150132 240
+20171223-22:15:31:160|Step_StandReportReceiver|30002312|REPORT : 7011 5005 150175 240
+20171223-22:15:32:163|Step_StandReportReceiver|30002312|REPORT : 7012 5006 150197 240
+20171223-22:15:32:659|Step_StandReportReceiver|30002312|REPORT : 7013 5007 150218 240
+20171223-22:15:33:149|Step_StandReportReceiver|30002312|REPORT : 7014 5007 150239 240
+20171223-22:15:33:663|Step_StandReportReceiver|30002312|REPORT : 7015 5008 150261 240
+20171223-22:15:35:12|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038440000##7017##548365##8661##13121##27179330
+20171223-22:15:35:97|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.SCREEN_ON
+20171223-22:15:35:112|Step_StandReportReceiver|30002312|REPORT : 7017 5010 150304 240
+20171223-22:15:35:418|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127011
+20171223-22:15:36:154|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127032
+20171223-22:15:36:668|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127054
+20171223-22:15:37:666|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127075
+20171223-22:15:38:159|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127097
+20171223-22:15:38:665|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127118
+20171223-22:15:39:155|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127139
+20171223-22:15:39:665|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127161
+20171223-22:15:40:668|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127182
+20171223-22:15:41:152|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127204
+20171223-22:15:41:667|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127225
+20171223-22:15:42:160|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127246
+20171223-22:15:43:160|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127268
+20171223-22:15:43:677|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127289
+20171223-22:15:44:163|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127311
+20171223-22:15:45:158|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127332
+20171223-22:15:45:656|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127354
+20171223-22:15:46:157|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127375
+20171223-22:15:46:674|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127396
+20171223-22:15:47:658|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127418
+20171223-22:15:48:167|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127439
+20171223-22:15:48:668|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127461
+20171223-22:15:49:668|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127482
+20171223-22:15:50:176|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127504
+20171223-22:15:51:169|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127525
+20171223-22:15:52:175|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127568
+20171223-22:15:52:666|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127589
+20171223-22:15:53:665|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127632
+20171223-22:15:54:657|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127653
+20171223-22:15:55:657|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127696
+20171223-22:15:56:163|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127739
+20171223-22:15:58:170|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127761
+20171223-22:16:0:150|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038500000##7054##548458##8661##16256##27204469
+20171223-22:16:1:150|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038500000##7054##548551##8661##16256##27205469
+20171223-22:17:19:152|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038560000##7054##548552##8661##16256##27283470
+20171223-22:17:20:662|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127824
+20171223-22:17:21:162|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127867
+20171223-22:17:21:659|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127910
+20171223-22:17:22:162|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127953
+20171223-22:17:22:661|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127996
+20171223-22:17:23:160|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128039
+20171223-22:17:23:662|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128081
+20171223-22:17:24:162|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128124
+20171223-22:17:24:664|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128146
+20171223-22:17:25:159|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128210
+20171223-22:17:28:166|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128210
+20171223-22:17:45:166|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:45:668|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:46:167|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:46:661|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:47:165|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:47:662|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:48:162|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:48:661|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:49:166|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:49:664|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:50:158|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:50:661|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:51:161|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:51:677|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:52:169|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:53:168|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:54:175|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:55:166|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:55:660|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:56:671|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:57:662|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:58:162|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:18:0:168|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129002
+20171223-22:18:1:659|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129024
+20171223-22:18:2:659|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129045
+20171223-22:18:5:673|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129067
+20171223-22:18:6:164|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129067
+20171223-22:19:8:163|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129131
+20171223-22:19:8:675|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129238
+20171223-22:19:9:158|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129281
+20171223-22:19:9:662|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129324
+20171223-22:19:10:160|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129366
+20171223-22:19:10:658|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129409
+20171223-22:19:11:160|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129452
+20171223-22:19:11:658|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129516
+20171223-22:19:12:162|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129602
+20171223-22:19:12:658|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129623
+20171223-22:19:14:677|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129923
+20171223-22:19:16:171|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=129923
+20171223-22:19:57:775|Step_StandReportReceiver|30002312|onReceive action: android.intent.action.SCREEN_ON
+20171223-22:19:57:796|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:19:58:112|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:19:58:366|Step_FlushableStepDataCache|30002312|upLoadOneMinuteDataToEngine time=25233977,0,55,0,20002
+20171223-22:19:58:374|HiH_HiAppUtil|30002312|getBinderPackageName packageName = com.huawei.health
+20171223-22:19:58:379|HiH_HiHealthDataInsertStore|30002312|saveStatData() type =40003,time = 1513958400000,statClient = 2,who is 1
+20171223-22:19:58:382|HiH_DataStatManager|30002312|new date =20171223, type=40004,5112.0,old=4985.0
+20171223-22:19:58:413|HiH_HiSyncControl|30002312|checkInsertStatus stepSum or calorieSum is enough
+20171223-22:19:58:417|HiH_HiAppUtil|30002312|getBinderPackageName packageName = com.huawei.health
+20171223-22:19:58:423|HiH_HiSyncControl|30002312|needAutoSync autoSyncSwitch is open
+20171223-22:19:58:428|HiH_HiBroadcastUtil|30002312|sendSyncFailedBroadcast
+20171223-22:19:58:481|HiH_DataStatManager|30002312|new date =20171223, type=40031,4508.196000000001,old=4381.818
+20171223-22:19:58:501|HiH_DataStatManager|30002312|new date =20171223, type=40006,7140.0,old=6900.0
+20171223-22:19:58:508|Step_SPUtils|30002312|setWriteDBLastDataMinute success
+20171223-22:19:58:514|HiH_HiSyncControl|30002312|stepSyncOrNot appSynTimes is 0, statsyncTimes is 0
+20171223-22:19:58:518|HiH_HiSyncControl|30002312|initDataPrivacy the dataPrivacy switch is open, start push health data!
+20171223-22:19:58:863|Step_LSC|30002312|onStandStepChanged 3737
+20171223-22:19:59:365|Step_LSC|30002312|onStandStepChanged 3739
+20171223-22:19:59:862|Step_LSC|30002312|onStandStepChanged 3742
+20171223-22:20:0:179|Step_StandReportReceiver|30002312|REPORT : 7170 5119 153581 240
+20171223-22:20:0:693|Step_StandReportReceiver|30002312|REPORT : 7173 5121 153645 240
+20171223-22:20:1:186|Step_StandReportReceiver|30002312|REPORT : 7174 5122 153667 240
+20171223-22:20:1:692|Step_StandReportReceiver|30002312|REPORT : 7176 5123 153709 240
+20171223-22:20:2:179|Step_StandReportReceiver|30002312|REPORT : 7179 5125 153774 240
+20171223-22:20:2:695|Step_StandReportReceiver|30002312|REPORT : 7181 5127 153817 240
+20171223-22:20:3:180|Step_StandReportReceiver|30002312|REPORT : 7183 5128 153859 240
+20171223-22:20:4:193|Step_StandReportReceiver|30002312|REPORT : 7185 5130 153902 240
+20171223-22:20:4:680|Step_StandReportReceiver|30002312|REPORT : 7186 5130 153924 240
+20171223-22:20:5:675|Step_StandReportReceiver|30002312|REPORT : 7187 5131 153945 240
+20171223-22:20:7:690|Step_StandReportReceiver|30002312|REPORT : 7188 5132 153966 240
+20171223-22:20:8:185|Step_StandReportReceiver|30002312|REPORT : 7189 5132 153988 240
+20171223-22:20:15:873|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:22:37:638|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:24:22:165|Step_LSC|30002312|onExtend:1514039059000 0 0 0
+20171223-22:24:22:214|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:24:22:516|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038980000##7189##549659##8661##16256##27706835
+20171223-22:24:52:200|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:24:54:205|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:25:0:162|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:30:23:993|Step_LSC|30002312|onExtend:1514039172000 0 0 5
+20171223-22:30:24:27|Step_StandStepCounter|30002312|flush sensor data
+20171223-22:30:24:129|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:31:31:924|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:31:59:613|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:31:59:621|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514039400000##7189##549659##8661##16256##28163940
+20171223-22:31:59:725|Step_LSC|30002312|timeStamp back,extendReportTimeStamp=1514039575000
+20171223-22:32:28:796|HiH_HiSyncControl|30002312|startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1
+20171223-22:32:28:801|HiH_HiSyncControl|30002312|ifCanSync not! no cloud version
+20171223-22:33:10:244|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:33:46:303|Step_StandStepCounter|30002312|flush sensor data
+20171223-22:33:46:405|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:35:0:49|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:37:15:249|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:39:25:265|Step_LSC|30002312|onExtend:1514039977000 0 0 0
+20171223-22:39:25:310|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:39:25:614|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514039880000##7189##549659##8661##16256##28609620
+20171223-22:43:0:96|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:45:49:273|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:45:55:272|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:51:2:965|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:51:37:252|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:51:37:295|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:51:37:608|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514040600000##7189##549659##8661##16256##29341927
+20171223-22:51:40:641|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:51:49:315|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:52:45:486|Step_StandStepCounter|30002312|flush sensor data
+20171223-22:52:45:587|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:52:45:987|Step_LSC|30002312|onExtend:1514040766000 0 0 0
+20171223-22:52:52:287|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514040660000##7189##549659##8661##16256##29410605
+20171223-22:53:1:185|Step_LSC|30002312|onExtend:1514040836000 0 0 0
+20171223-22:53:1:219|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:53:1:528|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514040720000##7189##549659##8661##16256##29425533
+20171223-22:53:7:299|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514040720000##7189##549659##8661##16256##29431618
+20171223-22:53:12:716|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.SCREEN_ON
+20171223-22:53:12:737|Step_StandReportReceiver|30002312|REPORT : 7189 5132 153988 240
+20171223-22:53:13:45|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:54:55:346|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-22:55:55:733|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.SCREEN_ON
+20171223-22:55:55:748|Step_StandReportReceiver|30002312|REPORT : 7189 5132 153988 240
+20171223-22:55:56:62|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-23:2:31:995|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:7:6:86|Step_LSC|30002312|onExtend:1514041086000 0 0 5
+20171223-23:7:6:86|Step_LSC|30002312|onExtend:1514041506000 0 0 5
+20171223-23:7:6:126|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514040840000##7189##549659##8661##16256##29600372
+20171223-23:7:6:309|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:7:7:373|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30270764
+20171223-23:7:50:267|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30314585
+20171223-23:7:51:228|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30315546
+20171223-23:8:9:235|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30315546
+20171223-23:8:19:403|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041620000##7189##549659##8661##16256##30333554
+20171223-23:12:28:131|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:14:24:384|Step_LSC|30002312|onExtend:1514041902000 0 0 5
+20171223-23:14:24:391|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041620000##7189##549659##8661##16256##30343722
+20171223-23:14:24:499|Step_LSC|30002312|onExtend:1514042064000 0 0 5
+20171223-23:14:25:113|Step_LSC|30002312|onExtend:1514042064000 0 0 0
+20171223-23:14:42:909|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7189##549659##8661##16256##30709727
+20171223-23:14:43:414|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7191##549659##8661##16256##30727229
+20171223-23:14:43:913|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7192##549659##8661##16256##30727733
+20171223-23:14:44:409|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7193##549659##8661##16256##30728232
+20171223-23:14:44:913|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7196##549659##8661##16256##30728728
+20171223-23:14:45:413|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7198##549659##8661##16256##30729233
+20171223-23:14:45:908|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7200##549659##8661##16256##30729733
+20171223-23:14:46:409|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7202##549659##8661##16256##30730227
+20171223-23:14:46:912|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7205##549659##8661##16256##30730728
+20171223-23:14:47:411|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7208##549659##8661##16256##30731232
+20171223-23:14:48:409|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7211##549659##8661##16256##30731730
+20171223-23:14:48:906|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7212##549659##8661##16256##30732729
+20171223-23:14:52:410|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7214##549659##8661##16256##30733226
+20171223-23:16:23:120|Step_LSC|30002312|onExtend:1514042182000 0 0 5
+20171223-23:17:40:780|Step_LSC|30002312|onExtend:1514042205000 0 0 5
+20171223-23:17:40:997|Step_LSC|30002312|onStandStepChanged 3786
+20171223-23:17:41:306|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514042160000##7214##549659##8661##16256##30905315
+20171223-23:17:41:716|Step_StandReportReceiver|30002312|onReceive action: android.intent.action.SCREEN_OFF
+20171223-23:17:42:1|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:17:42:397|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:19:20:440|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514042280000##7214##549659##8661##16256##31004759
+20171223-23:19:21:455|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:23:15:441|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514042280000##7214##549659##8661##16256##31005759
+20171223-23:23:19:447|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514042520000##7214##549659##8661##16256##31243766
+20171223-23:27:0:143|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:29:4:456|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:29:5:452|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:32:28:795|HiH_HiSyncControl|30002312|needAutoSync autoSyncSwitch is open
+20171223-23:33:0:134|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:37:14:440|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514042880000##7214##549659##8661##16256##31589757
+20171223-23:37:16:441|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514043360000##7214##549659##8661##16256##32080760
+20171223-23:40:10:150|Step_LSC|30002312|onExtend:1514043610000 0 0 5
+20171223-23:40:14:440|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514043540000##7214##549659##8661##16256##32254765
+20171223-23:42:38:915|Step_LSC|30002312|onExtend:1514043759000 0 0 0
+20171223-23:45:0:128|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:46:7:467|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:47:0:156|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-23:50:48:708|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044140000##7214##549659##8661##16256##32893026
+20171223-23:52:57:444|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044140000##7214##549659##8661##16256##32893026
+20171223-23:53:0:441|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044260000##7214##549659##8661##16256##33021763
+20171223-23:53:15:439|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044320000##7214##549659##8661##16256##33039758
+20171223-23:53:17:467|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:53:25:456|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:53:40:143|Step_LSC|30002312|onStandStepChanged 3786
+20171223-23:53:42:149|Step_LSC|30002312|onExtend:1514044422000 0 0 0
+20171223-23:53:51:439|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044320000##7214##549659##8661##16256##33066759
+20171223-23:53:57:446|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044320000##7214##549659##8661##16256##33081765
+20171223-23:54:28:452|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044380000##7214##549659##8661##16256##33112771
+20171223-23:54:29:456|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:54:34:452|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:54:45:137|Step_LSC|30002312|onStandStepChanged 3786
+20171223-23:54:47:155|Step_LSC|30002312|onExtend:1514044487000 0 0 0
+20171223-23:54:54:439|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044380000##7214##549659##8661##16256##33131773
+20171223-23:54:56:452|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044380000##7214##549659##8661##16256##33140770
+20171223-23:55:24:443|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514044440000##7214##549659##8661##16256##33168762
+20171223-23:55:25:456|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:56:12:465|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=131208
+20171223-23:56:13:457|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:56:35:137|Step_LSC|30002312|onStandStepChanged 3786
+20171223-23:57:34:138|Step_LSC|30002312|onStandStepChanged 3786
+20171223-23:57:42:147|Step_LSC|30002312|onExtend:1514044662000 0 0 0
+20171224-0:0:0:215|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:0:0:226|Step_StandStepCounter|30002312|registersensorsuccess: true
+20171224-0:0:0:233|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044560000##7214##549659##8661##16256##33306763
+20171224-0:0:0:235|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=0
+20171224-0:0:0:323|Step_LSC|30002312|onStandStepChanged 3786
+20171224-0:0:5:152|Step_LSC|30002312|onExtend:1514044805000 0 0 5
+20171224-0:0:6:445|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514044740000##0##549659##8661##16256##33449757
+20171224-0:4:0:136|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:5:22:779|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=0
+20171224-0:6:16:871|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=0
+20171224-0:7:2:445|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=0
+20171224-0:7:20:137|Step_LSC|30002312|onStandStepChanged 3786
+20171224-0:7:21:149|Step_LSC|30002312|onExtend:1514045241000 0 0 0
+20171224-0:9:4:137|Step_LSC|30002312|onStandStepChanged 3786
+20171224-0:9:6:148|Step_LSC|30002312|onExtend:1514045346000 0 0 0
+20171224-0:9:34:439|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514045280000##0##549659##8661##16256##33990761
+20171224-0:9:35:441|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514045280000##0##549659##8661##16256##34019759
+20171224-0:10:9:438|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514045340000##0##549659##8661##16256##34053757
+20171224-0:10:10:446|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=0
+20171224-0:10:42:445|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=0
+20171224-0:11:0:122|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:11:57:141|Step_LSC|30002312|onStandStepChanged 3786
+20171224-0:13:0:151|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:15:53:292|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=0
+20171224-0:21:0:131|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:25:16:438|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514045640000##0##549659##8661##16256##34397604
+20171224-0:25:17:438|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514046240000##0##549659##8661##16256##34961757
+20171224-0:28:25:159|Step_LSC|30002312|onExtend:1514046505000 0 0 5
+20171224-0:32:28:791|HiH_HiSyncControl|30002312|startTimer start autoSync
+20171224-0:32:28:805|HiH_HiSyncControl|30002312|initUserPrivacy the userPrivacy switch is open, start push user data!
+20171224-0:39:14:288|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171224-0:53:59:235|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK

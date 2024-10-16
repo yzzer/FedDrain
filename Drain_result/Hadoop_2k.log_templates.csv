@@ -48,13 +48,12 @@ d0cf8682,"maxContainerCapability: <memory:8192, vCores:32>",1
 d39a94e7,<*> <*> Transitioned from NEW to <*>,25
 fdd0db5a,<*> vCores:1>,2
 f15bb7b8,"Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist",1
-bdc2ec2a,Before Scheduling: PendingReds:1 ScheduledMaps:10 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0,1
-a337d65e,getResources() for application_1445144423722_0020: ask=4 release= 0 <*> finishedContainers=0 <*> <*> knownNMs=4,10
+44edb81f,<*> Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> ContRel:0 <*> <*>,10
+dc1d60c6,getResources() for application_1445144423722_0020: <*> release= <*> newContainers=0 <*> <*> <*> knownNMs=4,9
 bae0e03b,"Recalculating schedule, <*> <*>",131
 773f4a2b,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,130
 0f71bb1f,Got allocated containers <*>,10
 5e5f5ff9,Assigned container <*> to <*>,10
-ffb8e2a9,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> <*> <*> <*>,10
 c9ebd122,The <*> file on the remote FS is <*>,2
 60d079c6,Adding #0 tokens and #1 secret keys for NM use for launching container,1
 a83c59ee,Size of containertokens_dob is 1,1
@@ -66,18 +65,20 @@ fc9ef42a,Opening proxy : <*>,13
 4f591581,Shuffle port returned by ContainerManager for <*> : 13562,10
 c1fd6443,TaskAttempt: <*> using containerId: <*> on NM: <*>,10
 e215e532,ATTEMPT_START <*>,10
-3be0b589,<*> Task Transitioned from <*> to <*>,11
+3d2950ee,<*> <*> Transitioned from <*> to RUNNING,10
 6e3a6141,Auth successful for job_1445144423722_0020 (auth:SIMPLE),10
 60675cee,JVM with ID : <*> asked for a task,10
 2a1c144a,JVM with ID: <*> given task: <*>,10
 3670935b,Progress of TaskAttempt <*> is : <*>,289
+ea452535,getResources() for application_1445144423722_0020: <*> release= 0 <*> <*> <*> <*> knownNMs=4,3
 efe991f2,"Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-39.fareast.corp.microsoft.com:28345, NodeHttpAddress: MSRA-SA-39.fareast.corp.microsoft.com:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: <*>:28345 }, ] for a map as either container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true",1
-e617839d,getResources() for application_1445144423722_0020: <*> release= <*> newContainers=0 finishedContainers=1 <*> <*> knownNMs=4,2
+ffb8e2a9,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> <*> <*> <*>,1
 ba0e1b89,Received completed container <*>,2
 2712fdae,Container complete event for unknown container id container_1445144423722_0020_01_000012,1
 0a1bddef,Done acknowledgement from attempt_1445144423722_0020_m_000003_0,1
 da04743d,KILLING <*>,3
 04500f53,Task succeeded with attempt attempt_1445144423722_0020_m_000003_0,1
+2e4c310e,task_1445144423722_0020_m_000003 Task Transitioned from RUNNING to SUCCEEDED,1
 a81458ea,Num completed Tasks: 1,1
 e6fc78c6,<*> Scheduling: <*> <*> <*> <*> AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3,6
 ec6b84b4,Reduce slow start threshold reached. Scheduling reduces.,1

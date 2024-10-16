@@ -9,7 +9,7 @@ import pandas as pd
 input_dir = "./data/splitted/"  # The input directory of log file
 input_dir_test = "./data/loghub_2k/"
 output_dir = "Drain_result/"  # The output directory of parsing results
-chunk_num = 1
+chunk_num = 7
 
 benchmark_settings = {
     "HDFS": {

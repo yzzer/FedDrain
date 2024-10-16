@@ -5,7 +5,7 @@ bf6f5aee,FA||Url||taskID[2019352994] dealloc,1
 8f8ef862,ARPT: <*> AirPort_Brcm43xx::syncPowerState: WWEN[enabled],12
 39189f14,ARPT: <*> AirPort_Brcm43xx::platformWoWEnable: WWEN[disable],16
 1e62c609,mDNS_DeregisterInterface: Frequent transitions for interface <*> <*>,5
-f713d2b6,"ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': <*> 'TimeRemaining': <*>",13
+f713d2b6,"ARPT: <*> IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': <*> 'TimeRemaining': <*>",7
 13c2a597,ARPT: <*> wl0: wl_update_tcpkeep_seq: Original Seq: <*> Ack: <*> Win size: 4096,6
 548a9986,ARPT: <*> ARPT: Wake Reason: Wake on Scan offload,9
 1ca51907,__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2,16
@@ -101,6 +101,7 @@ df811d53,[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Blueto
 d5dfa319,FA||Url||taskID[2019353117] dealloc,1
 c1e28b40,"2017-07-02 10:40:07.676 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for ""<*>"" using engine <KSUpdateEngine:0x100313e70 ticketStore=<KSPersistentTicketStore:0x100332a60 store=<KSKeyedPersistentStore:0x100315fa0 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile=<KSLockFile:0x1003176d0 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/<*>"" locked=NO > >> processor=<KSActionProcessor:0x1003143e0 delegate=<KSUpdateEngine:0x100313e70> isProcessing=NO actionsCompleted=0 progress=0.00 errors=0 currentActionErrors=0 events=0 currentActionEvents=0 actionQueue=( ) > delegate=(null) serverInfoStore=<KSServerPrivateInfoStore:0x100311a10 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/Servers""> errors=0 >",1
 e3d70e64,<*> <*> | I | VoipWrapper | DAVEngineImpl.cpp:1400:Close | close video chat. llFriendUIN = <*>,4
+a8f8f65b,"ARPT: <*> IOPMPowerSource Information: <*> SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>",8
 c86dfdd9,Bluetooth -- LE is supported - Disable LE meta event,11
 4279d8f0,<*> : Discoverable mode changed to Off,2
 54c05f44,tcp_connection_handle_connect_conditions_bad <*> failed: 3 - No network route,18
@@ -270,7 +271,6 @@ c12eb2d5,"CCFile::copyFile fileName is [2017-07-05_11,39,39.743225]-CCIOReporter
 e005e149,"CCFile::copyFile fileName is [2017-07-05_14,04,25.705173]-CCIOReporter-044.xml, source path:/var/log/CoreCapture/<*>/OneStats//[2017-07-05_14,04,25.705173]-CCIOReporter-044.xml, dest path:/Library/Logs/CrashReporter/CoreCapture/<*>/[2017-07-05_14,04,25.777317]=AuthFail:sts:5_rsn:0/OneStats//[2017-07-05_14,04,25.705173]-CCIOReporter-044.xml",1
 91df3620,"CCFile::copyFile fileName is [2017-07-05_14,04,32.840703]-io80211Family-056.pcapng, source path:/var/log/CoreCapture/<*>/IO80211AWDLPeerManager//[2017-07-05_14,04,32.840703]-io80211Family-056.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/<*>/[2017-07-05_14,04,32.969558]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[2017-07-05_14,04,32.840703]-io80211Family-056.pcapng",1
 48d03a8b,"CCFile::copyFile fileName is [2017-07-05_14,04,33.660387]-io80211Family-063.pcapng, source path:/var/log/CoreCapture/<*>/IO80211AWDLPeerManager//[2017-07-05_14,04,33.660387]-io80211Family-063.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/<*>/[2017-07-05_14,04,33.736169]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[2017-07-05_14,04,33.660387]-io80211Family-063.pcapng",1
-92895114,"ARPT: <*> IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': <*>",2
 e194959f,IOHibernatePollerOpen(0),2
 9e81b724,"hibernate_machine_init: state 2, image pages 446175, sum was d4e6c0b2, imageSize 0x2aea6000, image1Size 0x215a4000, conflictCount 5848, nextFree 5887",1
 cc394499,hibernate_rebuild completed - took 10042450943433 msecs,1
