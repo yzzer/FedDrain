@@ -20,6 +20,7 @@ import os
 import pandas as pd
 import hashlib
 from datetime import datetime
+from typing import List
 
 
 class Logcluster:
@@ -72,11 +73,12 @@ class LogParser:
         self.log_format = log_format
         self.rex = rex
         self.keep_para = keep_para
+        self.root = Node()
 
     def hasNumbers(self, s):
         return any(char.isdigit() for char in s)
 
-    def treeSearch(self, rn, seq):
+    def treeSearch(self, rn, seq, parse_only=False):
         retLogClust = None
 
         seqLen = len(seq)
@@ -100,7 +102,7 @@ class LogParser:
 
         logClustL = parentn.childD
 
-        retLogClust = self.fastMatch(logClustL, seq)
+        retLogClust = self.fastMatch(logClustL, seq, parse_only)
 
         return retLogClust
 
@@ -161,7 +163,7 @@ class LogParser:
             currentDepth += 1
 
     # seq1 is template
-    def seqDist(self, seq1, seq2):
+    def seqDist(self, seq1, seq2, add_numOfPar=False):
         assert len(seq1) == len(seq2)
         simTokens = 0
         numOfPar = 0
@@ -173,11 +175,15 @@ class LogParser:
             if token1 == token2:
                 simTokens += 1
 
-        retVal = float(simTokens) / len(seq1)
-
+        if add_numOfPar:
+            retVal = float(simTokens + numOfPar) / len(seq1)
+        else:
+            retVal = float(simTokens) / len(seq1)
+            
+        
         return retVal, numOfPar
 
-    def fastMatch(self, logClustL, seq):
+    def fastMatch(self, logClustL, seq, parse_only=False):
         retLogClust = None
 
         maxSim = -1
@@ -185,7 +191,7 @@ class LogParser:
         maxClust = None
 
         for logClust in logClustL:
-            curSim, curNumOfPara = self.seqDist(logClust.logTemplate, seq)
+            curSim, curNumOfPara = self.seqDist(logClust.logTemplate, seq, parse_only)
             if curSim > maxSim or (curSim == maxSim and curNumOfPara > maxNumOfPara):
                 maxSim = curSim
                 maxNumOfPara = curNumOfPara
@@ -270,11 +276,11 @@ class LogParser:
         for child in node.childD:
             self.printTree(node.childD[child], dep + 1)
 
-    def parse(self, logName):
+    def parse(self, logName, output = True, parse_only = False) -> List:
         print("Parsing file: " + os.path.join(self.path, logName))
         start_time = datetime.now()
         self.logName = logName
-        rootNode = Node()
+        rootNode = self.root
         logCluL = []
 
         self.load_data()
@@ -283,13 +289,16 @@ class LogParser:
         for idx, line in self.df_log.iterrows():
             logID = line["LineId"]
             logmessageL = self.preprocess(line["Content"]).strip().split()
-            matchCluster = self.treeSearch(rootNode, logmessageL)
+            matchCluster = self.treeSearch(rootNode, logmessageL, parse_only)
 
             # Match no existing log cluster
             if matchCluster is None:
                 newCluster = Logcluster(logTemplate=logmessageL, logIDL=[logID])
                 logCluL.append(newCluster)
-                self.addSeqToPrefixTree(rootNode, newCluster)
+                if not parse_only:
+                    self.addSeqToPrefixTree(rootNode, newCluster)
+                else:
+                    continue
 
             # Add the new log message to the existing cluster
             else:
@@ -309,15 +318,27 @@ class LogParser:
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        self.outputResult(logCluL)
+        if parse_only:
+            self.get_log_clu_list(rootNode, logCluL)
+
+        if output:
+            self.outputResult(logCluL)
 
         print("Parsing done. [Time taken: {!s}]".format(datetime.now() - start_time))
+        return logCluL
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(
             os.path.join(self.path, self.logName), regex, headers, self.log_format
         )
+        
+    def get_log_clu_list(self, node, cache: List):
+        if not isinstance(node.childD, list):
+            for _, child in node.childD.items():
+                self.get_log_clu_list(child, cache)
+        else:
+            cache.extend(node.childD)
 
     def preprocess(self, line):
         for currentRex in self.rex:
