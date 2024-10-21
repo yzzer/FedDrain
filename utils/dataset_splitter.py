@@ -147,10 +147,7 @@ def split_dataset(path, target_path, shard_num: int = 3):
     gc.collect()
     
 
-def main():
-    input_dir = "../data/loghub_2k/"  # The input directory of log file
-    output_dir = "../data/splitted/"  # The output directory of parsing results
-    chunk_num = 1
+def split_chunk(input_dir='../data/loghub_2k/', output_dir='../data/splitted/', chunk_num=3):
     
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
@@ -158,7 +155,3 @@ def main():
         print(f"processing {dataset_name} to {chunk_num} chunks")
         target_path = os.path.join(output_dir, Path(dataset_info["log_file"]).parent)
         split_dataset(os.path.join(input_dir, dataset_info["log_file"]), target_path, shard_num=chunk_num)
-
-    
-if __name__ == "__main__":
-    main()

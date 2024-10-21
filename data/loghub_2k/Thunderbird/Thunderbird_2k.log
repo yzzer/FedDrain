@@ -72,7 +72,7 @@
 - 1131566478 2005.11.09 dn360 Nov 9 12:01:18 dn360/dn360 ntpd[30984]: synchronized to 10.100.28.250, stratum 3
 - 1131566478 2005.11.09 tbird-admin1 Nov 9 12:01:18 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
 - 1131566479 2005.11.09 #8# Nov 9 12:01:19 #8#/#8# sshd[19023]: Local disconnected: Connection closed.
-- 1131566479 2005.11.09 #8# Nov 9 12:01:19 #8#/#8# sshd[19023]: connection lost: 'Connection closed.'
+- 1131566479 2005.11.09 #   9 #8#/#8# sshd[19023]: connection lost: 'Connection closed.'
 - 1131566479 2005.11.09 bn431 Nov 9 12:01:19 bn431/bn431 ntpd[28723]: synchronized to 10.100.20.250, stratum 3
 - 1131566480 2005.11.09 dn77 Nov 9 12:01:20 dn77/dn77 ntpd[9978]: synchronized to 10.100.24.250, stratum 3
 - 1131566480 2005.11.09 tbird-admin1 Nov 9 12:01:20 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B6] datasource
