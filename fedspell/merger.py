@@ -1,4 +1,4 @@
-from drain.Drain import LogParser, Logcluster, Node
+from spell.spell import LogParser, LCSObject, Node
 
 from typing import List
 import copy
@@ -13,21 +13,15 @@ class LogParserEncoder:
     def visit(self, node: Node):
         if node is None:
             return
-        
-        if not isinstance(node.childD, dict):
-            for cluster in node.childD:
-                template = copy.deepcopy(cluster.logTemplate)
-                self.results.append(template)
-        else:
-
-            for key, child in node.childD.items():                 
-                self.visit(child)
+        if node.logClust is not None:
+            template = copy.deepcopy(node.logClust.logTemplate)
+            self.results.append(template)
+        for _, child in node.childD.items():
+            self.visit(child)
 
     
     def extract_log_messages_from_parser(self, parser: LogParser) -> List[List[str]]:
-        self.results.clear()
-        for _, node in parser.root.childD.items():
-            self.visit(node)
+        self.results = [cluster.logTemplate for cluster in  parser.get_log_clu_list()]
         return self.results 
 
 
@@ -41,32 +35,44 @@ class LogMerger:
             if len(parsers) == 0:
                 raise ValueError("can not parse a empty list of parsers")
 
-            mergedParser = LogParser(parsers[0].log_format, indir, outdir, parsers[0].depth, parsers[0].st, rex=parsers[0].rex)
-
+            mergedParser = parsers[0]
+            mergedParser.savePath = outdir
+            mergedParser.path = indir
             # 将每个parser的模板作为一组log提取出来
             all_templates = []
-            template_set = set()
             encoder = LogParserEncoder()
-            for tparser in parsers:
+            
+            for tparser in parsers[1:]:
                 new_templates = encoder.extract_log_messages_from_parser(tparser)
-                for temp in new_templates:
-                    temp_str = ' '.join(temp)
-                    if temp_str in template_set:
-                        continue
-                    all_templates.append(temp)
-                    template_set.add(temp_str)
-
+                all_templates.extend(new_templates)
+            
             rootNode = mergedParser.root
+            logCluL = mergedParser.clustL
+            for cluster in logCluL:
+                cluster.logIDL.clear()
+
             for template in all_templates:
-                matchCluster = mergedParser.treeSearch(rootNode, template)
+                constLogMessL = [w for w in template if w != "<*>"]
+                matchCluster = mergedParser.PrefixTreeMatch(rootNode, constLogMessL, 0)
+                
                 if matchCluster is None:
-                    # 插入新的模板
-                    newCluster = Logcluster(logTemplate=template, logIDL=[])
-                    mergedParser.addSeqToPrefixTree(rootNode, newCluster)
-                else:                   
-                    newTemplate = mergedParser.getTemplate(template, matchCluster.logTemplate)
-                    if " ".join(newTemplate) != " ".join(matchCluster.logTemplate):
-                        matchCluster.logTemplate = newTemplate
-                        
+                    matchCluster = mergedParser.SimpleLoopMatch(logCluL, constLogMessL)
+
+                    if matchCluster is None:
+                        matchCluster = mergedParser.LCSMatch(logCluL, template)
+
+                        if matchCluster is None:
+                            newCluster = LCSObject(logTemplate=template, logIDL=[])
+                            logCluL.append(newCluster)
+                            mergedParser.addSeqToPrefixTree(rootNode, newCluster)
+                        else:
+                            newTemplate = mergedParser.getTemplate(
+                                mergedParser.LCS(template, matchCluster.logTemplate),
+                                matchCluster.logTemplate,
+                            )
+                            if " ".join(newTemplate) != " ".join(matchCluster.logTemplate):
+                                mergedParser.removeSeqFromPrefixTree(rootNode, matchCluster)
+                                matchCluster.logTemplate = newTemplate
+                                mergedParser.addSeqToPrefixTree(rootNode, matchCluster)
             return mergedParser
     

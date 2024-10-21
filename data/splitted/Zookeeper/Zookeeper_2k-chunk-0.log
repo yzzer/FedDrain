@@ -1,400 +1,286 @@
 2015-07-29 17:41:44,747 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 3200
-2015-07-29 19:13:24,282 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:13:44,301 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:14:07,559 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:14:47,593 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:15:54,407 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:16:14,520 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:13:27,721 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:14:04,406 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:14:54,354 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:16:04,414 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:16:44,440 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:47727
-2015-07-29 19:17:24,477 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:18:07,748 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:18:37,770 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:19:04,661 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:58116
-2015-07-29 19:21:43,389 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:21:53,209 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:17:57,939 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:58035
+2015-07-29 19:18:34,635 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:21:36,502 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:45957
+2015-07-29 19:21:46,728 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:58303
 2015-07-29 19:21:56,644 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:22:03,439 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:22:20,143 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:58421
-2015-07-29 19:22:26,618 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:22:29,975 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:22:36,659 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:22:50,025 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:22:13,256 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:22:26,617 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46128
+2015-07-29 19:22:33,313 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:22:43,536 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
 2015-07-29 19:23:00,124 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:23:03,590 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:23:16,848 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:48413
-2015-07-29 19:23:20,278 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:23:30,116 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:40,140 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:53,488 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46440
+2015-07-29 19:23:13,491 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:23:20,173 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:23:30,320 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:23:46,917 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:24:03,725 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:24:13,553 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46519
-2015-07-29 19:24:20,431 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:24:36,927 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:24:50,374 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:25:03,857 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:59016
-2015-07-29 19:25:10,536 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:59037
+2015-07-29 19:24:16,987 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:24:30,451 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:24:57,160 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:25:07,102 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:25:17,124 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:25:27,242 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:25:37,062 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46812
-2015-07-29 19:25:40,600 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:25:50,537 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:28:02,167 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47366
-2015-07-29 19:28:15,221 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:25:30,571 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:25:40,484 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:48922
+2015-07-29 19:25:50,615 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:28:08,636 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:59614
 2015-07-29 19:28:21,902 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:28:35,160 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:28:41,844 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47540
-2015-07-29 19:29:01,988 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:49588
-2015-07-29 19:29:08,671 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:29:15,349 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:29:22,033 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:28:38,703 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:59722
+2015-07-29 19:28:58,547 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47615
+2015-07-29 19:29:12,009 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:18,798 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:29:28,820 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:38,841 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:45,522 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:29:58,778 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:30:05,458 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:18,723 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:30:25,609 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:29:42,070 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:58,774 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:30:08,802 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:30:25,608 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
 2015-07-29 19:30:42,315 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:59,011 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:31:02,353 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:31:15,504 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:31:35,760 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:31:49,116 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:31:55,588 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:31:02,243 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:31:08,922 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:50043
+2015-07-29 19:31:39,093 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:31:52,456 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
 2015-07-29 19:31:58,932 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:32:05,705 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:32:15,845 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:32:25,748 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:32:35,678 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:32:42,443 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:32:52,469 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:32:09,163 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:32:25,653 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:32:35,764 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:50354
+2015-07-29 19:32:49,042 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48503
 2015-07-29 19:33:05,829 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:33:12,627 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:33:15,963 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:33:22,441 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:33:25,983 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:60750
-2015-07-29 19:33:32,459 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:33:39,344 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:33:13,728 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:33:19,303 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:60726
+2015-07-29 19:33:29,118 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:33:35,894 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
 2015-07-29 19:33:45,916 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:33:52,594 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:33:59,385 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:34:05,863 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48817
-2015-07-29 19:34:09,295 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:34:15,884 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:34:29,447 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:33:55,843 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:34:05,863 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:34:12,634 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:34:26,102 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:34:42,809 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:34:55,969 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49023
-2015-07-29 19:35:09,326 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:35:19,544 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:32924
-2015-07-29 19:35:36,142 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
-2015-07-29 19:35:49,498 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:51050
-2015-07-29 19:36:02,861 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:51104
+2015-07-29 19:35:02,846 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:35:19,443 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:35:42,928 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33010
+2015-07-29 19:35:56,178 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:36:16,221 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:36:22,901 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:36:26,349 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33165
-2015-07-29 19:36:36,370 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:36:43,049 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33225
-2015-07-29 19:36:49,735 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33255
-2015-07-29 19:36:56,303 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:36:26,155 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:36:36,365 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33198
+2015-07-29 19:36:43,054 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:36:56,220 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:37:12,920 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49518
-2015-07-29 19:52:05,118 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-29 21:34:45,452 - INFO  [CommitProcessor:1:ZooKeeperServer@595] - Established session 0x14ed93111f20027 with negotiated timeout 10000 for client /10.10.34.13:37177
-2015-07-29 23:44:28,903 - ERROR [CommitProcessor:1:NIOServerCnxn@180] - Unexpected Exception: 
-2015-07-30 13:47:25,927 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:45997
-2015-07-30 14:53:21,340 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:50286
-2015-07-30 15:41:40,669 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:50940 which had sessionid 0x14ed93111f20099
+2015-07-29 19:54:13,615 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@832] - Client attempting to renew session 0x24ed93119420016 at /10.10.34.13:37115
+2015-07-29 23:44:21,576 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:49557 which had sessionid 0x14ed93111f20048
+2015-07-30 14:42:40,474 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:49346
+2015-07-30 15:23:21,827 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:50402
 2015-07-30 16:18:34,149 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.12:45668
-2015-07-30 16:44:26,593 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.12:45682 which had sessionid 0x14ed93111f200cd
-2015-07-30 17:11:54,937 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-30 17:49:05,943 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.12:45728; will be dropped if server is in r-o mode
-2015-07-30 19:50:21,400 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-30 20:06:34,003 - INFO  [ProcessThread(sid:1 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ede63a01b003b
-2015-07-30 20:35:02,324 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.13:38079; will be dropped if server is in r-o mode
+2015-07-30 17:06:34,257 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.12:45697 which had sessionid 0x14ed93111f200d6
+2015-07-30 17:43:58,186 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/
+2015-07-30 19:50:32,001 - INFO  [ProcessThread(sid:1 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14ede63a5a70023
+2015-07-30 20:17:12,294 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
 2015-07-30 21:03:47,578 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.21:37904
-2015-07-30 23:43:23,613 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@670] - LOOKING
-2015-07-30 23:52:26,272 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-07-31 00:19:37,018 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.16:39498; will be dropped if server is in r-o mode
-2015-07-31 15:31:40,971 - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3888
-2015-07-31 19:30:07,403 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@740] - New election. My id =  1, proposed zxid=0x700000000
-2015-07-31 21:23:08,969 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:40061
+2015-07-30 23:44:04,784 - WARN  [WorkerSender[myid=1]:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-07-31 00:19:19,582 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-31 15:31:40,999 - INFO  [WorkerSender[myid=1]:QuorumCnxManager@190] - Have smaller server identifier, so dropping the connection: (2, 1)
+2015-07-31 21:11:05,474 - INFO  [CommitProcessor:1:ZooKeeperServer@595] - Established session 0x14ee3e057ed000c with negotiated timeout 10000 for client /10.10.34.37:49834
 2015-07-31 21:32:20,131 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.40:58713
-2015-08-10 17:53:06,869 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-08-10 18:12:24,375 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-08-10 18:23:52,649 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@595] - Established session 0x14f05578bd80016 with negotiated timeout 10000 for client /10.10.34.13:38490
-2015-08-10 18:25:24,332 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:Learner@107] - Revalidating client: 0x14f05578bd80013
-2015-08-20 13:28:51,889 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:54839
-2015-08-20 17:14:23,824 - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@542] - Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state)
+2015-08-10 17:53:22,870 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.16:40418; will be dropped if server is in r-o mode
+2015-08-10 18:23:52,646 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:Learner@107] - Revalidating client: 0x14f05578bd80018
+2015-08-10 18:25:39,907 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-08-20 17:14:11,414 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@354] - Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
 2015-08-20 19:02:23,456 - INFO  [CommitProcessor:1:ZooKeeperServer@595] - Established session 0x14f4a6318b80022 with negotiated timeout 10000 for client /10.10.34.30:43272
-2015-08-21 15:55:07,600 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.30:43278
-2015-08-24 15:36:13,663 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-24 16:02:13,739 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-24 16:51:13,876 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
-2015-08-24 18:28:14,133 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-24 19:01:14,221 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
+2015-08-24 15:26:54,494 - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2015-08-24 15:57:13,723 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
+2015-08-24 17:29:13,977 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-08-24 18:47:14,187 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
 2015-08-24 19:45:14,327 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-24 20:57:14,495 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-24 22:08:14,659 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
-2015-08-24 22:25:14,698 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-24 22:48:14,746 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-24 23:25:14,825 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-25 00:14:14,924 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
+2015-08-24 21:11:14,529 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
+2015-08-24 22:17:14,678 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
+2015-08-24 22:49:14,750 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
+2015-08-24 23:58:14,891 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
 2015-08-25 00:44:14,985 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-25 02:09:15,162 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-25 03:28:15,323 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
-2015-08-25 03:54:15,375 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
-2015-08-25 05:00:15,508 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-25 05:58:15,624 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-25 07:04:15,757 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
+2015-08-25 02:54:15,254 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-08-25 03:38:15,343 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-08-25 05:08:15,525 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
+2015-08-25 06:58:15,745 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
 2015-08-25 08:21:15,911 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-25 08:49:15,968 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
-2015-08-25 09:24:16,037 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 2 at election address /10.10.34.12:3888
-2015-08-25 11:03:16,237 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
-2015-07-29 19:03:54,584 - ERROR [LearnerHandler-/10.10.34.11:52241:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
-2015-07-29 19:14:06,236 - WARN  [LearnerHandler-/10.10.34.12:59060:LearnerHandler@575] - ******* GOODBYE /10.10.34.12:59060 ********
-2015-07-29 19:16:06,243 - WARN  [LearnerHandler-/10.10.34.11:52476:LearnerHandler@575] - ******* GOODBYE /10.10.34.11:52476 ********
+2015-08-25 09:11:16,012 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-08-25 10:50:16,211 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 60000
+2015-07-29 19:04:30,989 - WARN  [LearnerHandler-/10.10.34.11:52264:LearnerHandler@575] - ******* GOODBYE /10.10.34.11:52264 ********
+2015-07-29 19:15:16,204 - ERROR [LearnerHandler-/10.10.34.11:52419:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
 2015-07-29 19:17:36,507 - ERROR [LearnerHandler-/10.10.34.13:57438:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
-2015-07-29 19:20:16,690 - ERROR [LearnerHandler-/10.10.34.12:59455:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
-2015-07-29 19:20:56,608 - WARN  [LearnerHandler-/10.10.34.11:52818:LearnerHandler@575] - ******* GOODBYE /10.10.34.11:52818 ********
-2015-07-29 19:21:31,836 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:54788
-2015-07-29 19:21:38,625 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:42634
-2015-07-29 19:21:45,107 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:21:51,886 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:54857
+2015-07-29 19:20:36,704 - ERROR [LearnerHandler-/10.10.34.12:59480:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
+2015-07-29 19:21:31,738 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:21:38,626 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:21:48,542 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:22:05,161 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:22:15,277 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:22:25,295 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:22:48,794 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:42885
-2015-07-29 19:22:58,818 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:23:05,500 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:18,864 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:22:18,628 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:22:42,000 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:22:58,823 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:42926
+2015-07-29 19:23:12,182 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:23:32,242 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:48,819 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:23:52,167 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:24:05,462 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:58652
-2015-07-29 19:24:12,123 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:24:25,680 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:43233
-2015-07-29 19:24:35,703 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:23:52,080 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:24:02,115 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:58635
+2015-07-29 19:24:12,331 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:24:29,022 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:24:48,888 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:24:55,570 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:25:02,441 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:25:09,122 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:25:15,802 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:25:29,166 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:25:39,188 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:24:58,991 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:25:09,110 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:25:15,803 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:25:39,079 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
 2015-07-29 19:26:04,443 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:26:14,459 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:26:24,383 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:26:47,753 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:59250
-2015-07-29 19:26:57,772 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:27:04,552 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:27:21,149 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:26:17,801 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:26:44,625 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:43730
+2015-07-29 19:26:57,875 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:27:17,809 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:27:27,838 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:27:53,761 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56093
-2015-07-29 19:28:10,464 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56154
-2015-07-29 19:28:20,797 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:28:27,167 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:28:33,951 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:28:43,772 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:28:00,339 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:59513
+2015-07-29 19:28:17,144 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56173
+2015-07-29 19:28:27,170 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:28:40,533 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:28:57,235 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56322
-2015-07-29 19:29:03,812 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:10,701 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:23,959 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:29:27,299 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:40,562 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:29:44,110 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:04,018 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:29:23,859 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:30,540 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:29:43,899 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:59968
 2015-07-29 19:29:54,134 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:30:00,814 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:10,728 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:20,857 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:30:37,451 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:50,712 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:60213
-2015-07-29 19:30:57,394 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:30:04,154 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:30:20,748 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:30:37,451 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:30:54,053 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:31:07,510 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56786
-2015-07-29 19:31:17,534 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56830
-2015-07-29 19:31:27,555 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:31:41,026 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:31:51,049 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:32:00,861 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:32:14,227 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:31:20,871 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:56834
+2015-07-29 19:31:34,233 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:31:54,184 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:32:11,086 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:44842
 2015-07-29 19:32:20,906 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:32:27,585 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:60575
-2015-07-29 19:32:31,018 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:32:41,038 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:32:50,969 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:32:54,510 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:33:08,980 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:32:27,586 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:32:40,948 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:32:50,970 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:33:01,198 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
 2015-07-29 19:33:14,554 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:33:24,375 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:33:37,733 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:33:51,095 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:33:57,774 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:34:07,996 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:34:17,908 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 19:33:31,146 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:33:47,846 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:34:01,116 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:34:14,680 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45295
 2015-07-29 19:34:24,697 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:34:28,035 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45334
-2015-07-29 19:34:34,610 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:34:41,198 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:34:54,565 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:35:04,781 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:35:14,605 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:34:31,268 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:57523
+2015-07-29 19:34:37,859 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:34:54,649 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:35:11,352 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:35:14,802 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:35:24,822 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:35:31,389 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:35:41,328 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:35:48,009 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:36:01,368 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:33186
-2015-07-29 19:36:18,151 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:57904
+2015-07-29 19:35:28,160 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:35:34,842 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:35:48,094 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:36:14,809 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:57889
 2015-07-29 19:36:21,492 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:36:28,176 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
-2015-07-29 19:36:34,962 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:36:48,327 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:36:58,153 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:37:05,025 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:37:21,611 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:36:31,627 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:36:44,987 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:36:58,154 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:37:15,046 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:52:16,002 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14ed93111f20005
-2015-07-29 19:54:05,544 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.13:37229; will be dropped if server is in r-o mode
-2015-07-29 20:39:58,002 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ed9311942000c
-2015-07-29 21:34:48,003 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ed93119420021
-2015-07-29 23:05:07,344 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.28:37304 which had sessionid 0x24ed9311942004f
-2015-07-29 23:44:25,464 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.35:38016
-2015-07-29 23:52:07,913 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.12:54643; will be dropped if server is in r-o mode
+2015-07-29 19:56:54,754 - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LEADING (my state)
+2015-07-29 21:34:48,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14ed93111f20020, timeout of 10000ms exceeded
+2015-07-29 23:05:16,002 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x34ed9ac1c1e0021
+2015-07-29 23:50:50,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x34ed9ac1c1e0033, timeout of 10000ms exceeded
 2015-07-30 14:52:23,211 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.13:37335 which had sessionid 0x24ed93119420065
-2015-07-30 15:18:48,000 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x34ed9ac1c1e0065, timeout of 20000ms exceeded
-2015-07-30 15:35:06,940 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24ed9311942008c with negotiated timeout 10000 for client /10.10.34.18:40006
-2015-07-30 15:41:43,385 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-30 16:11:48,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x24ed9311942008e, timeout of 10000ms exceeded
-2015-07-30 16:12:14,000 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x34ed9ac1c1e0085
-2015-07-30 16:18:34,003 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x34ed9ac1c1e0083
+2015-07-30 15:34:30,623 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-30 15:38:12,001 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ed93119420094
+2015-07-30 16:11:48,004 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x34ed9ac1c1e007a
+2015-07-30 16:18:30,003 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14ed93111f200a7
 2015-07-30 16:49:18,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14ed93111f200d2, timeout of 10000ms exceeded
-2015-07-30 17:49:45,653 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-30 18:18:19,328 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.20:49010 which had sessionid 0x24ede63a01b000e
-2015-07-30 19:35:08,093 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:54576
-2015-07-31 00:02:57,176 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.35:59458
-2015-07-31 00:17:51,716 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:57796
-2015-07-31 00:19:37,087 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.12:54230
+2015-07-30 18:08:02,428 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-30 19:35:00,506 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.13:52310
+2015-07-31 00:16:10,015 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.37:32918 which had sessionid 0x24edfaa8717000c
+2015-07-31 00:19:19,100 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.24:45152 which had sessionid 0x24edfaa8717001a
 2015-07-31 11:01:08,000 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14edfaa86f6002a, timeout of 10000ms exceeded
-2015-07-31 11:07:52,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14edfaa86f60031, timeout of 10000ms exceeded
-2015-07-31 12:57:10,007 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14edfaa86f60047
-2015-07-31 19:02:04,304 - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-31 21:24:54,002 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x24ee30a54f5001d, timeout of 10000ms exceeded
-2015-07-31 21:32:06,121 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24ee30a54f5001f with negotiated timeout 10000 for client /10.10.34.11:45102
-2015-07-31 21:44:44,002 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14ee3e057ed002a, timeout of 10000ms exceeded
+2015-07-31 11:09:03,412 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.40:42622
+2015-07-31 15:36:24,570 - INFO  [LearnerHandler-/10.10.34.13:59348:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4
+2015-07-31 21:24:54,005 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ee30a54f50019
+2015-07-31 21:44:42,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x24ee30a54f50025, timeout of 10000ms exceeded
 2015-08-10 18:12:35,690 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-08-10 18:23:56,268 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:Learner@107] - Revalidating client: 0x24f0557806a001c
-2015-08-10 18:25:27,950 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.11:51259; will be dropped if server is in r-o mode
-2015-08-10 18:26:03,376 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24f1724b8af0009 with negotiated timeout 10000 for client /10.10.34.21:44834
-2015-08-18 16:09:30,004 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14f1724a6e80011, timeout of 10000ms exceeded
-2015-08-20 13:13:20,001 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14f3fdae8ba0001
-2015-08-20 17:13:23,515 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.12:36401 (no session established for client)
+2015-08-10 18:25:25,239 - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2015-08-10 18:25:52,537 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.13:36187 which had sessionid 0x24f0557806a001b
+2015-08-18 16:09:30,009 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x34f1724a35e000c
+2015-08-20 17:12:45,757 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.12:36358
 2015-08-20 17:14:24,000 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x14f3fdae8ba0017, timeout of 10000ms exceeded
-2015-08-20 17:24:09,157 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24f4a631df9000e with negotiated timeout 10000 for client /10.10.34.16:53681
-2015-08-20 17:26:17,909 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-08-21 15:55:09,796 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.21:53818
-2015-08-25 11:14:53,074 - INFO  [LearnerHandler-/10.10.34.11:32976:LearnerHandler@395] - Sending DIFF
-2015-08-25 11:26:28,145 - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Learner@325] - Getting a snapshot from leader
-2015-07-29 19:21:32,680 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-08-20 17:24:10,007 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14f4a6318b80004
+2015-08-20 19:33:16,003 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x14f4a6318b80019
+2015-08-25 11:15:04,735 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x24f4a631df90029, timeout of 10000ms exceeded
+2015-07-29 17:43:47,783 - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
 2015-07-29 19:21:39,257 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:21:42,713 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:21:52,735 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:44256
-2015-07-29 19:22:09,332 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:22:22,700 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:22:32,643 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:22:46,105 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:47180
+2015-07-29 19:21:45,851 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46538
+2015-07-29 19:22:05,991 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:22:22,812 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:22:39,515 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:22:59,374 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:23:09,379 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:23:12,817 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:23:29,442 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:46914
-2015-07-29 19:23:39,561 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:46,140 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:23:59,517 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:23:09,473 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:47258
+2015-07-29 19:23:26,298 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:44590
+2015-07-29 19:23:42,806 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:23:52,904 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
 2015-07-29 19:24:06,383 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:24:13,071 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:24:29,570 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:24:36,247 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:24:46,284 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:24:49,811 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:25:09,678 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:24:16,410 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:24:36,245 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47145
+2015-07-29 19:24:49,624 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:24:59,647 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:25:19,761 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:25:33,154 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:25:36,572 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45053
-2015-07-29 19:25:49,854 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:26:01,947 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:26:18,534 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:47931
-2015-07-29 19:26:28,458 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:25:36,392 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47367
+2015-07-29 19:25:43,145 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:26:11,758 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:26:21,877 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:26:38,476 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:47613
-2015-07-29 19:26:48,591 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:26:51,929 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:48048
-2015-07-29 19:27:05,289 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:27:12,075 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45392
-2015-07-29 19:27:18,757 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:27:21,983 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:26:48,698 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:27:05,187 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:27:15,206 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:27:21,894 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:27:51,154 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:28:01,176 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:28:04,619 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45532
-2015-07-29 19:28:31,140 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:28:38,023 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45644
-2015-07-29 19:28:51,288 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:48426
-2015-07-29 19:28:57,969 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:28:04,413 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:28:28,003 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:28:41,162 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:28:54,529 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:29:04,958 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:29:11,438 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:29:21,660 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:29:31,480 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:29:41,298 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:29:48,181 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:45894
-2015-07-29 19:30:01,437 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:29:17,913 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48254
+2015-07-29 19:29:28,037 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:29:41,395 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:51,525 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:30:14,700 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48478
-2015-07-29 19:30:24,725 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:41,426 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:30:48,107 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48602
-2015-07-29 19:30:54,997 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:31:05,018 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:31:18,265 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:30:38,084 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:30:48,107 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:31:01,467 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:31:11,488 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:31:31,627 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:31:45,098 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:31:55,114 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:32:11,710 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:32:25,174 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:46458
-2015-07-29 19:32:35,205 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:32:45,020 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:31:51,572 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:32:05,145 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:32:25,185 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:32:41,677 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
 2015-07-29 19:32:51,698 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:33:01,720 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:33:05,144 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:33:18,420 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49183
-2015-07-29 19:33:25,297 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:33:31,786 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
-2015-07-29 19:33:45,140 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49283
+2015-07-29 19:33:01,917 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:33:11,947 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:33:28,440 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:33:38,666 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
 2015-07-29 19:33:55,162 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:34:05,182 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49361
-2015-07-29 19:34:15,209 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:34:25,427 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:34:31,906 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:34:38,676 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:49670
-2015-07-29 19:34:42,129 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:34:08,523 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:34:22,089 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:34:31,913 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:34:41,929 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
 2015-07-29 19:34:48,808 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:34:55,378 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:35:02,057 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:35:12,186 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:35:22,095 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:49822
-2015-07-29 19:35:48,731 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
-2015-07-29 19:35:58,950 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:47234
+2015-07-29 19:34:58,636 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49590
+2015-07-29 19:35:12,078 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:35:25,543 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:35:52,078 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
 2015-07-29 19:36:08,774 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:36:15,454 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:36:29,010 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:47340
-2015-07-29 19:36:42,177 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49957
-2015-07-29 19:36:59,065 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
-2015-07-29 19:37:09,091 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
-2015-07-29 19:53:54,912 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.13:54265 (no session established for client)
+2015-07-29 19:36:22,134 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49880
+2015-07-29 19:36:38,838 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49949
+2015-07-29 19:37:02,404 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:47454
+2015-07-29 19:37:18,925 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
 2015-07-29 21:01:45,071 - INFO  [CommitProcessor:3:ZooKeeperServer@595] - Established session 0x34ed9ac1c1e0007 with negotiated timeout 10000 for client /10.10.34.12:59224
-2015-07-29 23:05:05,988 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
-2015-07-30 14:38:37,500 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:35811
-2015-07-30 15:13:49,197 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.13:54387
-2015-07-30 16:18:36,028 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:40581 which had sessionid 0x34ed9ac1c1e0093
-2015-07-30 16:36:05,149 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:41160 which had sessionid 0x34ed9ac1c1e00a9
-2015-07-30 17:40:45,765 - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@762] - Connection broken for id 1, my id = 3, error = 
+2015-07-29 23:44:22,733 - INFO  [CommitProcessor:3:ZooKeeperServer@595] - Established session 0x34ed9ac1c1e0036 with negotiated timeout 10000 for client /10.10.34.36:37583
+2015-07-30 15:13:40,916 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-30 16:21:13,810 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-30 17:34:50,730 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:41732
 2015-07-30 19:19:12,507 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.11:50716; will be dropped if server is in r-o mode
-2015-07-30 19:59:02,357 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.11:51097
-2015-07-30 20:36:32,026 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.12:56424; will be dropped if server is in r-o mode
-2015-07-30 23:52:57,092 - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
-2015-07-31 00:15:23,611 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:53310 which had sessionid 0x34edfaa9c220012
-2015-07-31 11:09:02,264 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.34:55584; will be dropped if server is in r-o mode
-2015-07-31 15:36:23,884 - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Learner@325] - Getting a snapshot from leader
+2015-07-30 20:06:22,905 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /10.10.34.11:51097 which had sessionid 0x34ede65503f002f
+2015-07-30 23:52:53,800 - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2015-07-31 00:16:12,152 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+2015-07-31 15:36:23,686 - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
 2015-08-10 17:52:39,698 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.13:58180

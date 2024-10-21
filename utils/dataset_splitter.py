@@ -128,7 +128,11 @@ benchmark_settings = {
         },
     }
 
-def split_dataset(path, target_path, shard_num: int = 3):
+def split_dataset(path, target_path, shard_num: int = 3, big_file: bool = False):
+    if big_file:
+        path = path.replace("_2k", "")
+    if not os.path.exists(path):
+        return
     if not os.path.exists(target_path):
         os.makedirs(target_path)
     datasets = [[] for i in range(shard_num)]
@@ -147,11 +151,11 @@ def split_dataset(path, target_path, shard_num: int = 3):
     gc.collect()
     
 
-def split_chunk(input_dir='../data/loghub_2k/', output_dir='../data/splitted/', chunk_num=3):
+def split_chunk(input_dir='../data/loghub_2k/', output_dir='../data/splitted/', chunk_num=3, big=False):
     
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
     for dataset_name, dataset_info in benchmark_settings.items():
         print(f"processing {dataset_name} to {chunk_num} chunks")
         target_path = os.path.join(output_dir, Path(dataset_info["log_file"]).parent)
-        split_dataset(os.path.join(input_dir, dataset_info["log_file"]), target_path, shard_num=chunk_num)
+        split_dataset(os.path.join(input_dir, dataset_info["log_file"]), target_path, shard_num=chunk_num, big_file=big)

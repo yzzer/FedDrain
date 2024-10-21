@@ -29,6 +29,7 @@ class Logcluster:
         if logIDL is None:
             logIDL = []
         self.logIDL = logIDL
+        self.merge_time = 0
 
 
 class Node:
@@ -179,8 +180,7 @@ class LogParser:
             retVal = float(simTokens + numOfPar) / len(seq1)
         else:
             retVal = float(simTokens) / len(seq1)
-            
-        
+
         return retVal, numOfPar
 
     def fastMatch(self, logClustL, seq, parse_only=False):
@@ -286,7 +286,8 @@ class LogParser:
         self.load_data()
 
         count = 0
-        for idx, line in self.df_log.iterrows():
+        import tqdm
+        for idx, line in tqdm.tqdm(self.df_log.iterrows(), total=len(self.df_log)):
             logID = line["LineId"]
             logmessageL = self.preprocess(line["Content"]).strip().split()
             matchCluster = self.treeSearch(rootNode, logmessageL, parse_only)
@@ -308,13 +309,6 @@ class LogParser:
                     matchCluster.logTemplate = newTemplate
 
             count += 1
-            if count % 1000 == 0 or count == len(self.df_log):
-                print(
-                    "Processed {0:.1f}% of log lines.".format(
-                        count * 100.0 / len(self.df_log)
-                    )
-                )
-
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 

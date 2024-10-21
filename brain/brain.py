@@ -278,9 +278,7 @@ class LogParser:
                 else:
                     fre_set[word] = 1
             i += 1
-        for (
-            key
-        ) in group_len.keys():  # using fre_set to generate frequency vector for the log
+        for (key) in group_len.keys():  # using fre_set to generate frequency vector for the log
             for s in group_len[key]:  # in each log group with the same length
                 position = 0
                 fre = []

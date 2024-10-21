@@ -67,6 +67,8 @@ class LogParser:
         self.df_log = None
         self.rex = rex
         self.keep_para = keep_para
+        self.root = Node()
+        self.clustL = None
 
     def LCS(self, seq1, seq2):
         lengths = [[0 for j in range(len(seq2) + 1)] for i in range(len(seq1) + 1)]
@@ -202,7 +204,7 @@ class LogParser:
                     parentn = matchedNode
 
     def outputResult(self, logClustL):
-        templates = [0] * self.df_log.shape[0]
+        templates = [''] * self.df_log.shape[0]
         ids = [0] * self.df_log.shape[0]
         df_event = []
 
@@ -233,7 +235,7 @@ class LogParser:
 
     def printTree(self, node, dep):
         pStr = ""
-        for i in xrange(dep):
+        for i in range(dep):
             pStr += "\t"
 
         if node.token == "":
@@ -247,16 +249,17 @@ class LogParser:
         for child in node.childD:
             self.printTree(node.childD[child], dep + 1)
 
-    def parse(self, logname):
+    def parse(self, logname, output = True, parse_only = False):
         starttime = datetime.now()
         print("Parsing file: " + os.path.join(self.path, logname))
         self.logname = logname
         self.load_data()
-        rootNode = Node()
+        rootNode = self.root
         logCluL = []
 
         count = 0
-        for idx, line in self.df_log.iterrows():
+        import tqdm
+        for idx, line in tqdm.tqdm(self.df_log.iterrows(), total=len(self.df_log)):
             logID = line["LineId"]
             logmessageL = list(
                 filter(
@@ -264,6 +267,7 @@ class LogParser:
                     re.split(r"[\s=:,]", self.preprocess(line["Content"])),
                 )
             )
+            # 日志的token列表，去掉了 <*>
             constLogMessL = [w for w in logmessageL if w != "<*>"]
 
             # Find an existing matched log cluster
@@ -275,6 +279,8 @@ class LogParser:
                 if matchCluster is None:
                     matchCluster = self.LCSMatch(logCluL, logmessageL)
 
+                    if parse_only:
+                            continue
                     # Match no existing log cluster
                     if matchCluster is None:
                         newCluster = LCSObject(logTemplate=logmessageL, logIDL=[logID])
@@ -292,19 +298,24 @@ class LogParser:
                             self.addSeqToPrefixTree(rootNode, matchCluster)
             if matchCluster:
                 matchCluster.logIDL.append(logID)
-            count += 1
-            if count % 1000 == 0 or count == len(self.df_log):
-                print(
-                    "Processed {0:.1f}% of log lines.".format(
-                        count * 100.0 / len(self.df_log)
-                    )
-                )
+
 
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
+        
+        if parse_only:
+            logCluL = self.clustL
+        else:
+            self.clustL = logCluL
 
-        self.outputResult(logCluL)
+        if output:
+            self.outputResult(logCluL)
         print("Parsing done. [Time taken: {!s}]".format(datetime.now() - starttime))
+        return logCluL
+
+    def get_log_clu_list(self):
+        return self.clustL
+            
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.logformat)

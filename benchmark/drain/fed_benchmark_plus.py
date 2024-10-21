@@ -10,7 +10,7 @@ import pandas as pd
 input_dir = "../../data/splitted/"  # The input directory of log file
 input_dir_test = "../../../dataset/"
 output_dir = "Drain_result/"  # The output directory of parsing results
-chunk_num = 15
+chunk_num = 5
 
 split_chunk(input_dir_test, input_dir, chunk_num, True)
 benchmark_settings = {
@@ -57,7 +57,7 @@ for dataset, setting in benchmark_settings.items():
         tparser.parse(file, output=False)
         print(f'gc collected {gc.collect()}')
     
-    from feddrain.merger import LogMerger
+    from feddrain.merger2 import LogMerger
     in_dir_test = os.path.join(input_dir_test, os.path.dirname(setting["log_file"]))
     mergedParser = LogMerger().merge(parsers, in_dir_test, output_dir)
     mergedParser.parse(log_file, parse_only=True)
