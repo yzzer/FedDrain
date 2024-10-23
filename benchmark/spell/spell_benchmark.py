@@ -30,13 +30,13 @@ benchmark_settings = {
     "HDFS": {
         "log_file": "HDFS/HDFS.log",
         "log_format": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
-        "regex": [r"blk_-?\d+", r"(\d+\.){3}\d+(:\d+)?"],
+        "regex": [r"\/(?:[a-zA-Z0-9_.-]+\/)+[a-zA-Z0-9_.-]+", r"blk_-?\d+", r"/(\d+\.){3}\d+(:\d+)?", r"(\d+\.){3}\d+(:\d+)?"],
         "tau": 0.7,
     },
     "BGL": {
         "log_file": "BGL/BGL.log",
         "log_format": "<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>",
-        "regex": [r"core\.\d+"],
+        "regex": [r"core\.\d+", ],
         "tau": 0.75,
     }
 }

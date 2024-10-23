@@ -24,9 +24,9 @@ import os
 
 import pandas as pd
 
-input_dir = "../../data/splitted/"  # The input directory of log file
+input_dir = "../../data/splitted_fed_spell/"  # The input directory of log file
 input_dir_test = "../../data/loghub_2k/"
-output_dir = "Spell_result/"  # The output directory of parsing results
+output_dir = "Spell_result_fed_2k/"  # The output directory of parsing results
 chunk_num = 7
 
 split_chunk(input_dir_test, input_dir, chunk_num)
@@ -35,14 +35,14 @@ benchmark_settings = {
     "HDFS": {
         "log_file": "HDFS/HDFS_2k.log",
         "log_format": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
-        "regex": [r"blk_-?\d+", r"(\d+\.){3}\d+(:\d+)?"],
-        "tau": 0.7,
+        "regex": [r"\/(?:[a-zA-Z0-9_.-]+\/)+[a-zA-Z0-9_.-]+", r"blk_-?\d+", r"/(\d+\.){3}\d+(:\d+)?", r"(\d+\.){3}\d+(:\d+)?"],
+        "tau": 0.8,
     },
     "Hadoop": {
         "log_file": "Hadoop/Hadoop_2k.log",
         "log_format": "<Date> <Time> <Level> \[<Process>\] <Component>: <Content>",
         "regex": [r"(\d+\.){3}\d+"],
-        "tau": 0.7,
+        "tau": 0.6,
     },
     "Spark": {
         "log_file": "Spark/Spark_2k.log",
@@ -60,13 +60,13 @@ benchmark_settings = {
         "log_file": "BGL/BGL_2k.log",
         "log_format": "<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>",
         "regex": [r"core\.\d+"],
-        "tau": 0.75,
+        "tau": 0.74,
     },
     "HPC": {
         "log_file": "HPC/HPC_2k.log",
         "log_format": "<LogId> <Node> <Component> <State> <Time> <Flag> <Content>",
         "regex": [r"=\d+"],
-        "tau": 0.65,
+        "tau": 0.7,
     },
     "Thunderbird": {
         "log_file": "Thunderbird/Thunderbird_2k.log",
@@ -84,7 +84,7 @@ benchmark_settings = {
         "log_file": "Linux/Linux_2k.log",
         "log_format": "<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>",
         "regex": [r"(\d+\.){3}\d+", r"\d{2}:\d{2}:\d{2}"],
-        "tau": 0.55,
+        "tau": 0.5,
     },
     "Android": {
         "log_file": "Android/Android_2k.log",
@@ -94,19 +94,19 @@ benchmark_settings = {
             r"([\w-]+\.){2,}[\w-]+",
             r"\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b",
         ],
-        "tau": 0.95,
+        "tau": 0.96,
     },
     "HealthApp": {
         "log_file": "HealthApp/HealthApp_2k.log",
         "log_format": "<Time>\|<Component>\|<Pid>\|<Content>",
         "regex": [],
-        "tau": 0.5,
+        "tau": 0.49,
     },
     "Apache": {
         "log_file": "Apache/Apache_2k.log",
         "log_format": "\[<Time>\] \[<Level>\] <Content>",
         "regex": [r"(\d+\.){3}\d+"],
-        "tau": 0.6,
+        "tau": 0.55,
     },
     "Proxifier": {
         "log_file": "Proxifier/Proxifier_2k.log",
@@ -123,19 +123,19 @@ benchmark_settings = {
         "log_file": "OpenSSH/OpenSSH_2k.log",
         "log_format": "<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>",
         "regex": [r"(\d+\.){3}\d+", r"([\w-]+\.){2,}[\w-]+"],
-        "tau": 0.8,
+        "tau": 0.75,
     },
     "OpenStack": {
         "log_file": "OpenStack/OpenStack_2k.log",
         "log_format": "<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>",
         "regex": [r"((\d+\.){3}\d+,?)+", r"/.+?\s", r"\d+"],
-        "tau": 0.9,
+        "tau": 0.96,
     },
     "Mac": {
         "log_file": "Mac/Mac_2k.log",
         "log_format": "<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>",
         "regex": [r"([\w-]+\.){2,}[\w-]+"],
-        "tau": 0.6,
+        "tau": 0.63,
     },
 }
 

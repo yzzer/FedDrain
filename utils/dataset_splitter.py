@@ -138,7 +138,10 @@ def split_dataset(path, target_path, shard_num: int = 3, big_file: bool = False)
     datasets = [[] for i in range(shard_num)]
     with open(path, "r") as source:
         idx = 0
-        for line in source.readlines():
+        import random
+        lines = source.readlines()
+        random.shuffle(lines)
+        for line in lines:
             datasets[idx % shard_num].append(line)
             idx += 1
         print(f"read {idx} lines from {path}")

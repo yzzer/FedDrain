@@ -41,7 +41,7 @@ class LogMerger:
             if len(parsers) == 0:
                 raise ValueError("can not parse a empty list of parsers")
 
-            mergedParser = LogParser(parsers[0].log_format, indir, outdir, parsers[0].depth, parsers[0].st, rex=parsers[0].rex)
+            mergedParser = LogParser(parsers[0].log_format, indir, outdir, parsers[0].depth + 2, parsers[0].st, rex=parsers[0].rex)
 
             # 将每个parser的模板作为一组log提取出来
             all_templates = []

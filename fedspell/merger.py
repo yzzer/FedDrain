@@ -9,15 +9,6 @@ class LogParserEncoder:
         
     def encrypt_parser(self, parser: LogParser) -> LogParser:
         pass
-    
-    def visit(self, node: Node):
-        if node is None:
-            return
-        if node.logClust is not None:
-            template = copy.deepcopy(node.logClust.logTemplate)
-            self.results.append(template)
-        for _, child in node.childD.items():
-            self.visit(child)
 
     
     def extract_log_messages_from_parser(self, parser: LogParser) -> List[List[str]]:
@@ -51,7 +42,8 @@ class LogMerger:
             for cluster in logCluL:
                 cluster.logIDL.clear()
 
-            for template in all_templates:
+            import tqdm
+            for template in tqdm.tqdm(all_templates):
                 constLogMessL = [w for w in template if w != "<*>"]
                 matchCluster = mergedParser.PrefixTreeMatch(rootNode, constLogMessL, 0)
                 

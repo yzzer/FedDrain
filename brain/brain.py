@@ -66,7 +66,8 @@ class LogParser:
         ) = self.tuple_generate(group_len, tuple_vector, frequency_vector)
 
         template_set = {}
-        for key in group_len.keys():
+        import tqdm
+        for key in tqdm.tqdm(group_len.keys()):
             Tree = tupletree(
                 sorted_tuple_vector[key],
                 word_combinations[key],

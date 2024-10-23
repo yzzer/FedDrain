@@ -1,4 +1,5 @@
 *_result*
-data
+data/*
 *.csv
 *.pyc
+*.log

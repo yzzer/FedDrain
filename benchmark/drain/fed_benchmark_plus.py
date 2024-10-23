@@ -9,8 +9,8 @@ import pandas as pd
 
 input_dir = "../../data/splitted/"  # The input directory of log file
 input_dir_test = "../../../dataset/"
-output_dir = "Drain_result/"  # The output directory of parsing results
-chunk_num = 5
+output_dir = "Drain_plus_result/"  # The output directory of parsing results
+chunk_num = 30
 
 split_chunk(input_dir_test, input_dir, chunk_num, True)
 benchmark_settings = {

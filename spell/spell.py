@@ -107,6 +107,7 @@ class LogParser:
             ):
                 return logClust
         return None
+    
 
     def PrefixTreeMatch(self, parentn, seq, idx):
         retLogClust = None
@@ -149,6 +150,7 @@ class LogParser:
             retLogClust = maxClust
 
         return retLogClust
+    
 
     def getTemplate(self, lcs, seq):
         retVal = []
@@ -280,7 +282,7 @@ class LogParser:
                     matchCluster = self.LCSMatch(logCluL, logmessageL)
 
                     if parse_only:
-                            continue
+                        continue
                     # Match no existing log cluster
                     if matchCluster is None:
                         newCluster = LCSObject(logTemplate=logmessageL, logIDL=[logID])
@@ -323,7 +325,7 @@ class LogParser:
             os.path.join(self.path, self.logname), regex, headers, self.logformat
         )
 
-    def preprocess(self, line):
+    def preprocess(self, line: str):
         for currentRex in self.rex:
             line = re.sub(currentRex, "<*>", line)
         return line
@@ -341,7 +343,8 @@ class LogParser:
                     log_messages.append(message)
                     linecount += 1
                 except Exception as e:
-                    print("Skip line: " + line)
+                    # print("Skip line: " + line)
+                    pass
         logdf = pd.DataFrame(log_messages, columns=headers)
         logdf.insert(0, "LineId", None)
         logdf["LineId"] = [i + 1 for i in range(linecount)]
