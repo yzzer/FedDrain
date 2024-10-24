@@ -52,6 +52,10 @@ class LogParser:
         maxChild=100,
         rex=[],
         keep_para=True,
+        log_name="",
+        delimiter=None,
+        delis=[],
+        afilt=[],
     ):
         """
         Attributes
@@ -69,12 +73,17 @@ class LogParser:
         self.st = st
         self.maxChild = maxChild
         self.logName = None
+        self.log_name = log_name
         self.savePath = outdir
         self.df_log = None
         self.log_format = log_format
         self.rex = rex
         self.keep_para = keep_para
         self.root = Node()
+        self.templates = None
+        self.delimiter = delimiter
+        self.afilt = afilt
+        self.delis = delis
 
     def hasNumbers(self, s):
         return any(char.isdigit() for char in s)
@@ -104,7 +113,6 @@ class LogParser:
         logClustL = parentn.childD
 
         retLogClust = self.fastMatch(logClustL, seq, parse_only)
-
         return retLogClust
 
     def addSeqToPrefixTree(self, rn, logClust):
@@ -119,6 +127,7 @@ class LogParser:
 
         currentDepth = 1
         for token in logClust.logTemplate:
+
             # Add current log cluster to the leaf node
             if currentDepth >= self.depth or currentDepth > seqLen:
                 if len(parentn.childD) == 0:
@@ -160,9 +169,15 @@ class LogParser:
             # If the token is matched
             else:
                 parentn = parentn.childD[token]
-
+            
             currentDepth += 1
 
+        if len(parentn.childD) == 0:
+            parentn.childD = [logClust]
+        else:
+            parentn.childD.append(logClust)
+        
+        
     # seq1 is template
     def seqDist(self, seq1, seq2, add_numOfPar=False):
         assert len(seq1) == len(seq2)
@@ -218,7 +233,7 @@ class LogParser:
         return retVal
 
     def outputResult(self, logClustL):
-        log_templates = [0] * self.df_log.shape[0]
+        log_templates = [""] * self.df_log.shape[0]
         log_templateids = [0] * self.df_log.shape[0]
         df_events = []
         for logClust in logClustL:
@@ -276,6 +291,69 @@ class LogParser:
         for child in node.childD:
             self.printTree(node.childD[child], dep + 1)
 
+    def split_line(self, s):
+        
+        if self.delimiter is None:
+            return list(
+                filter(
+                    lambda x: x != "",
+                    re.split(r"[\s=:,]", self.preprocess(s).strip()),
+                )
+            )
+        s = s.strip()
+        for rgex in self.afilt:
+            s = re.sub(rgex, "<*>", s)
+        for de in self.delis:
+            s = re.sub(de, "", s)
+        if self.log_name == "HealthApp":
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+            s = re.sub("\|", "| ", s)
+        if self.log_name == "Android":
+            s = re.sub("\(", "( ", s)
+            s = re.sub("\)", ") ", s)
+        if self.log_name == "Android":
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+        if self.log_name == "HPC":
+            s = re.sub("=", "= ", s)
+            s = re.sub("-", "- ", s)
+            s = re.sub(":", ": ", s)
+        if self.log_name == "BGL":
+            pass
+            # s = re.sub("=", "= ", s)
+            # s = re.sub("\.\.", ".. ", s)
+            # s = re.sub("\(", "( ", s)
+            # s = re.sub("\)", ") ", s)
+        if self.log_name == "Hadoop":
+            s = re.sub("_", "_ ", s)
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+            s = re.sub("\(", "( ", s)
+            s = re.sub("\)", ") ", s)
+        if self.log_name == "HDFS":
+            s = re.sub(":", " ", s)
+        if self.log_name == "Linux":
+            s = re.sub("=", "= ", s)
+            s = re.sub(":", ": ", s)
+        if self.log_name == "Spark":
+            s = re.sub(":", ": ", s)
+        if self.log_name == "Thunderbird":
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+        if self.log_name == "Windows":
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+            s = re.sub("\[", "[ ", s)
+            s = re.sub("]", "] ", s)
+        if self.log_name == "Zookeeper":
+            s = re.sub(":", ": ", s)
+            s = re.sub("=", "= ", s)
+        s = re.sub(",", ", ", s)
+        s = re.sub(" +", " ", s)
+        s = list(filter(lambda x: x != "", re.split(" ", s)))
+        return s
+
     def parse(self, logName, output = True, parse_only = False) -> List:
         print("Parsing file: " + os.path.join(self.path, logName))
         start_time = datetime.now()
@@ -289,37 +367,51 @@ class LogParser:
         import tqdm
         for idx, line in tqdm.tqdm(self.df_log.iterrows(), total=len(self.df_log)):
             logID = line["LineId"]
-            logmessageL = self.preprocess(line["Content"]).strip().split()
+            logmessageL = self.split_line(self.preprocess(line["Content"]))
             matchCluster = self.treeSearch(rootNode, logmessageL, parse_only)
-
+            
             # Match no existing log cluster
             if matchCluster is None:
                 newCluster = Logcluster(logTemplate=logmessageL, logIDL=[logID])
-                logCluL.append(newCluster)
                 if not parse_only:
+                    logCluL.append(newCluster)
                     self.addSeqToPrefixTree(rootNode, newCluster)
                 else:
                     continue
 
             # Add the new log message to the existing cluster
             else:
-                newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 matchCluster.logIDL.append(logID)
+                if parse_only:
+                    continue
+                newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 if " ".join(newTemplate) != " ".join(matchCluster.logTemplate):
                     matchCluster.logTemplate = newTemplate
-
             count += 1
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
-
+        
         if parse_only:
             self.get_log_clu_list(rootNode, logCluL)
+        else:
+            self.extract_templates(logCluL)
 
         if output:
             self.outputResult(logCluL)
 
         print("Parsing done. [Time taken: {!s}]".format(datetime.now() - start_time))
         return logCluL
+    
+    def extract_templates(self, logCluL):
+        templates = []
+        for logClust in logCluL:
+            templates.append(logClust.logTemplate)
+        self.templates = templates
+    
+    
+    def get_templates(self):
+        return self.templates
+    
 
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
@@ -351,7 +443,8 @@ class LogParser:
                     log_messages.append(message)
                     linecount += 1
                 except Exception as e:
-                    print("[Warning] Skip line: " + line)
+                    # print("[Warning] Skip line: " + line)
+                    pass
         logdf = pd.DataFrame(log_messages, columns=headers)
         logdf.insert(0, "LineId", None)
         logdf["LineId"] = [i + 1 for i in range(linecount)]

@@ -39,6 +39,7 @@ def evaluate(groundtruth, parsedresult):
     non_empty_log_ids = df_groundtruth[~df_groundtruth["EventId"].isnull()].index
     df_groundtruth = df_groundtruth.loc[non_empty_log_ids]
     df_parsedlog = df_parsedlog.loc[non_empty_log_ids]
+    print("Start evaluation")
     (precision, recall, f_measure, accuracy) = get_accuracy(
         df_groundtruth["EventId"], df_parsedlog["EventId"]
     )
@@ -83,7 +84,8 @@ def get_accuracy(series_groundtruth, series_parsedlog, debug=False):
 
     accurate_pairs = 0
     accurate_events = 0  # determine how many lines are correctly parsed
-    for parsed_eventId in series_parsedlog_valuecounts.index:
+    import tqdm
+    for parsed_eventId in tqdm.tqdm(series_parsedlog_valuecounts.index):
         logIds = series_parsedlog[series_parsedlog == parsed_eventId].index
         series_groundtruth_logId_valuecounts = series_groundtruth[logIds].value_counts()
         error_eventIds = (

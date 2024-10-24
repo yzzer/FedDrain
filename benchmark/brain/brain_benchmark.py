@@ -30,7 +30,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
         "regex": [r"blk_-?\d+", r"(\d+\.){3}\d+(:\d+)?"],
         "delimiter": [""],
-        "theshold": 3,
+        "theshold": 2,
     },
     "BGL": {
         "log_file": "BGL/BGL.log",

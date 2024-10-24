@@ -69,7 +69,9 @@ class LogParser:
         self.keep_para = keep_para
         self.root = Node()
         self.clustL = None
-
+        self.templates = None
+        
+        
     def LCS(self, seq1, seq2):
         lengths = [[0 for j in range(len(seq2) + 1)] for i in range(len(seq1) + 1)]
         # row 0 and column 0 are initialized to 0 already
@@ -266,7 +268,7 @@ class LogParser:
             logmessageL = list(
                 filter(
                     lambda x: x != "",
-                    re.split(r"[\s=:,]", self.preprocess(line["Content"])),
+                    re.split(r"[\s=:,]", self.preprocess(line["Content"]).strip()),
                 )
             )
             # 日志的token列表，去掉了 <*>
@@ -309,11 +311,25 @@ class LogParser:
             logCluL = self.clustL
         else:
             self.clustL = logCluL
+            self.extract_templates(logCluL)
 
         if output:
             self.outputResult(logCluL)
         print("Parsing done. [Time taken: {!s}]".format(datetime.now() - starttime))
         return logCluL
+    
+    
+    def extract_templates(self, logCluL):
+        templates = []
+        for logClust in logCluL:
+            templates.append(logClust.logTemplate)
+        self.templates = templates
+    
+    
+    def get_templates(self):
+        return self.templates
+    
+    
 
     def get_log_clu_list(self):
         return self.clustL

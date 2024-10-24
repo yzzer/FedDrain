@@ -45,8 +45,9 @@ class LogParser:
         self.logname = logname
         self.threshold = threshold
         self.delimeter = delimeter
+        self.templates = None
 
-    def parse(self, logName):
+    def parse(self, logName, output=True):
         print("Parsing file: " + os.path.join(self.path, logName))
         starttime = datetime.now()
         self.logName = logName
@@ -55,10 +56,18 @@ class LogParser:
 
         sentences = self.df_log["Content"].tolist()
 
+        #  wordlist: log groups based on length
+        #  tuple_vector: the word in the log will be converted into a tuple (word_frequency, word_character, word_position)
+        #  frequency_vector: the word in the log will be converted into its frequency
         group_len, tuple_vector, frequency_vector = self.get_frequecy_vector(
             sentences, self.rex, self.delimeter, self.logname
         )
 
+        #    sorted_tuple_vector: each tuple in the tuple_vector will be sorted according their frequencies.
+        #    word_combinations:  words in the log with the same frequency will be grouped as word combinations and will
+        #                        be arranged in descending order according to their frequencies.
+        #    word_combinations_reverse:  The word combinations in the log will be arranged in ascending order according
+        #                                to their frequencies.
         (
             sorted_tuple_vector,
             word_combinations,
@@ -89,8 +98,19 @@ class LogParser:
         if not os.path.exists(self.savePath):
             os.makedirs(self.savePath)
 
-        self.generateresult(template_set, sentences)
-
+        if output:
+            self.generateresult(template_set, sentences)
+        else:
+            self.extract_templates(template_set)
+            
+    def extract_templates(self, template_set):
+        self.templates = list(template_set)
+    
+    
+    def get_templates(self):
+        return self.templates
+    
+    
     def generateresult(self, template_set, sentences):
         template_ = len(sentences) * [0]
         EventID = len(sentences) * [0]
@@ -194,7 +214,7 @@ class LogParser:
                 word_combinations_reverse.setdefault(key, []).append(sorted_fre)
         return sorted_tuple_vector, word_combinations, word_combinations_reverse
 
-    def get_frequecy_vector(self, sentences, filter, delimiter, dataset):
+    def get_frequecy_vector(self, sentences, afilter, delimiter, dataset):
         """
         Counting each word's frequency in the dataset and convert each log into frequency vector
         Output:
@@ -207,7 +227,7 @@ class LogParser:
         set = {}
         line_id = 0
         for s in sentences:  # using delimiters to get split words
-            for rgex in filter:
+            for rgex in afilter:
                 s = re.sub(rgex, "<*>", s)
             for de in delimiter:
                 s = re.sub(de, "", s)
@@ -226,10 +246,11 @@ class LogParser:
                 s = re.sub("-", "- ", s)
                 s = re.sub(":", ": ", s)
             if dataset == "BGL":
-                s = re.sub("=", "= ", s)
-                s = re.sub("\.\.", ".. ", s)
-                s = re.sub("\(", "( ", s)
-                s = re.sub("\)", ") ", s)
+                pass
+                # s = re.sub("=", "= ", s)
+                # s = re.sub("\.\.", ".. ", s)
+                # s = re.sub("\(", "( ", s)
+                # s = re.sub("\)", ") ", s)
             if dataset == "Hadoop":
                 s = re.sub("_", "_ ", s)
                 s = re.sub(":", ": ", s)
@@ -255,7 +276,8 @@ class LogParser:
                 s = re.sub(":", ": ", s)
                 s = re.sub("=", "= ", s)
             s = re.sub(",", ", ", s)
-            s = re.sub(" +", " ", s).split(" ")
+            s = re.sub(" +", " ", s)
+            s = list(filter(lambda x: x != "", re.split(" ", s.strip())))
             s.insert(0, str(line_id))
             lenth = 0
             for token in s:

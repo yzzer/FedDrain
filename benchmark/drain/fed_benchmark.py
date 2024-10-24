@@ -6,11 +6,10 @@ from utils.dataset_splitter import split_chunk
 import os
 import pandas as pd
 
-
-input_dir = "../../data/splitted/"  # The input directory of log file
+chunk_num = 60
+input_dir = f"../../data/splitted-{chunk_num}/"  # The input directory of log file
 input_dir_test = "../../../dataset/"
-output_dir = "Drain_result/"  # The output directory of parsing results
-chunk_num = 10
+output_dir = f"Drain_result_fed{chunk_num}/"  # The output directory of parsing results
 
 split_chunk(input_dir_test, input_dir, chunk_num, True)
 benchmark_settings = {
@@ -52,10 +51,17 @@ for dataset, setting in benchmark_settings.items():
         )
         for i in range(chunk_num)
     ]
-    print(f'gc collected {gc.collect()}')
-    for tparser, file in zip(parsers, train_files):
+    
+    import multiprocessing as mp
+
+    def parse_file(tparser, file):
         tparser.parse(file, output=False)
-        print(f'gc collected {gc.collect()}')
+        return tparser
+
+    # 使用多进程来处理解析任务
+    with mp.Pool(processes=min(mp.cpu_count() + 1, chunk_num)) as pool:  # 创建与 CPU 核数相同数量的进程
+        parsers = pool.starmap(parse_file, zip(parsers, train_files))  # 并行处理任务
+            
     
     from feddrain.merger import LogMerger
     in_dir_test = os.path.join(input_dir_test, os.path.dirname(setting["log_file"]))
@@ -75,4 +81,4 @@ print("\n=== Overall evaluation results ===")
 df_result = pd.DataFrame(bechmark_result, columns=["Dataset", "F1_measure", "Accuracy"])
 df_result.set_index("Dataset", inplace=True)
 print(df_result)
-df_result.to_csv("Drain_bechmark_result.csv", float_format="%.6f")
+df_result.to_csv(f"Drain_bechmark_result_{chunk_num}.csv", float_format="%.6f")

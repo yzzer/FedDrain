@@ -37,19 +37,21 @@ benchmark_settings = {
         "log_format": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
         "regex": [r"\/(?:[a-zA-Z0-9_.-]+\/)+[a-zA-Z0-9_.-]+", r"blk_-?\d+", r"/(\d+\.){3}\d+(:\d+)?", r"(\d+\.){3}\d+(:\d+)?"],
         "tau": 0.8,
+        "st": 0.5,
+        "depth": 4,
     },
     "BGL": {
         "log_file": "BGL/BGL.log",
         "log_format": "<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>",
-        "regex": [r"core\.\d+"],
+        "regex": [r"\/(?:[a-zA-Z0-9_.-]+\/)+[a-zA-Z0-9_.-]+", r"core\.\d+"],
         "tau": 0.75,
+         "st": 0.5,
+        "depth": 4,
     },
 }
 
 bechmark_result = []
 for dataset, setting in benchmark_settings.items():
-    if dataset != "HDFS":
-        continue
     print("\n=== Evaluation on %s ===" % dataset)
     indir = os.path.join(input_dir, os.path.dirname(setting["log_file"]))
     log_file = os.path.basename(setting["log_file"])
@@ -79,15 +81,20 @@ for dataset, setting in benchmark_settings.items():
         parsers = pool.starmap(parse_file, zip(parsers, train_files))  # 并行处理任务
             
     
-    from fedspell.merger import LogMerger
+    from feddrain.feddrain import LogMerger
     in_dir_test = os.path.join(input_dir_test, os.path.dirname(setting["log_file"]))
-    mergedParser = LogMerger().merge(parsers, in_dir_test, output_dir)
+    mergedParser = LogMerger(log_format=setting["log_format"],
+            indir=in_dir_test,
+            outdir=output_dir,
+            rex=setting["regex"],
+            depth=setting["depth"],
+            st=setting["st"],
+            log_name=dataset,).merge(parsers, mode=None)
     mergedParser.parse(log_file, parse_only=True)
-
+    print("star eval...")
     F1_measure, accuracy = evaluator.evaluate(
         groundtruth=os.path.join(in_dir_test, log_file + "_structured.csv"),
-        parsedresult=os.path.join(output_dir, log_file + "_structured.csv"),
-    )
+        parsedresult=os.path.join(output_dir, log_file + "_structured.csv"),)
     bechmark_result.append([dataset, F1_measure, accuracy])
 
 print("\n=== Overall evaluation results ===")

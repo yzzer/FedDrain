@@ -19,6 +19,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time> <Pid> <Level> <Component>: <Content>",
         "regex": [r"blk_-?\d+", r"(\d+\.){3}\d+(:\d+)?"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "Hadoop": {
@@ -26,6 +27,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time> <Level> \[<Process>\] <Component>: <Content>",
         "regex": [r"(\d+\.){3}\d+"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "Spark": {
@@ -33,6 +35,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time> <Level> <Component>: <Content>",
         "regex": [r"(\d+\.){3}\d+", r"\b[KGTM]?B\b", r"([\w-]+\.){2,}[\w-]+"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "Zookeeper": {
@@ -40,6 +43,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>",
         "regex": [r"(/|)(\d+\.){3}\d+(:\d+)?"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "BGL": {
@@ -47,6 +51,7 @@ benchmark_settings = {
         "log_format": "<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>",
         "regex": [r"core\.\d+"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "HPC": {
@@ -54,6 +59,7 @@ benchmark_settings = {
         "log_format": "<LogId> <Node> <Component> <State> <Time> <Flag> <Content>",
         "regex": [r"=\d+"],
         "st": 0.5,
+        "fedst": 0.58,
         "depth": 4,
     },
     "Thunderbird": {
@@ -61,6 +67,7 @@ benchmark_settings = {
         "log_format": "<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>",
         "regex": [r"(\d+\.){3}\d+"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "Windows": {
@@ -68,6 +75,7 @@ benchmark_settings = {
         "log_format": "<Date> <Time>, <Level>                  <Component>    <Content>",
         "regex": [r"0x.*?\s"],
         "st": 0.7,
+        "fedst": 0.7,
         "depth": 5,
     },
     "Linux": {
@@ -75,6 +83,7 @@ benchmark_settings = {
         "log_format": "<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>",
         "regex": [r"(\d+\.){3}\d+", r"\d{2}:\d{2}:\d{2}"],
         "st": 0.39,
+        "fedst": 0.39,
         "depth": 6,
     },
     "Android": {
@@ -86,6 +95,7 @@ benchmark_settings = {
             r"\b(\-?\+?\d+)\b|\b0[Xx][a-fA-F\d]+\b|\b[a-fA-F\d]{4,}\b",
         ],
         "st": 0.2,
+        "fedst": 0.2,
         "depth": 6,
     },
     "HealthApp": {
@@ -93,13 +103,15 @@ benchmark_settings = {
         "log_format": "<Time>\|<Component>\|<Pid>\|<Content>",
         "regex": [],
         "st": 0.2,
-        "depth": 4,
+        "fedst": 0.2,
+        "depth": 6,
     },
     "Apache": {
         "log_file": "Apache/Apache_2k.log",
         "log_format": "\[<Time>\] \[<Level>\] <Content>",
         "regex": [r"(\d+\.){3}\d+"],
         "st": 0.5,
+        "fedst": 0.5,
         "depth": 4,
     },
     "Proxifier": {
@@ -112,6 +124,7 @@ benchmark_settings = {
             r"[KGTM]B",
         ],
         "st": 0.6,
+        "fedst": 0.6,
         "depth": 3,
     },
     "OpenSSH": {
@@ -119,6 +132,7 @@ benchmark_settings = {
         "log_format": "<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>",
         "regex": [r"(\d+\.){3}\d+", r"([\w-]+\.){2,}[\w-]+"],
         "st": 0.6,
+        "fedst": 0.6,
         "depth": 5,
     },
     "OpenStack": {
@@ -126,6 +140,7 @@ benchmark_settings = {
         "log_format": "<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>",
         "regex": [r"((\d+\.){3}\d+,?)+", r"/.+?\s", r"\d+"],
         "st": 0.6,
+        "fedst": 0.55,
         "depth": 10,
     },
     "Mac": {
@@ -133,6 +148,7 @@ benchmark_settings = {
         "log_format": "<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>",
         "regex": [r"([\w-]+\.){2,}[\w-]+"],
         "st": 0.7,
+        "fedst": 0.54,
         "depth": 6,
     },
 }
@@ -159,12 +175,24 @@ for dataset, setting in benchmark_settings.items():
         for i in range(chunk_num)
     ]
     
-    for tparser, file in zip(parsers, train_files):
-        tparser.parse(file, output=False)
+    import multiprocessing as mp
     
-    from feddrain.merger import LogMerger
+    def parse_file(tparser, file):
+        tparser.parse(file, output=False)
+        return tparser
+
+    # 使用多进程来处理解析任务
+    with mp.Pool(processes=min(mp.cpu_count() + 1, chunk_num)) as pool:  # 创建与 CPU 核数相同数量的进程
+        parsers = pool.starmap(parse_file, zip(parsers, train_files))  # 并行处理任务
+    
+    from feddrain.feddrain import LogMerger
     in_dir_test = os.path.join(input_dir_test, os.path.dirname(setting["log_file"]))
-    mergedParser = LogMerger().merge(parsers, in_dir_test, output_dir)
+    mergedParser = LogMerger(log_format=setting["log_format"],
+            indir=in_dir_test,
+            outdir=output_dir,
+            rex=setting["regex"],
+            depth=setting["depth"],
+            st=setting["fedst"],).merge(parsers)
     mergedParser.parse(log_file, parse_only=True)
     # parser.parse(log_file)
 

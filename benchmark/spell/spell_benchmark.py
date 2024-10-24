@@ -36,7 +36,7 @@ benchmark_settings = {
     "BGL": {
         "log_file": "BGL/BGL.log",
         "log_format": "<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>",
-        "regex": [r"core\.\d+", ],
+        "regex": [r"\/(?:[a-zA-Z0-9_.-]+\/)+[a-zA-Z0-9_.-]+", r"core\.\d+", ],
         "tau": 0.75,
     }
 }
